@@ -1,0 +1,2039 @@
+https://www.youtube.com/watch?v=BKynEBPqiIM&t=3606s
+
+00:00:01.209
+Welcome to Questpond's youtube channel.
+00:00:03.510
+Today we are going to walkthrough 30 important.NET and C# interviewquestions. This is part
+00:00:14.830
+1 of the video series and in this whole videoseries we will go through some fundamental
+00:00:19.759
+C# interview questions. Fundamental meanslike CLR, Garbage Collecto, CTS, Stack, Heap,
+00:00:26.749
+Reference Type, Generic Collections, Multi-threading,Try catch block, deligates, events, difference
+00:00:32.119
+between abstract class and interfaces. Ifyou are not able to answer basic questions
+00:00:42.420
+what is stack and heap, boxing and unboxing,it is very rare that your interview will continue
+00:00:48.560
+for a long time or it will have any positiveresult. Please ensure the fundamental questions
+00:00:55.379
+should be right flowing from your head theanswer should come out very fluent. Also visit
+00:01:05.979
+my site questpond.com where we have lot ofadvanced video tutorials on Angular, MVC,
+00:01:15.869
+Cloud Azure, Interview preparation like .NETinterview questions, Angular interview questions,
+00:01:23.010
+Azure certification, Microservices, Designpatterns, Azure architecture training you
+00:01:28.590
+will find lot of videos out here more thanthousand videos which are like step by step
+00:01:35.880
+and important from the career perspective.Do visit my site questpond.com, also I would
+00:01:41.729
+like to announce a small gift out here. Ifyou share this video somewhere on your linkedin
+00:01:49.880
+profile, facbook profile or on twitter profilethis e-book we are circulating for free. This
+00:01:57.170
+is a 100 page e-book which basically has lotsof questions which are around the basic .NET
+00:02:03.950
+fundamental things .NET Framework, IL Code,CLR, CTS, Value Type, Reference Type, Garbage
+00:02:11.471
+collector and so on. If you share this videotutorial on linkedin,twitter or somewhere
+00:02:20.950
+send us a mail at questpond@questpond.comthis e-book we will deliver to you in your
+00:02:25.030
+email.
+00:02:28.110
+Let us get started with the first questionfrom our 30 questions.
+00:02:33.310
+Questions 1 - Explain the difference between.NET and C#. This questions won't be asked
+00:02:42.190
+directly by the interviewer. Interviewer won'tbe asking you explain me the difference between
+00:02:48.150
+.NET and C# but it is very much possible thatduring interview conversation or discussion
+00:02:56.030
+never ever get into a situation where yousay .NET and C# are one and the same thing.
+00:03:03.640
+It will create a negative dent in the interview.Here is the answer for it .NET is a framework
+00:03:19.480
+and C# is a programming language. When youtalk about C# it has those syntaxes, grammars,it
+00:03:27.310
+has those semantics, it has those for loops,it has those if conditions. So C# is a programming
+00:03:38.930
+language, it is Microsoft's flagship programminglanguage while .NET framework has two things
+00:03:45.900
+it is a collection of libraries and it hasruntime.
+00:03:49.550
+Let us first start with collection of libraries.In my solution explorer there is a framework.
+00:03:56.230
+You say that I want to use a collection inC# we can use a List and for that we have
+00:04:09.000
+to use this system.collection. This system.collectionis a readymade component or library. Right
+00:04:19.639
+click --> Properties and you can see hereit
+00:04:34.520
+is library. If you want to use XML and ifyou go to the path you will find system.xml.dll
+00:04:51.120
+. All these things what you saw now thesesystem.console, system.core, system.data are
+00:05:05.990
+all reusable libraries which belongs to .NETframework. Also .NET framework has one more
+00:05:12.730
+thing, it helps you to run your .NET applicationit has things called as CLR, garbage collector,
+00:05:23.650
+CTS, CLS when you run your .NET applicationthis is again the work of .NET framework,
+00:05:32.370
+it kicks off the CLR, compiles your applicationand makes your application running. Please
+00:05:38.370
+note there is a very big difference between.NET and C#, C# is a programming language
+00:05:44.560
+it has a syntaxes, semantics, grammars, sourcecodes while .NET framework is a collection
+00:05:52.410
+of libraries as well as it helps you to runyour .NET application or C# application. Using
+00:06:00.289
+both of them we create an application. Youwill use C# and you will invoke the .NET framework
+00:06:10.150
+libraries. From C# you will invoke .NET frameworklibrary. You can say I want to create a list
+00:06:17.039
+of a string. C# is programming language andit will invoke the .NET libraries and .NET
+00:06:27.550
+will also has a thing called as CLR to makeyour application running. In the interview
+00:06:33.439
+whenever you are talking with the intervieweralways send a message to him saying that yes
+00:06:38.509
+.NET is a framework and C# is a programminglanguage.
+00:06:44.199
+Differentiate between .NET framework vs .NETCore vs .NET 5.0.
+00:06:51.139
+Please note that when this question comesduring the interviews there are more than
+00:06:57.139
+10-15 differences which you can see highlightedout here but try to put down the first one
+00:07:06.430
+or two biggest difference between them. DOnot try to just start speaking all the 10-15
+00:07:12.659
+points it will look very very one sided. Thefirst thing which should really really come
+00:07:18.620
+out very strongly is .NET framework whichis old one which was created 18 years back
+00:07:24.569
+only works for Windows while the .NET coreis cross platform so it works on linux, mac,
+00:07:35.169
+windows as well and so on while .NET 5.0 isthe unification of both of them. You can say
+00:07:42.150
+that .NET 5.0 has all that good things whatwe did for past 18 years also it has those
+00:07:49.689
+new features which are coming in .NET core..NET 5.0 is more of a unified platform which
+00:07:56.539
+unifies not only the .NET core and .NET frameworkbut it unifies lot of other.NET runtimes.
+00:08:02.419
+Remember that there are lot of other .NETframeworks like Mono and something we made
+00:08:06.520
+for silverlight then we made somehting for.NET compact and so on. Basically .NET 5.0
+00:08:15.949
+unifies .NET framework, .NET core, .NET monoand so on because you get a common experience.
+00:08:27.949
+If you see what is happening now is if I wantto create a project in .NET framework then
+00:08:38.100
+I need to see I want to create project inconsole application .NET framework then I
+00:08:48.320
+have to choose .NET Core framework. I haveto make a choice this is not an unifies experience.
+00:09:01.050
+You have to choose saying I have to select.NET Core template, .NET framework template
+00:09:07.960
+and so on. The goal of .NET 5.0 is to providea unified experience, unified platform which
+00:09:17.220
+unites all the .NET runtimes around the worldone which is coming from Microsoft .NET framework,
+00:09:25.100
+.NET core, Mono and provide you unified experience.This is the first thing which should really
+00:09:31.830
+come out. .NET framework is classic one theone old one, it only works on Windows, .NET
+00:09:39.770
+Core works cross platform and .NET 5.0 isa unification platform which unifies all the
+00:09:45.680
+.NET framework into one umbrella giving youa unified and a common experience. The second
+00:09:53.650
+point which I feel you should talk with theinterviewer is performance. Performance of
+00:09:59.820
+.NET Core is better than .NET framework. Whatis the reason for it?
+00:10:07.140
+If you see .NET framework, I have these twoapplications ConsoleApp23 which is .NET Core
+00:10:18.290
+and ConsoleApp1 which is .NET. If you lookat the .NET framework e have big big DLLs
+00:10:25.260
+big big components like System, System.Dataand System.Data has Entity framework, System
+00:10:33.450
+has Collection as well as lot of things. Youcan see we have 1 to 8 that I can just count
+00:10:39.350
+it on my fingers. When I look at .NET Corethey have broken down to further like System.Collections,
+00:10:47.890
+if you want you can say System.Collection.Specialized..NET Core has taken big big DLLs of .NET framework
+00:11:01.890
+and they have broken down them into smallsmall peices. Because of this whenever the
+00:11:07.950
+components are loaded they are loaded onlywhat we need first thing, second the memory
+00:11:14.890
+footprint because of this becomes less becausewe are loading what we need and not loading
+00:11:20.030
+the unnecessary things. When memory footprintis less then definitely the performance becomes
+00:11:28.660
+better. .NET Core performance is better becausethey have divided big big DLLs into small
+00:11:38.790
+small pieces. You can say I want System.Collection.Concurrent, i don't want other things so it will only
+00:11:46.420
+give you concurrent and not the rest of things.In case of .NET framework it has this, stack
+00:11:56.840
+and so on but here they have broken down intopieces so this is the second thing I feel
+00:12:03.740
+which should come out when you are speakingthe differences. The last and the most important
+00:12:09.450
+one which i will speak from all of these 10points is CLI Support. In case of .NET Core
+00:12:23.300
+you can fire commands through the commandlinefor example you can see this .NET core application.
+00:12:31.040
+I can go to the command line and fire frommy command line dotnet build , dotnet run
+00:12:47.310
+, what happens when you can fire things throughcommand line what is the advantage of firing
+00:13:04.310
+through command line is that I can integratewith any IDE , I can even code in a simple
+00:13:10.690
+notepad but when it comes to .NET frameworkyou don't have too many choices you have to
+00:13:15.561
+literally go through only visual studio, gothrough that templates if you want to create
+00:13:20.250
+a project. Here, to create a project you needto do dotnet new console and it creates a
+00:13:30.440
+console application. At this moment yes Ialready have a template, you can create and
+00:13:41.690
+run project just through the command lineand that makes .NET core more attractive because
+00:13:48.950
+it has a CLI support and .NET 5.0 is the unificationof all the .NET runtimes. Firt thing when
+00:13:58.690
+this question comes before you in the interviewthere are 10 differences as i have already
+00:14:03.200
+said but I would say that speak one, two orthree differences and put before the interviewe.
+00:14:09.291
+Interviewer asks you further tell me if Iwnat to develop microservice is .NET framework
+00:14:16.660
+good or .NET core? Must then be you cna talkabout other difference. If he asks you is
+00:14:22.750
+packaging better in .NET framework or .NETcore? Yes in .NET core because here it is
+00:14:29.350
+more modular, more smaller in pieces you canplug them together but here it is like one
+00:14:35.050
+big framework makes things difficult. Threebig differences Cross Platform, Performance
+00:14:43.310
+is better in caseof .NET core and CLI tools..NET 5.0 , you can't really talk about the
+00:14:50.650
+difference because it is an unified platform,it unifies all the dotnet runtimes one which
+00:14:56.280
+is of Microsoft as well as which come fromthe community like mono and other things.
+00:15:02.620
+The next thing is because of that you havea common experience or unified experience.
+00:15:07.720
+Question 3 - What is IL code and Questions4 - Why do we need JIt?
+00:15:12.870
+Let me answer both of these questions in onego because both of these questions have a
+00:15:19.120
+very very deep connection. First thing whenyou say your C# code has to run inside a computer
+00:15:27.300
+it has to be converted to an assembly languageor it has to be converted to machine code
+00:15:34.480
+or converted to a machine language.This codeof your C# if it has to run inside a computer
+00:15:48.570
+it has to get converted to Assembly or somethingwhich the machine understands. This is your
+00:15:57.500
+higher level language you can say. When thecompiler compiles it has to get converted
+00:16:03.550
+into this machine language but what C# compilerdoes is, it does not directly convert this
+00:16:10.310
+into the machine language it first convertsit into a partially compiled code called as
+00:16:15.740
+IL Code or Intermediate Language code. ILstands for Intermediate Language code and
+00:16:24.780
+it is a partially compiled code and laterwhen you run your program when you say now
+00:16:29.810
+I wnat to run my program and execute my programat that time we have somebody called as the
+00:16:35.510
+JIT. This JIT which stands for Just In Timecompiler runs over this IL code and compiles
+00:16:42.880
+it into the machine language. IL code is anintermediate language code it is a partially
+00:16:52.430
+compiled code. JIT stands for Just In Timecompiler and JIT compiles IL code into machine
+00:17:02.300
+language.
+00:17:03.300
+Question 5 - Is it possible to see this codeIL code visually? yes it is possible to see
+00:17:09.470
+this IL code visually by using Disassemblerslike ILDSM or ILSpy. For example you can see
+00:17:19.789
+here this is my compile code which is a DLL(Dynamic Link Library) to see this i will
+00:17:28.050
+run ILDSM which is a Disassembler which comeswith the visual studio command prompt. Over
+00:17:36.499
+here I can see this add method out here whichactually adds two numbers. If I go here I
+00:17:46.200
+can see that this is the code, it does addition of the two numbers
+00:18:00.860
+arg1 and arg2. It is possible to see the ILcodde visually by using disassemblers like
+00:18:11.620
+ILDSM or ILSpy.
+00:18:14.070
+Question 6 - What is the benefit of compilingin to IL code or why do you want to compile
+00:18:22.470
+into an IL code?Here what the interviewer want to ask is that
+00:18:28.860
+this C# code why do we have to compile itto Inteemdiate language like IL Code why can't
+00:18:36.840
+just like C or C++ compilers wherein directlythey go and compile into a machine language
+00:18:43.129
+and assembly language? Why can't we do thesame with .NET and C#? The reason for this
+00:18:51.470
+is difference between the development environmentand the runtime environment. This is your
+00:18:58.720
+C# code let us say the developer is usingwindows 10 he is using 65 bit machine and
+00:19:09.029
+so on. But the runtime environment can beWindows 8, it can be Windows XP or Windows
+00:19:23.789
+7 and nowadays with .NET core this can beLinux as well. The runtime environment can
+00:19:31.419
+be very very different. This is your dev environmentthe developers' machine which can have a different
+00:19:37.899
+environment, different operating systems becauseof that .NET compiles it into IL code and
+00:19:49.360
+then depending on what is your OS it sayswhat is the ebst code for Windows 8, what
+00:20:00.899
+can be the best code which can be generatedfor Windows XP or the best best compilation
+00:20:05.000
+I mean and for Linux and so on. That's whywe have an IL code to put things together.
+00:20:15.750
+The runtime environment and development environmentcan be different so that's why we compile
+00:20:21.710
+into IL Code then depending on what kind ofenvironment it is JIT generates or compiles
+00:20:27.929
+an optimal code as per that runtime and asper that operating system or hardware of that
+00:20:35.559
+execution enviroment.
+00:20:37.049
+Question 7 - Does .NET support multiple programminglanguages?
+00:20:44.610
+Here interviewer is asking that can I writemy code only in C# or there are other languages
+00:20:51.590
+which .NET framework supports? .NET frameworksupports many other languages for example
+00:20:56.789
+you can create a new project, you can writeyour code in C#, you can write your code in
+00:21:03.240
+VB.NET, you can write your code in F#(onemore language) and we have other ones like
+00:21:12.840
+C++, .NET and so on. Remember that .NET frameworksupports multiple languages like VB.NET, C#,
+00:21:22.090
+C++, .NET, F# and so on but the end of theday either you coding C# either you coding
+00:21:31.690
+VB.NETor visual basic at the end of the dayit will get compiled to IL Code. It does not
+00:21:37.179
+matter what is your programming language.The whole point of creating this programming
+00:21:49.610
+environment for developers is that some developerslike C# becase it is case sensitive, it has
+00:21:57.600
+those curly brackets.
+00:21:59.000
+If you are a developer who likes
+00:22:12.869
+to code in this curly brackets who likes thingsto be case sensitive then C# is for you. If
+00:22:19.900
+you are a person who have started career invisual basic 4 and visual basic 6 and you
+00:22:24.910
+like this verbous code, you don't want casesensitiveness then go for VB.NET. The .NET
+00:22:32.179
+framework supports multiple programming languagesbut at the end of the day it gets compiled
+00:22:37.619
+to IL Code. The answer here is yes .NET frameworksupports multiple programming languages. Finally
+00:22:46.179
+if you start executing it compiles to IL code.
+00:22:50.090
+Question 8 - Explain the importance of CLR?CLR stands for Common Language Runtime. It
+00:23:01.400
+is a runtime execution environment of .NET.CLR helps to execute your .NET application.
+00:23:08.669
+There are two primary things the CLR doesfirst it converts your IL code to native language
+00:23:17.220
+or to machine language. This is the firstwork of CLR. Second this native language what
+00:23:25.539
+is the code it executes it runs the applicationand when the application runs any kind of
+00:23:33.580
+unused memory of the application is consumedby garbage collector. CLR is also responsible
+00:23:41.750
+for garbage collector. CLR primarily doeslot of things but here for the interview I
+00:23:51.840
+am higlighting two important things one isit converts your IL code to Native language,
+00:23:58.049
+second it runs your application and when yourapplication runs if there is any kind of unused
+00:24:03.580
+memory that is claimed by this garbage collectorso running of the garbage collector is also
+00:24:08.369
+part of CLR.
+00:24:09.370
+Question 9 - What is the different betweenmanaged code and unmanaged code?
+00:24:15.080
+Code that executes under the environment ofCLR is called as a manage code. All the code
+00:24:24.259
+what we write in C# or we write in VB.NETwhich gets converted into IL code is all managed
+00:24:29.799
+code because the CLR compiles it to the nativelanguage the garbage collector collects when
+00:24:35.399
+the objects are not used. The code which runsunder the umbrella or under the control of
+00:24:42.989
+CLR environment is a managed code. For examplethis Customer x = new Customer (); this static
+00:24:48.529
+void manin, class program are managed code.Code which does not run under the control
+00:24:55.429
+of CLR execution for example C++ code, VC++or VB6 code. In this code you can see I am
+00:25:04.179
+importing a user32.dll this user32.dll isprobably is C, C++ or VC++ they have their
+00:25:13.340
+own compilers and own runtimes CLR does notcontrol them. These kind of code are Managed
+00:25:20.960
+code. In this program when I run this programit will popup a message box but that message
+00:25:27.970
+box whatever is coming out here is comingfrom some other C++or VC++ or C kind of a
+00:25:38.860
+code. This console application is all .NETbut you can see
+00:25:49.470
+this message box here hello world that's notcoming from C# it is coming from the user32.dll
+00:25:57.739
+which is probably written in some other languageso managed codes are those codes which run
+00:26:03.399
+under the control of the CLR execution environmentand unmanaged codes are those codes which
+00:26:08.809
+run outside the CLR execution environmentlike C++, VC++, VB6 and they have their own
+00:26:15.860
+compilers they have their own runtimes theyhave their own way of doing the memory allocation.
+00:26:20.600
+Questions 10 - Explain the importance of GarbageCollector?
+00:26:26.129
+Garbage collector is a background processrunning continuously and claim any kind of
+00:26:31.619
+unused managed resources. I stress is thistwo words Unused Managed resources. If there
+00:26:41.690
+is any unused managed resources while your.NET program is running, Garbage COllector
+00:26:45.191
+comes now and then and starts cleaning themup. Here, I have a very simple program which
+00:26:52.080
+is a for loop running for a very long period.This is creating customers and then disposing
+00:26:59.340
+them and new fresh customers get created,customer objects are getting created. Now
+00:27:08.159
+garbage collector will come after some timeundermistic time it will come and it will
+00:27:14.669
+clean these objects. We can see this in theprofiler and this profiler will help us to
+00:27:29.980
+show when the garnage collector runs. Youcan see first the memory was rising like new
+00:27:38.489
+customer objects were getting created butafter that garbage collector is running. Now
+00:27:49.600
+the memory is flat so the objects are gettingcreated and objects are getting collected.
+00:27:57.539
+Garbage collector is a background processwhich keeps running continuously and claims
+00:28:06.929
+any kind of unused managed resources.
+00:28:10.570
+Question 11: - Can garbage collector claimunmanaged objects?
+00:28:15.809
+Unmanaged resources means objects which aregetting created by C++ or objects which are
+00:28:21.940
+created by some other programming language,the answer is NO.
+00:28:26.380
+Grabage collector cannot collect objects whichare created outside CLR runtime.
+00:28:32.909
+Question 12 :- Explain the importance of CTS?CTS stands for Common Type System. .NET is
+00:28:43.039
+a framework and it supports many programminglanguages you can invoke the .NET library
+00:28:48.790
+using C#, you can invoke the .NET libraryusing VB.NET, F# VC++ .NET. There are many
+00:28:59.080
+programming languages which can compile toIL Code. But each one of these programming
+00:29:04.950
+languages when they define their data typethey have their own way of doing it. For example
+00:29:09.899
+you can see on the screen I've C# out herein C# when we define a data type we say int
+00:29:15.480
+i = 0; and in VB.NET Dim i as Integer andin VC++ we can see other way of doing it or
+00:29:26.880
+in F# we have some other way of declaringthe data types. Suppose that I want to use
+00:29:34.820
+this VB.NET code inside C# then how do I goabout it? There should be some common platform
+00:29:41.269
+because the data types are so different ofeach languages. What the .NET compiler does
+00:29:47.139
+is or when the compiler is compiling the codeit compiles them into a common type system.
+00:29:53.100
+It says your VB.NET says Dim i as integerC# says i. Both of them get compiled into
+00:30:02.320
+a common type system which is int 32. In thesame way for other data types if you have
+00:30:08.840
+string, char, double , decimal so common typesystem ensures whichever language you coding
+00:30:19.370
+your data types will get mapped to a Commondata type of the .NET framework.
+00:30:25.190
+Questions 13 :- Explain the importance ofCLS?
+00:30:29.149
+CLS stands for Common Language Specification.NET supports multiple programming languages.
+00:30:37.999
+These programming lnaguages are differentin terms of data types and behavior so the
+00:30:43.350
+data types difference is handled by CommonType System but the behavior also of the languages
+00:30:49.830
+are different. C# is case sensitive so inC# if you say int i = 0; and int I = 0; both
+00:31:02.739
+of them are different they are different variables.But in case of VB.NET it is not case sensitive,
+00:31:10.890
+if you say Dim i as integer and Dim I as Integeryou can't have like this in VB.NET, you will
+00:31:22.029
+be getting an error. If you write C# codelike this where ther is small i and capital
+00:31:28.729
+I how can VB.NET understand it because itdoes not understand case sensitiveness. It
+00:31:35.749
+says for me i is i whether capital I or SmallI. Some languages is case sensitive and some
+00:31:45.691
+language is not case sensitive, some languageis functional some language is not functional,
+00:31:51.409
+some languages uses pointers some other languagedon't use pointers if they start using their
+00:31:56.909
+own custom behavior which is not existingin other languages it will become very difficult
+00:32:02.460
+to have cross interoperability. In other wordsif I want to consume C# code inside VB.NET
+00:32:10.389
+it would be difficult so the common languagespecification is set of guidelines which says
+00:32:16.749
+guideline no.1 dont use case sensitiveness,guideline no. 2 don't use pointers, guideline
+00:32:23.229
+no. 3 and guideline no. 4. If you follow thoseguidelines then inside your .NET environment
+00:32:29.500
+you can easily consume a VB.NET code insideC#, you can consume F# code inside C# and
+00:32:36.779
+C# code inside F#. You can have cross interoperabilitybetween the languages. I repeat, common language
+00:32:44.559
+specification is set of guidelines if thatis followed then the languages the code what
+00:32:53.690
+you write in different languages can resusevery easily while common type system which
+00:33:01.229
+we discussed prviously is nothing but whenthe data types of the languages are different.
+00:33:06.389
+So common type system more deals with datatypes saying Dim i as Integer and int i let
+00:33:13.340
+me bring them into a common platform . CLSdeals with different behaviors of the language
+00:33:19.979
+while CTS deals with the data types.
+00:33:22.789
+Question 14 :- Explain the difference betweenStack and Heap?
+00:33:27.900
+Stack and Heap are memory types inside .NETapplication. When your .NET application runs
+00:33:32.860
+ther are two memory types one is a stack andanother one is a heap. On stack premitive
+00:33:42.609
+data types are allocated means data typeslike integer, boolean, double, decimal. These
+00:33:49.010
+data types get allocated on the stack andon the stack the variable and the value both
+00:33:59.570
+are stored at the same place. For exampleyou can see the first statement int i = 10;
+00:34:05.419
+so here i will be stored in this locationand also the value 10 will be stoed in the
+00:34:10.730
+same location, second one boolean b in stackit goes like one above another. Here also
+00:34:18.949
+this is b will get stored here. The memorylocation is same where the value is so the
+00:34:25.809
+value true is also stored in the same memorylocation. In case of stack the variable, the
+00:34:35.089
+data and the memory location all are at oneplace. Look at the third thing here this is
+00:34:40.418
+an object, we are creating a customer objectwith the value Shiv in it. In this case the
+00:34:46.909
+x will be allocated here but the value willbe stored in the heap. This value whatever
+00:34:55.949
+you have here name = shiv will be stored inthe heap. In x only a pointer will be there,
+00:35:04.119
+there will be a pointer here and that pointerwill point towards the actual customer object
+00:35:09.230
+x. In heap objects are stored, on stack premitivedata types like integer, boolean and other
+00:35:19.460
+things are stored. Stack stores primitivedata types while heap stores objects.
+00:35:26.320
+Questions 15 :- What are Value types & Referencetypes?
+00:35:31.310
+Value types are those types which are storedon the stack and the value and the pointer
+00:35:36.670
+means the memory location both are storedat the same place. This int i = 10 the memory
+00:35:47.289
+location and the value they are both storedat the same place. Reference types are those
+00:35:55.849
+types wherein the pointer is stored on thestack but the actual data is stored on the
+00:36:02.430
+Heap. So there is a reference out here. Inreference type the memory pointer is stored
+00:36:09.260
+on the stack but the actual data like valueShiv stored on the Heap.
+00:36:14.090
+Value types are stored on stack while referencetypes are stored on heap. Value types are
+00:36:15.860
+your normal data types like int, bool, doubleand reference types are all objects.
+00:36:17.410
+Question 16 : - Explain boxing and unboxing?
+00:36:20.780
+Boxing is nothing but it is when your datamoves from a value type to a reference type.
+00:36:29.730
+In this code we have int i = 10 which is avalue type because it is allocated on a stack.
+00:36:36.380
+We have obje y , now we are trying to movethis value i to y this is termed as boxing.
+00:36:43.930
+When you are moving value type to a referencetype is termed as boxing. When you are moving
+00:36:49.590
+from reference type to value type is termedas Unboxing. The next line out here is unboxing
+00:36:56.410
+because you are trying to move from a referencetype to a value type.
+00:37:01.540
+The next connected questions to boxing andunboxing which normally the interviewer can
+00:37:06.770
+ask you is that what is the consequence ofBoxing and Unboxing.
+00:37:11.930
+The consequence of boxing and unboxing isperformance because now your data is jumping
+00:37:18.690
+from value type to a reference type, it isjumping from stack memory to heap then you
+00:37:24.900
+are jumping from heap to a stack. If you aredoing this more and often definitely you will
+00:37:30.180
+have a performance implication.
+00:37:32.069
+Question 18 :- Explain casting, implicit castingand explicit casting?
+00:37:38.819
+First let us try to understand what is casting.Casting means you are trying to move from
+00:37:44.470
+one data type to another data type. For exampleyou can see this is integer i here and you
+00:37:50.119
+are trying to move from integer to a doubledata type, this is termed as Casting. If casting
+00:37:58.560
+is happening automatically means you don'thave to do anything then it is termed as implicit
+00:38:02.890
+casting. You can see over here I don't haveto do anything I have to just say i = d and
+00:38:09.640
+the value will move integer to the double.When you are moving from a lower data type
+00:38:17.170
+to an higher data type you will normally haveimplicit casting like when you are trying
+00:38:21.880
+move from integer to a double int is a lowerdata type and double is higher data type this
+00:38:27.710
+is termed as implicit casting. If you wantto move from double to int it is showing me
+00:38:46.299
+an exception. It is saying I cannot cast thisautomatically you need an explicit, here i
+00:38:55.880
+have to say (int) this is termed as explicitcasting. Casting means you are trying to move
+00:39:06.799
+from one data type to another data type. Implicitcasting means you do not have to do anything
+00:39:11.420
+special the value just moves from one datatype to another data type while explicit casting
+00:39:18.440
+means you are trying to move from a higherdata type to lower data type and you need
+00:39:23.119
+to specify the data type before the variablename like this.
+00:39:27.369
+Question 19 :- What can happen during explicitcasting?
+00:39:28.805
+What is the consequences of explicit casting,the consequence of explicit casting can be
+00:39:33.500
+data loss. In this case because there is nodata loss C# just allows you to do the casting
+00:39:41.950
+but in this case you can have a data lossbecause integer does not support decimals.
+00:39:48.170
+Here we will have a data loss that's why toalert you it is telling that hey do you want
+00:39:56.980
+to really loose decimal part of it, I'll sayyes I want to loose decimal pasrt of it I
+00:40:01.960
+understand what I am doing. Explicit castingis like a warning saying you are going to
+00:40:07.800
+have a loss of data type are you sure aboutthis. If I run this program you will see in
+00:40:14.660
+the y i will not see the decimal part of it.You can see this is d and this is y d is 100.23
+00:40:31.900
+which is into d1 now from d1 when I move toy you can see it has removed the decimal so
+00:40:41.050
+here we have data loss. In explicit castingthere is a possibility of data loss and we
+00:40:46.260
+should be careful of about it.
+00:40:49.240
+Question 20 :- Array VS ArrayList.
+00:40:54.369
+An array is a fixed length size. This is thearray here having 3 elements so it is fixed
+00:41:06.300
+length size. You can resize the array butit is quite of a ceremony for example I can
+00:41:12.849
+say array.resize , resize method again belongto an array then I have to pass in myarray.
+00:41:22.780
+It is quite tideous to resize an array becausethe whole goal of array was is fixed length.
+00:41:32.280
+Array is fixed length that is one part secondit is strongly type in other words this array
+00:41:38.059
+is very specific type of interger that meansin the marray i cannot push here string. here
+00:41:51.309
+I am trying to push a string it is not allowed.Array are fixed size or length and they are
+00:42:00.240
+strongly typed. When it comes to array listit is flexible in terms of number of elements.
+00:42:08.119
+I can say here mylist.Add(1); mylist.Add(2);and I can say mylist.Add("Shiv");
+00:42:19.579
+First is the size is flexible when it comesto arraylist the second important thing is
+00:42:40.390
+it is not strongly typed. Down below I can add number, string then I can
+00:42:54.360
+add a boolean, add an object. The differencebetween Array and ArrayList is Array is fixed
+00:43:03.049
+size, ArrayListis flexible in terms of size.Array is strong typed while arraylist is not
+00:43:10.300
+strongly type. After this definitelly a connectedquestion which will come is in terms of performance
+00:43:17.869
+is arraylist is better or array?
+00:43:19.140
+Question 21 :- Whose performance is betterArray or ArrayList?
+00:43:20.980
+When it comes to performance definitely arrayis better because it is strongly type. If
+00:43:26.340
+you look at ArrayList I can add a number,string, boolean and so on that means I can
+00:43:33.289
+add anything in my arraylist so this leadsto boxing and unboxing. When I am adding value
+00:43:43.030
+1 out here that means I am moving from a valuetype to a reference type. In this mylist.Add
+00:43:52.650
+this add is taking an object. Basically Iam moving from value type to a reference type
+00:43:58.059
+that leads to boxing and unboxing, becauseof that the performance of arraylist is not
+00:44:05.640
+good in comparison with array but arraylisthas flexibility but that comes as a cost the
+00:44:15.680
+performance is comparitively slower when itcomes to array because of boxing and unboxing.
+00:44:21.200
+Question 22 :- What are generic collections?Generic collections takes all the good things
+00:44:28.420
+of array and takes all the good things ofarraylist it is flexible. In a generic collection
+00:44:41.270
+I can say List geneint = new List();this is a generic collection. Firstit is
+00:44:57.520
+strongly typed so if I do an add you can seethis is pure integer collection. I cannot
+00:45:05.819
+add a string out here that means all thatboxing and unboxing all has gone off. You
+00:45:16.400
+cannot covert int to a string. Second is Ican add any number of elements so it is flexible.
+00:45:23.880
+A generic collection is strongly typed andalso in terms of size it is flexible so when
+00:45:34.700
+it comes to using collections in .NET thefavorites for everyone is a generic collection.
+00:45:43.609
+You can see this is the list of int and inthe same way I can create a list of boolean.
+00:45:54.510
+Now this generic collection becomes a stronglytyped boolean collection so a generic collection
+00:46:04.440
+is strongly typed also the size is flexible.It takes all good things of the array that
+00:46:10.059
+means it takes a strong typness of the arrayand it takes the flexibility of the arraylist
+00:46:15.160
+and when it comes to .NET this is the mostused type of collection.
+00:46:19.950
+Question 23 :- What are Threads(Multithreading)in C#? Or How to implement Multithreading
+00:46:25.670
+in C#?
+00:46:27.370
+Multithreading or Threads in C# helps youto execute code parallely. If you want to
+00:46:35.289
+do paralle execution of your code then youneed to use Thread. You can see in my code
+00:46:41.130
+out here we have Method1 and Method2. If Iwant to execute both of these Methods parallely
+00:46:47.640
+then I need to create a thread. I am creatinga new Thread (Method1) and t1 Method2 then
+00:46:58.020
+t.Start(); and t1.Start(); With this whathappens is both of these Methods will run
+00:47:03.680
+parallely and to implement threading we needto use Namespace System.Threading. If I run
+00:47:12.420
+this code out here it will run Method 1 sometimesand Method2 sometimes. If you want to implement
+00:47:24.859
+parallel execution or if you want to run yourcode parallely then you need to use Threads.
+00:47:33.500
+Question 24 :- What's the difference betweenThreads and TPL?
+00:47:45.089
+In .NET 4.x there was something released wascalled as TPL (Task Parallel Library). You
+00:47:51.640
+can achieve the same thing what you can achieveby Threads. The same code which I have written
+00:47:56.529
+here I can use task like this.
+00:48:02.329
+And this code will also run parallely. Theinterviewer is trying to understand what's
+00:48:08.920
+the difference between using a Thread andusing TPL. Before I answer this question I
+00:48:18.170
+want to share a very important tip. In C#interviews , in .NET interviews or any interview
+00:48:28.299
+always answer to the point. When you get suchquesitons like explain the difference between
+00:48:34.390
+this and that always answer important thingsfirst. Do not hit around the bush. Interviewers
+00:48:44.501
+are mostly seniors they are already stressedin projects they not get paid extra for interviews.
+00:48:51.540
+On the top of it if he get some candidateswho is taking him around it is not going to
+00:48:57.840
+help. In case of threads vs task if you tellhim TPL has async and await must be it will
+00:49:06.660
+not convince him. Let us try to answer theimportant points first when it comes to differences.
+00:49:14.119
+The first big difference between Thread andTask is that Task does parallel processing
+00:49:20.640
+the name itself for task or TPL is Task ParallelLibrary. It actually does parallel processing
+00:49:28.890
+means what? If you spontan threads. Let'ssay you have four processors in your computer
+00:49:36.880
+still all the ten threads have a processoraffinity a CPU affinity so they try to run
+00:49:42.869
+only on processor1 or processor2. If you wantto utilize your other processors then you
+00:49:51.090
+need to write some code like this to get thecurrent processs you need to say p.ProcessorAffinity
+00:49:57.769
+run on second processor or on the third processor.Itis quite a big work so when you use task the
+00:50:08.410
+TPL library looks at your processors and sayswhich of the processors are not loaded and
+00:50:15.019
+runs those parallel code or parallel logicinto the processor. TPL actually utilizes
+00:50:23.200
+your processors it actually does parallelprocessing while threads have a processor
+00:50:30.990
+affinity they try to stick to a processornot really doing parallel processing but rather
+00:50:37.720
+than doing context switching or time slicing.
+00:50:40.849
+The first point which should come out in thisdifference is that task utilizes your processors
+00:50:49.510
+it utilizes your hardware properties. We don'thave to write extra code for it while threads
+00:50:55.369
+have a CPU affinity and the third P is incase of task I can return a result in case
+00:51:04.460
+of thread I can't. To get result from a threadI will use delegates, events and so on. I
+00:51:11.750
+can capture a task, change task, wait forthe other task to finish, I can use async
+00:51:17.920
+and await. TPL is a wrapper or it is an abstractionwhich is over threads and it provides lot
+00:51:33.470
+of things. First one it provides Prallel processingsecond one it provides Pooling rather than
+00:51:39.510
+building from scratch the objects are takenfrom the pool and then lot of plus lot of
+00:51:44.960
+extra things it has it can return a resultfrom a parallel process you can chain a task,
+00:51:53.250
+wait for a task to finish, you can use asyncand await and so on. When you go before the
+00:52:01.059
+interviewer when you are asked such kind ofquestions prepare your oneliners, speak to
+00:52:06.850
+the point make your answers crisp and clear.One of the things during the TPL and thread
+00:52:15.349
+conversation I would surely send to the intervieweris that in today's age I will always use TPL
+00:52:24.059
+because TPL is a wrapper on the threads providingall these features so why would I ever use
+00:52:28.670
+threads. In case I have legacy code in .NET2.0 or 3.0 it make sense to use threads but
+00:52:35.539
+if you talk about .NET core or if you talkabout .NET 4.x any version we would just use
+00:52:42.030
+TPL and not the old threads.
+00:52:45.220
+Question 25 :- How are exceptions handledin C#?
+00:52:52.700
+Exceptions are handled by using the try/catchblocks. I have a very simple code in this
+00:52:57.980
+simple code at this line we are going to getan infinite exception or divide by zero exception.
+00:53:07.069
+In whichever places you will get an exceptionyou will wrap that place with try block. I
+00:53:13.760
+am expecting in these two lines i can haveerror I have wrapped them into try block and
+00:53:21.940
+now if any exception happens it will jumpto the catch block. In the catch block I can
+00:53:31.400
+decide what to do when this error happens.Here I will say if exception happens then
+00:53:37.460
+just show Divide by zero error, renter thevalue. Exceptions are handled by using try
+00:53:49.740
+catch block. If I run this
+00:54:02.049
+my application has handled exception gracefully.If you do not have a try catch block it just
+00:54:14.160
+throws up the exception and it leaves it tothe application to handle it. if the exceptions
+00:54:23.119
+are not handled the application just crasheslike this. Exception are handled by using
+00:54:28.490
+the try catch block. Another conencted questionwhich comes over here is what is the use of
+00:54:38.020
+the finally block?
+00:54:39.190
+Question 26 :- What is the need of finallyblock?
+00:54:43.980
+Finally block is a place where you write thecode which would execute irrespective you
+00:54:51.921
+have an exception or you do not have an exception.In the finally block you want to write some
+00:54:58.359
+clean up code , some memory and so on. Youcan write that in the finally block. Irrespective
+00:55:10.921
+you have an exception or you do not have anexception this code will always execute. If
+00:55:16.641
+I run this now you will see I get Divide byzero error but also the clean up code runs.
+00:55:26.040
+If I don't even have an exception then alsomy finally block will run. You can see I don't
+00:55:35.130
+have the exception, it has not gone to thecatch block but the clean up code still runs.
+00:55:41.269
+In finally block we put that code which willrun irrespective if there is an error or if
+00:55:47.670
+there is no error.
+00:55:48.670
+Question 27 :- Why do we need the Out keyword?What is the use of out keyword in C#?
+00:55:59.170
+When you write a c# functions it returns onlyone value. But what if you want to return
+00:56:06.900
+multiple value? In this case you want to returnan addition, multiplication, division you
+00:56:17.140
+want multiple return values then you willuse the our keyword. Here I can create an
+00:56:24.759
+out which is an addition, an out which issubtraction and so on. I can say here add
+00:56:43.579
+= num1 + num2; I don't need return type meansthe output will be sent in these variables
+00:56:51.170
+then I will say sub = num1 - num2; then onthe caller side we can say this will have
+00:57:03.450
+the value of subtraction and then we can invokethe MyMaths function and we can say whatever
+00:57:11.520
+is the calculated value in this add and subplease send it back to add here and please
+00:57:19.099
+send it back to sub here. I can return multiplevalues from a function. The whole goal of
+00:57:26.710
+the Out keyword is to return multiple valuesfrom a function.
+00:57:31.559
+A very big congratulations you have completed27 questions. We have more 3 questions to
+00:57:41.960
+go. This video has already become more thanan hour, I will go through these three questions
+00:57:50.329
+theoritically in this part 1 and in part 2I will show you the code demonstrations. These
+00:57:58.060
+are three questions which are flashed on thescreen. Let us go through the answers of them
+00:58:04.759
+and in the next video i.e. part 2 we willsee the demonstration of it.
+00:58:10.799
+Quesiton 28 :- What is the need of Delegates?
+00:58:14.559
+Any C# interview does not get completed witha question on delegates and events. Here is
+00:58:22.380
+the answer - Delegate is a pointer to functionand it is very useful when you talk about
+00:58:27.300
+communicating between threads. If you havea multi-threaded environment and if you want
+00:58:33.109
+to communicate between those threads thendeligate is a way to go ahead. Delegate is
+00:58:38.720
+a call back it is a pointer to a functionto communicate between threads.
+00:58:45.240
+Question 29 :- What are events?Events are wrapper over delegates, they are
+00:58:52.509
+encapsulation over delegates. They ensuredelegates cannot be tempered by anyone. Events
+00:59:00.029
+change the delegates to a publisher subscriber model.
+00:59:12.920
+Now in part 2 I will show you in practicalway why the answer is like this. To my best
+00:59:26.230
+understanding when you see something practicallyyou grasp mush better. In part 2 we will be
+00:59:31.430
+going 28, 29 and 30 again.
+00:59:34.670
+Question 30 :- Whats the difference betweenAbstract Class and Interface?
+00:59:38.890
+Abstract class is a half defined parent classso it comes inheritance. If you have many
+00:59:45.579
+classes and have any common between them thenprobably it is good to go and create an abstract
+00:59:51.349
+class, parent class and put the common functionalitiesinto the parent class while interface is a
+00:59:59.319
+contract and it has to be implement. Interfacekind of forces a structure into a class. This
+01:00:10.260
+is what these three questions are. What isthe need of delegates? It is a call back,
+01:00:15.140
+a pointer to a function. What are events?Events are encapsulation over delegates what's
+01:00:19.740
+the difference between abstract class andinterface. Abstract class is a half defined
+01:00:24.930
+parent class while interface is a contract.
+01:00:28.789
+Before we wrap up this one hour of trainingvideo I would like to quickly go through three
+01:00:36.029
+tips, these tips will keep increasing so aswe do part 2, part 3. There are like 10 tips
+01:00:41.599
+which I'll be sharing with you gradually.Now in these 3 tips first two tips I've already
+01:00:48.450
+discussed in the previous part of the videobut i'll just iterate over here.
+01:00:51.519
+Tip no. 1 - Do not hit around the bush answerto the point. The interviewer does not have
+01:00:58.900
+time to listen your whole Saga and Raga. Justanswer to the point.
+01:01:05.000
+Second tip - First thing first, if somebodyasking what is the difference between .NET
+01:01:11.569
+core and .NET framework do not start saying.NET framework is old one and .NET core is
+01:01:15.789
+new one. .NET core runs cross platform and.NET framework runs only on windows. Say the
+01:01:23.750
+important points first, do not waste interviewerstime.
+01:01:28.049
+And tip no. 3 - Use right technical vocubulary,impress the interviewer by using polished
+01:01:36.160
+and proper right technical vocabulary. Ifsomebody ask you a question over events. Someone
+01:01:44.099
+can say events are wrapper over delegates.Good answer right answer but not polished
+01:01:51.200
+but if somebody says events are encapsulationover delegates. Events create a publisher
+01:01:58.319
+subscriber model. English is my second laguagebut just because I know the technical vocabulary
+01:02:09.789
+I can impress the interviewer. Events areencapsulation over delegates and events helps
+01:02:15.829
+you to create a publisher subscriber kindof an environment. have the right technical
+01:02:21.349
+vocabulary. What is delegate? A pointer toa function, callbacks. Interface is a contract.
+01:02:31.440
+These are technical vocabularies which spiceup your answer. Hope that you will remember
+01:02:38.390
+these three tips out there.
+01:02:41.369
+That brings us to the end of our 30 questions.As discussed we have covered all 30 questions
+01:02:48.170
+in this video. Very quickly the last threequestions that is regarding the delegates
+01:02:54.859
+, regarding the events and the abstract classand interface I did not go too much in debth.
+01:02:59.900
+I just went through some answers but did notshow a demo. We are going to have now more
+01:03:08.400
+parts of C# interview question. These aremore advanced series and these series are
+01:03:12.240
+all available on questpond.com , in the part2 I'll be demonstrating what is a delegate?
+01:03:18.779
+what is an event? In what sitation we shoulduse a delegate. What is the difference between
+01:03:23.410
+delegates and events then I will also talkabout abstract class and interfaces. The part
+01:03:28.940
+2 of the series will cover events and delegates.
+01:03:34.480
+Happy job hunting, Thank You! Happy Learning!
+Tactiq Logo
+© 2025 Tactiq. All rights reserved. Made with ♥ in 
+
+
+IPA
+00:00:01.209
+ˈwɛlkəm tuː Questpond's ˈjuːʧuːb ˈʧænᵊl.
+00:00:03.510
+təˈdeɪ wiː ɑː ˈɡəʊɪŋ tuː walkthrough 30 ɪmˈpɔːtᵊnt.nɛt ænd siː# interviewquestions. ðɪs ɪz pɑːt
+00:00:14.830
+1 ɒv ðə ˈvɪdiəʊ ˈsɪəriːz ænd ɪn ðɪs həʊl videoseries wiː wɪl ɡəʊ θruː sʌm ˌfʌndəˈmɛntᵊl
+00:00:19.759
+siː# ˈɪntəvjuː ˈkwɛsʧənz. ˌfʌndəˈmɛntᵊl meanslike siː-ɛl-ɑː, ˈɡɑːbɪʤ Collecto, siː-tiː-ɛs, stæk, hiːp,
+00:00:26.749
+ˈrɛfᵊrᵊns taɪp, ʤəˈnɛrɪk kəˈlɛkʃᵊnz, ˌmʌltɪˈθrɛdɪŋ,traɪ kæʧ blɒk, deligates, ɪˈvɛnts, ˈdɪfᵊrᵊns
+00:00:32.119
+bɪˈtwiːn ˈæbstrækt klɑːs ænd ˈɪntəfeɪsɪz. Ifyou ɑː nɒt ˈeɪbᵊl tuː ˈɑːnsə ˈbeɪsɪk ˈkwɛsʧənz
+00:00:42.420
+wɒt ɪz stæk ænd hiːp, ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ,ɪt ɪz ˈvɛri reə ðæt jɔːr ˈɪntəvjuː wɪl kənˈtɪnjuː
+00:00:48.560
+fɔːr ə lɒŋ taɪm ɔːr ɪt wɪl hæv ˈɛni positiveresult. pliːz ɪnˈʃɔː ðə ˌfʌndəˈmɛntᵊl ˈkwɛsʧənz
+00:00:55.379
+ʃʊd biː raɪt ˈfləʊɪŋ frɒm jɔː hɛd theanswer ʃʊd kʌm aʊt ˈvɛri ˈfluːənt. ˈɔːlsəʊ ˈvɪzɪt
+00:01:05.979
+maɪ saɪt questpond.kɒm weə wiː hæv lɒt ofadvanced ˈvɪdiəʊ tjuːˈtɔːriəlz ɒn ˈæŋɡjələ, ɛm-viː-siː,
+00:01:15.869
+klaʊd ˈæʒə, ˈɪntəvjuː ˌprɛpᵊrˈeɪʃᵊn laɪk .NETinterview ˈkwɛsʧənz, ˈæŋɡjələr ˈɪntəvjuː ˈkwɛsʧənz,
+00:01:23.010
+ˈæʒə ˌsɜːtɪfɪˈkeɪʃᵊn, Microservices, Designpatterns, ˈæʒər ˈɑːkɪtɛkʧə ˈtreɪnɪŋ juː
+00:01:28.590
+wɪl faɪnd lɒt ɒv ˈvɪdiəʊz aʊt hɪə mɔː thanthousand ˈvɪdiəʊz wɪʧ ɑː laɪk stɛp baɪ stɛp
+00:01:35.880
+ænd ɪmˈpɔːtᵊnt frɒm ðə kəˈrɪə pəˈspɛktɪv.duː ˈvɪzɪt maɪ saɪt questpond.kɒm, ˈɔːlsəʊ aɪ wʊd
+00:01:41.729
+laɪk tuː əˈnaʊns ə smɔːl ɡɪft aʊt hɪə. Ifyou ʃeə ðɪs ˈvɪdiəʊ ˈsʌmweər ɒn jɔː ˌlɪŋktˈɪn
+00:01:49.880
+ˈprəʊfaɪl, facbook ˈprəʊfaɪl ɔːr ɒn ˈtwɪtə profilethis ˈiːbʊk wiː ɑː ˈsɜːkjəleɪtɪŋ fɔː friː. ðɪs
+00:01:57.170
+ɪz eɪ 100 peɪʤ ˈiːbʊk wɪʧ ˈbeɪsɪkᵊli hæz lotsof ˈkwɛsʧənz wɪʧ ɑːr əˈraʊnd ðə ˈbeɪsɪk .nɛt
+00:02:03.950
+ˌfʌndəˈmɛntᵊl θɪŋz .nɛt ˈfreɪmwɜːk, ɪl kəʊd,siː-ɛl-ɑː, siː-tiː-ɛs, ˈvæljuː taɪp, ˈrɛfᵊrᵊns taɪp, ˈɡɑːbɪʤ
+00:02:11.471
+kəˈlɛktər ænd səʊ ɒn. ɪf juː ʃeə ðɪs videotutorial ɒn ˌlɪŋktˈɪn,ˈtwɪtər ɔː ˈsʌmweə
+00:02:20.950
+sɛnd ʌs ə meɪl æt questpond@questpond.comthis ˈiːbʊk wiː wɪl dɪˈlɪvə tuː juː ɪn jɔː
+00:02:25.030
+ˈiːmeɪl.
+00:02:28.110
+lɛt ʌs ɡɛt ˈstɑːtɪd wɪð ðə fɜːst questionfrom ˈaʊə 30 ˈkwɛsʧənz.
+00:02:33.310
+ˈkwɛsʧənz 1 - ɪkˈspleɪn ðə ˈdɪfᵊrᵊns bɪˈtwiːn.nɛt ænd siː#. ðɪs ˈkwɛsʧənz wəʊnt biː ɑːskt
+00:02:42.190
+daɪˈrɛktli baɪ ði ˈɪntəvjuːə. ˈɪntəvjuːə won'tbe ˈɑːskɪŋ juː ɪkˈspleɪn miː ðə ˈdɪfᵊrᵊns bɪˈtwiːn
+00:02:48.150
+.nɛt ænd siː# bʌt ɪt ɪz ˈvɛri mʌʧ ˈpɒsəbᵊl thatduring ˈɪntəvjuː ˌkɒnvəˈseɪʃᵊn ɔː dɪˈskʌʃᵊn
+00:02:56.030
+ˈnɛvər ˈɛvə ɡɛt ˈɪntuː ə ˌsɪʧuˈeɪʃᵊn weə yousay .nɛt ænd siː# ɑː wʌn ænd ðə seɪm θɪŋ.
+00:03:03.640
+ɪt wɪl kriˈeɪt ə ˈnɛɡətɪv dɛnt ɪn ði ˈɪntəvjuː.hɪər ɪz ði ˈɑːnsə fɔːr ɪt .nɛt ɪz ə ˈfreɪmwɜːk
+00:03:19.480
+ænd siː# ɪz ə ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤ. wɛn youtalk əˈbaʊt siː# ɪt hæz ðəʊz ˈsɪntæksɪz, ˈɡræməz,ɪt
+00:03:27.310
+hæz ðəʊz sɪˈmæntɪks, ɪt hæz ðəʊz fɔː luːps,ɪt hæz ðəʊz ɪf kənˈdɪʃᵊnz. səʊ siː# ɪz ə ˈprəʊɡræmɪŋ
+00:03:38.930
+ˈlæŋɡwɪʤ, ɪt ɪz ˈmaɪkrəsɒfts ˈflæɡʃɪp programminglanguage waɪl .nɛt ˈfreɪmwɜːk hæz tuː θɪŋz
+00:03:45.900
+ɪt ɪz ə kəˈlɛkʃᵊn ɒv ˈlaɪbrᵊriz ænd ɪt hasruntime.
+00:03:49.550
+lɛt ʌs fɜːst stɑːt wɪð kəˈlɛkʃᵊn ɒv ˈlaɪbrᵊriz.ɪn maɪ səˈluːʃᵊn ɪkˈsplɔːrə ðeər ɪz ə ˈfreɪmwɜːk.
+00:03:56.230
+juː seɪ ðæt aɪ wɒnt tuː juːz ə kəˈlɛkʃᵊn inC# wiː kæn juːz ə lɪst ænd fɔː ðæt wiː hæv
+00:04:09.000
+tuː juːz ðɪs ˈsɪstəm.kəˈlɛkʃᵊn. ðɪs ˈsɪstəm.collectionis ə ˈrɛdɪˈmeɪd kəmˈpəʊnənt ɔː ˈlaɪbrᵊri. raɪt
+00:04:19.639
+klɪk --> ˈprɒpətiz ænd juː kæn siː hereit
+00:04:34.520
+ɪz ˈlaɪbrᵊri. ɪf juː wɒnt tuː juːz ɛks-ɛm-ɛl ænd ifyou ɡəʊ tuː ðə pɑːθ juː wɪl faɪnd ˈsɪstəm.xml.dll
+00:04:51.120
+. ɔːl ðiːz θɪŋz wɒt juː sɔː naʊ thesesystem.kənˈsəʊl, ˈsɪstəm.kɔː, ˈsɪstəm.ˈdeɪtə ɑː
+00:05:05.990
+ɔːl riːˈjuːzəbᵊl ˈlaɪbrᵊriz wɪʧ bɪˈlɒŋz tuː .NETframework. ˈɔːlsəʊ .nɛt ˈfreɪmwɜːk hæz wʌn mɔː
+00:05:12.730
+θɪŋ, ɪt hɛlps juː tuː rʌn jɔː .nɛt applicationit hæz θɪŋz kɔːld æz siː-ɛl-ɑː, ˈɡɑːbɪʤ kəˈlɛktə,
+00:05:23.650
+siː-tiː-ɛs, siː-ɛl-ɛs wɛn juː rʌn jɔː .nɛt applicationthis ɪz əˈɡɛn ðə wɜːk ɒv .nɛt ˈfreɪmwɜːk,
+00:05:32.370
+ɪt kɪks ɒf ðə siː-ɛl-ɑː, kəmˈpaɪlz jɔː applicationand meɪks jɔːr ˌæplɪˈkeɪʃᵊn ˈrʌnɪŋ. pliːz
+00:05:38.370
+nəʊt ðeər ɪz ə ˈvɛri bɪɡ ˈdɪfᵊrᵊns bɪˈtwiːn.nɛt ænd siː#, siː# ɪz ə ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤ
+00:05:44.560
+ɪt hæz ə ˈsɪntæksɪz, sɪˈmæntɪks, ˈɡræməz, sourcecodes waɪl .nɛt ˈfreɪmwɜːk ɪz ə kəˈlɛkʃᵊn
+00:05:52.410
+ɒv ˈlaɪbrᵊriz æz wɛl æz ɪt hɛlps juː tuː runyour .nɛt ˌæplɪˈkeɪʃᵊn ɔː siː# ˌæplɪˈkeɪʃᵊn. ˈjuːzɪŋ
+00:06:00.289
+bəʊθ ɒv ðɛm wiː kriˈeɪt ən ˌæplɪˈkeɪʃᵊn. Youwill juːz siː# ænd juː wɪl ɪnˈvəʊk ðiː .nɛt ˈfreɪmwɜːk
+00:06:10.150
+ˈlaɪbrᵊriz. frɒm siː# juː wɪl ɪnˈvəʊk .nɛt frameworklibrary. juː kæn seɪ aɪ wɒnt tuː kriˈeɪt ə lɪst
+00:06:17.039
+ɒv ə strɪŋ. siː# ɪz ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤ andit wɪl ɪnˈvəʊk ðiː .nɛt ˈlaɪbrᵊriz ænd .nɛt
+00:06:27.550
+wɪl ˈɔːlsəʊ hæz ə θɪŋ kɔːld æz siː-ɛl-ɑː tuː makeyour ˌæplɪˈkeɪʃᵊn ˈrʌnɪŋ. ɪn ði ˈɪntəvjuː
+00:06:33.439
+wɛˈnɛvə juː ɑː ˈtɔːkɪŋ wɪð ði intervieweralways sɛnd ə ˈmɛsɪʤ tuː hɪm ˈseɪɪŋ ðæt jɛs
+00:06:38.509
+.nɛt ɪz ə ˈfreɪmwɜːk ænd siː# ɪz ə programminglanguage.
+00:06:44.199
+ˌdɪfəˈrɛnʃieɪt bɪˈtwiːn .nɛt ˈfreɪmwɜːk vs .NETCore vs .nɛt 5.0.
+00:06:51.139
+pliːz nəʊt ðæt wɛn ðɪs ˈkwɛsʧən comesduring ði ˈɪntəvjuːz ðeər ɑː mɔː ðæn
+00:06:57.139
+10-15 ˈdɪfᵊrᵊnsɪz wɪʧ juː kæn siː highlightedout hɪə bʌt traɪ tuː pʊt daʊn ðə fɜːst wʌn
+00:07:06.430
+ɔː tuː ˈbɪɡɪst ˈdɪfᵊrᵊns bɪˈtwiːn ðɛm. DOnot traɪ tuː ʤʌst stɑːt ˈspiːkɪŋ ɔːl ðiː 10-15
+00:07:12.659
+pɔɪnts ɪt wɪl lʊk ˈvɛri ˈvɛri wʌn ˈsaɪdɪd. Thefirst θɪŋ wɪʧ ʃʊd ˈrɪəli ˈrɪəli kʌm
+00:07:18.620
+aʊt ˈvɛri ˈstrɒŋli ɪz .nɛt ˈfreɪmwɜːk whichis əʊld wʌn wɪʧ wɒz kriˈeɪtɪd 18 jɪəz bæk
+00:07:24.569
+ˈəʊnli wɜːks fɔː ˈwɪndəʊz waɪl ðiː .nɛt coreis krɒs ˈplætfɔːm səʊ ɪt wɜːks ɒn ˈlɪnəks, mæk,
+00:07:35.169
+ˈwɪndəʊz æz wɛl ænd səʊ ɒn waɪl .nɛt 5.0 isthe ˌjuːnɪfɪˈkeɪʃᵊn ɒv bəʊθ ɒv ðɛm. juː kæn seɪ
+00:07:42.150
+ðæt .nɛt 5.0 hæz ɔːl ðæt ɡʊd θɪŋz whatwe dɪd fɔː pɑːst 18 jɪəz ˈɔːlsəʊ ɪt hæz ðəʊz
+00:07:49.689
+njuː ˈfiːʧəz wɪʧ ɑː ˈkʌmɪŋ ɪn .nɛt kɔː..nɛt 5.0 ɪz mɔːr ɒv ə ˈjuːnɪfaɪd ˈplætfɔːm wɪʧ
+00:07:56.539
+ˈjuːnɪfaɪz nɒt ˈəʊnli ðiː .nɛt kɔːr ænd .nɛt frameworkbut ɪt ˈjuːnɪfaɪz lɒt ɒv ˈʌðə.nɛt ˈrʌntaɪmz.
+00:08:02.419
+rɪˈmɛmbə ðæt ðeər ɑː lɒt ɒv ˈʌðə .NETframeworks laɪk ˈmɒnəʊ ænd ˈsʌmθɪŋ wiː meɪd
+00:08:06.520
+fɔː silverlight ðɛn wiː meɪd somehting fɔː.nɛt ˈkɒmpækt ænd səʊ ɒn. ˈbeɪsɪkᵊli .nɛt 5.0
+00:08:15.949
+ˈjuːnɪfaɪz .nɛt ˈfreɪmwɜːk, .nɛt kɔː, .nɛt monoand səʊ ɒn bɪˈkɒz juː ɡɛt ə ˈkɒmən ɪkˈspɪəriəns.
+00:08:27.949
+ɪf juː siː wɒt ɪz ˈhæpᵊnɪŋ naʊ ɪz ɪf aɪ wantto kriˈeɪt ə ˈprɒʤɛkt ɪn .nɛt ˈfreɪmwɜːk ðɛn
+00:08:38.100
+aɪ niːd tuː siː aɪ wɒnt tuː kriˈeɪt ˈprɒʤɛkt inconsole ˌæplɪˈkeɪʃᵊn .nɛt ˈfreɪmwɜːk ðɛn aɪ
+00:08:48.320
+hæv tuː ʧuːz .nɛt kɔː ˈfreɪmwɜːk. aɪ haveto meɪk ə ʧɔɪs ðɪs ɪz nɒt ən ˈjuːnɪfaɪz ɪkˈspɪəriəns.
+00:09:01.050
+juː hæv tuː ʧuːz ˈseɪɪŋ aɪ hæv tuː sɪˈlɛkt.nɛt kɔː ˈtɛmplɪt, .nɛt ˈfreɪmwɜːk ˈtɛmplɪt
+00:09:07.960
+ænd səʊ ɒn. ðə ɡəʊl ɒv .nɛt 5.0 ɪz tuː providea ˈjuːnɪfaɪd ɪkˈspɪəriəns, ˈjuːnɪfaɪd ˈplætfɔːm wɪʧ
+00:09:17.220
+juːˈnaɪts ɔːl ðiː .nɛt ˈrʌntaɪmz əˈraʊnd ðə worldone wɪʧ ɪz ˈkʌmɪŋ frɒm ˈmaɪkrəsɒft .nɛt ˈfreɪmwɜːk,
+00:09:25.100
+.nɛt kɔː, ˈmɒnəʊ ænd prəˈvaɪd juː ˈjuːnɪfaɪd ɪkˈspɪəriəns.ðɪs ɪz ðə fɜːst θɪŋ wɪʧ ʃʊd ˈrɪəli
+00:09:31.830
+kʌm aʊt. .nɛt ˈfreɪmwɜːk ɪz ˈklæsɪk wʌn theone əʊld wʌn, ɪt ˈəʊnli wɜːks ɒn ˈwɪndəʊz, .nɛt
+00:09:39.770
+kɔː wɜːks krɒs ˈplætfɔːm ænd .nɛt 5.0 isa ˌjuːnɪfɪˈkeɪʃᵊn ˈplætfɔːm wɪʧ ˈjuːnɪfaɪz ɔːl ðiː
+00:09:45.680
+.nɛt ˈfreɪmwɜːk ˈɪntuː wʌn ʌmˈbrɛlə ˈɡɪvɪŋ youa ˈjuːnɪfaɪd ænd ə ˈkɒmən ɪkˈspɪəriəns. ðə ˈsɛkᵊnd
+00:09:53.650
+pɔɪnt wɪʧ aɪ fiːl juː ʃʊd tɔːk wɪð theinterviewer ɪz pəˈfɔːməns. pəˈfɔːməns ɒv
+00:09:59.820
+.nɛt kɔːr ɪz ˈbɛtə ðæn .nɛt ˈfreɪmwɜːk. Whatis ðə ˈriːzᵊn fɔːr ɪt?
+00:10:07.140
+ɪf juː siː .nɛt ˈfreɪmwɜːk, aɪ hæv ðiːz twoapplications ConsoleApp23 wɪʧ ɪz .nɛt kɔː
+00:10:18.290
+ænd ConsoleApp1 wɪʧ ɪz .nɛt. ɪf juː lookat ðiː .nɛt ˈfreɪmwɜːk iː hæv bɪɡ bɪɡ diː-ɛl-ɛlz
+00:10:25.260
+bɪɡ bɪɡ kəmˈpəʊnənts laɪk ˈsɪstəm, ˈsɪstəm.Dataand ˈsɪstəm.ˈdeɪtə hæz ˈɛntɪti ˈfreɪmwɜːk, ˈsɪstəm
+00:10:33.450
+hæz kəˈlɛkʃᵊn æz wɛl æz lɒt ɒv θɪŋz. Youcan siː wiː hæv 1 tuː 8 ðæt aɪ kæn ʤʌst kaʊnt
+00:10:39.350
+ɪt ɒn maɪ ˈfɪŋɡəz. wɛn aɪ lʊk æt .nɛt Corethey hæv ˈbrəʊkᵊn daʊn tuː ˈfɜːðə laɪk ˈsɪstəm.kəˈlɛkʃᵊnz,
+00:10:47.890
+ɪf juː wɒnt juː kæn seɪ ˈsɪstəm.kəˈlɛkʃᵊn.ˈspɛʃᵊlaɪzd..nɛt kɔː hæz ˈteɪkᵊn bɪɡ bɪɡ diː-ɛl-ɛlz ɒv .nɛt ˈfreɪmwɜːk
+00:11:01.890
+ænd ðeɪ hæv ˈbrəʊkᵊn daʊn ðɛm ˈɪntuː smallsmall peices. bɪˈkɒz ɒv ðɪs wɛˈnɛvə ðiː
+00:11:07.950
+kəmˈpəʊnənts ɑː ˈləʊdɪd ðeɪ ɑː ˈləʊdɪd onlywhat wiː niːd fɜːst θɪŋ, ˈsɛkᵊnd ðə ˈmɛmᵊri
+00:11:14.890
+ˈfʊtprɪnt bɪˈkɒz ɒv ðɪs bɪˈkʌmz lɛs becausewe ɑː ˈləʊdɪŋ wɒt wiː niːd ænd nɒt ˈləʊdɪŋ
+00:11:20.030
+ði ʌnˈnɛsəsɛri θɪŋz. wɛn ˈmɛmᵊri footprintis lɛs ðɛn ˈdɛfɪnətli ðə pəˈfɔːməns bɪˈkʌmz
+00:11:28.660
+ˈbɛtə. .nɛt kɔː pəˈfɔːməns ɪz ˈbɛtə becausethey hæv dɪˈvaɪdɪd bɪɡ bɪɡ diː-ɛl-ɛlz ˈɪntuː smɔːl
+00:11:38.790
+smɔːl ˈpiːsɪz. juː kæn seɪ aɪ wɒnt ˈsɪstəm.kəˈlɛkʃᵊn.kənˈkʌrᵊnt, aɪ dəʊnt wɒnt ˈʌðə θɪŋz səʊ ɪt wɪl ˈəʊnli
+00:11:46.420
+ɡɪv juː kənˈkʌrᵊnt ænd nɒt ðə rɛst ɒv θɪŋz.ɪn keɪs ɒv .nɛt ˈfreɪmwɜːk ɪt hæz ðɪs, stæk
+00:11:56.840
+ænd səʊ ɒn bʌt hɪə ðeɪ hæv ˈbrəʊkᵊn daʊn intopieces səʊ ðɪs ɪz ðə ˈsɛkᵊnd θɪŋ aɪ fiːl
+00:12:03.740
+wɪʧ ʃʊd kʌm aʊt wɛn juː ɑː speakingthe ˈdɪfᵊrᵊnsɪz. ðə lɑːst ænd ðə məʊst ɪmˈpɔːtᵊnt
+00:12:09.450
+wʌn wɪʧ aɪ wɪl spiːk frɒm ɔːl ɒv ðiːz 10pɔɪnts ɪz siː-ɛl-aɪ səˈpɔːt. ɪn keɪs ɒv .nɛt kɔː
+00:12:23.300
+juː kæn faɪə kəˈmɑːndz θruː ðə commandlinefor ɪɡˈzɑːmpᵊl juː kæn siː ðɪs .nɛt kɔːr ˌæplɪˈkeɪʃᵊn.
+00:12:31.040
+aɪ kæn ɡəʊ tuː ðə kəˈmɑːnd laɪn ænd faɪə frommy kəˈmɑːnd laɪn dotnet bɪld , dotnet rʌn
+00:12:47.310
+, wɒt ˈhæpᵊnz wɛn juː kæn faɪə θɪŋz throughcommand laɪn wɒt ɪz ði ədˈvɑːntɪʤ ɒv ˈfaɪərɪŋ
+00:13:04.310
+θruː kəˈmɑːnd laɪn ɪz ðæt aɪ kæn integratewith ˈɛni aɪ-diː-iː , aɪ kæn ˈiːvᵊn kəʊd ɪn ə ˈsɪmpᵊl
+00:13:10.690
+ˈnəʊtˌpæd bʌt wɛn ɪt kʌmz tuː .nɛt frameworkyou dəʊnt hæv tuː ˈmɛni ˈʧɔɪsɪz juː hæv tuː
+00:13:15.561
+ˈlɪtᵊrᵊli ɡəʊ θruː ˈəʊnli ˈvɪʒuəl ˈstjuːdiəʊ, gothrough ðæt ˈtɛmplɪts ɪf juː wɒnt tuː kriˈeɪt
+00:13:20.250
+ə ˈprɒʤɛkt. hɪə, tuː kriˈeɪt ə ˈprɒʤɛkt juː needto duː dotnet njuː kənˈsəʊl ænd ɪt kriˈeɪts eɪ
+00:13:30.440
+kənˈsəʊl ˌæplɪˈkeɪʃᵊn. æt ðɪs ˈməʊmənt jɛs Ialready hæv ə ˈtɛmplɪt, juː kæn kriˈeɪt ænd
+00:13:41.690
+rʌn ˈprɒʤɛkt ʤʌst θruː ðə kəˈmɑːnd lineand ðæt meɪks .nɛt kɔː mɔːr əˈtræktɪv bɪˈkɒz
+00:13:48.950
+ɪt hæz ə siː-ɛl-aɪ səˈpɔːt ænd .nɛt 5.0 ɪz ði unificationof ɔːl ðiː .nɛt ˈrʌntaɪmz. Firt θɪŋ wɛn
+00:13:58.690
+ðɪs ˈkwɛsʧən kʌmz bɪˈfɔː juː ɪn ði interviewthere ɑː 10 ˈdɪfᵊrᵊnsɪz æz aɪ hæv ɔːlˈrɛdi
+00:14:03.200
+sɛd bʌt aɪ wʊd seɪ ðæt spiːk wʌn, tuː orthree ˈdɪfᵊrᵊnsɪz ænd pʊt bɪˈfɔː ði interviewe.
+00:14:09.291
+ˈɪntəvjuːər ɑːsks juː ˈfɜːðə tɛl miː ɪf Iwnat tuː dɪˈvɛləp microservice ɪz .nɛt ˈfreɪmwɜːk
+00:14:16.660
+ɡʊd ɔː .nɛt kɔː? mʌst ðɛn biː juː cna talkabout ˈʌðə ˈdɪfᵊrᵊns. ɪf hiː ɑːsks juː ɪz
+00:14:22.750
+ˈpækɪʤɪŋ ˈbɛtər ɪn .nɛt ˈfreɪmwɜːk ɔː .NETcore? jɛs ɪn .nɛt kɔː bɪˈkɒz hɪər ɪt ɪz
+00:14:29.350
+mɔː ˈmɒʤələ, mɔː ˈsmɔːlər ɪn ˈpiːsɪz juː canplug ðɛm təˈɡɛðə bʌt hɪər ɪt ɪz laɪk wʌn
+00:14:35.050
+bɪɡ ˈfreɪmwɜːk meɪks θɪŋz ˈdɪfɪkᵊlt. Threebig ˈdɪfᵊrᵊnsɪz krɒs ˈplætfɔːm, pəˈfɔːməns
+00:14:43.310
+ɪz ˈbɛtər ɪn caseof .nɛt kɔːr ænd siː-ɛl-aɪ tuːlz..nɛt 5.0 , juː kɑːnt ˈrɪəli tɔːk əˈbaʊt ðiː
+00:14:50.650
+ˈdɪfᵊrᵊns bɪˈkɒz ɪt ɪz ən ˈjuːnɪfaɪd ˈplætfɔːm,ɪt ˈjuːnɪfaɪz ɔːl ðə dotnet ˈrʌntaɪmz wʌn wɪʧ
+00:14:56.280
+ɪz ɒv ˈmaɪkrəsɒft æz wɛl æz wɪʧ kʌm fromthe kəˈmjuːnəti laɪk ˈmɒnəʊ ænd ˈʌðə θɪŋz.
+00:15:02.620
+ðə nɛkst θɪŋ ɪz bɪˈkɒz ɒv ðæt juː havea ˈkɒmən ɪkˈspɪəriəns ɔː ˈjuːnɪfaɪd ɪkˈspɪəriəns.
+00:15:07.720
+ˈkwɛsʧən 3 - wɒt ɪz ɪl kəʊd ænd ˈkwɛsʧənz4 - waɪ duː wiː niːd JIt?
+00:15:12.870
+lɛt miː ˈɑːnsə bəʊθ ɒv ðiːz ˈkwɛsʧənz ɪn onego bɪˈkɒz bəʊθ ɒv ðiːz ˈkwɛsʧənz hæv eɪ
+00:15:19.120
+ˈvɛri ˈvɛri diːp kəˈnɛkʃᵊn. fɜːst θɪŋ whenyou seɪ jɔː siː# kəʊd hæz tuː rʌn ɪnˈsaɪd ə kəmˈpjuːtə
+00:15:27.300
+ɪt hæz tuː biː kənˈvɜːtɪd tuː ən əˈsɛmbli ˈlæŋɡwɪʤər ɪt hæz tuː biː kənˈvɜːtɪd tuː məˈʃiːn kəʊd
+00:15:34.480
+ɔː kənˈvɜːtɪd tuː ə məˈʃiːn ˈlæŋɡwɪʤ.ðɪs codeof jɔː siː# ɪf ɪt hæz tuː rʌn ɪnˈsaɪd ə kəmˈpjuːtə
+00:15:48.570
+ɪt hæz tuː ɡɛt kənˈvɜːtɪd tuː əˈsɛmbli ɔː somethingwhich ðə məˈʃiːn ˌʌndəˈstændz. ðɪs ɪz jɔː
+00:15:57.500
+ˈhaɪə ˈlɛvᵊl ˈlæŋɡwɪʤ juː kæn seɪ. wɛn thecompiler kəmˈpaɪlz ɪt hæz tuː ɡɛt kənˈvɜːtɪd
+00:16:03.550
+ˈɪntuː ðɪs məˈʃiːn ˈlæŋɡwɪʤ bʌt wɒt siː# compilerdoes ɪz, ɪt dʌz nɒt daɪˈrɛktli kənˈvɜːt ðɪs
+00:16:10.310
+ˈɪntuː ðə məˈʃiːn ˈlæŋɡwɪʤ ɪt fɜːst convertsit ˈɪntuː ə ˈpɑːʃᵊli kəmˈpaɪld kəʊd kɔːld æz
+00:16:15.740
+ɪl kəʊd ɔːr ˌɪntəˈmiːdiət ˈlæŋɡwɪʤ kəʊd. ILstands fɔːr ˌɪntəˈmiːdiət ˈlæŋɡwɪʤ kəʊd ænd
+00:16:24.780
+ɪt ɪz ə ˈpɑːʃᵊli kəmˈpaɪld kəʊd ænd laterwhen juː rʌn jɔː ˈprəʊɡræm wɛn juː seɪ naʊ
+00:16:29.810
+aɪ wnat tuː rʌn maɪ ˈprəʊɡræm ænd ˈɛksɪkjuːt maɪ programat ðæt taɪm wiː hæv ˈsʌmbədi kɔːld æz ðiː
+00:16:35.510
+ʤeɪ-aɪ-tiː. ðɪs ʤeɪ-aɪ-tiː wɪʧ stændz fɔː ʤʌst ɪn Timecompiler rʌnz ˈəʊvə ðɪs ɪl kəʊd ænd kəmˈpaɪlz
+00:16:42.880
+ɪt ˈɪntuː ðə məˈʃiːn ˈlæŋɡwɪʤ. ɪl kəʊd ɪz anintermediate ˈlæŋɡwɪʤ kəʊd ɪt ɪz ə ˈpɑːʃᵊli
+00:16:52.430
+kəmˈpaɪld kəʊd. ʤeɪ-aɪ-tiː stændz fɔː ʤʌst ɪn Timecompiler ænd ʤeɪ-aɪ-tiː kəmˈpaɪlz ɪl kəʊd ˈɪntuː məˈʃiːn
+00:17:02.300
+ˈlæŋɡwɪʤ.
+00:17:03.300
+ˈkwɛsʧən 5 - ɪz ɪt ˈpɒsəbᵊl tuː siː ðɪs codeIL kəʊd ˈvɪʒuəli? jɛs ɪt ɪz ˈpɒsəbᵊl tuː siː
+00:17:09.470
+ðɪs ɪl kəʊd ˈvɪʒuəli baɪ ˈjuːzɪŋ Disassemblerslike aɪ-ɛl-diː-ɛs-ɛm ɔː ILSpy. fɔːr ɪɡˈzɑːmpᵊl juː kæn siː
+00:17:19.789
+hɪə ðɪs ɪz maɪ kəmˈpaɪl kəʊd wɪʧ ɪz ə diː-ɛl-ɛl(daɪˈnæmɪk lɪŋk ˈlaɪbrᵊri) tuː siː ðɪs aɪ wɪl
+00:17:28.050
+rʌn aɪ-ɛl-diː-ɛs-ɛm wɪʧ ɪz ə ˌdɪsəˈsɛmbᵊlə wɪʧ comeswith ðə ˈvɪʒuəl ˈstjuːdiəʊ kəˈmɑːnd prɒmpt. ˈəʊvə
+00:17:36.499
+hɪər aɪ kæn siː ðɪs æd ˈmɛθəd aʊt hɪə whichactually ædz tuː ˈnʌmbəz. ɪf aɪ ɡəʊ hɪər aɪ
+00:17:46.200
+kæn siː ðæt ðɪs ɪz ðə kəʊd, ɪt dʌz əˈdɪʃᵊn ɒv ðə tuː ˈnʌmbəz
+00:18:00.860
+arg1 ænd arg2. ɪt ɪz ˈpɒsəbᵊl tuː siː ði ILcodde ˈvɪʒuəli baɪ ˈjuːzɪŋ ˌdɪsəˈsɛmbᵊləz laɪk
+00:18:11.620
+aɪ-ɛl-diː-ɛs-ɛm ɔː ILSpy.
+00:18:14.070
+ˈkwɛsʧən 6 - wɒt ɪz ðə ˈbɛnɪfɪt ɒv compilingin tuː ɪl kəʊd ɔː waɪ duː juː wɒnt tuː kəmˈpaɪl
+00:18:22.470
+ˈɪntuː ən ɪl kəʊd?hɪə wɒt ði ˈɪntəvjuːə wɒnt tuː ɑːsk ɪz ðæt
+00:18:28.860
+ðɪs siː# kəʊd waɪ duː wiː hæv tuː kəmˈpaɪl itto Inteemdiate ˈlæŋɡwɪʤ laɪk ɪl kəʊd waɪ kɑːnt
+00:18:36.840
+ʤʌst laɪk siː ɔː siː++ kəmˈpaɪləz weəˈrɪn directlythey ɡəʊ ænd kəmˈpaɪl ˈɪntuː ə məˈʃiːn ˈlæŋɡwɪʤ
+00:18:43.129
+ænd əˈsɛmbli ˈlæŋɡwɪʤ? waɪ kɑːnt wiː duː thesame wɪð .nɛt ænd siː#? ðə ˈriːzᵊn fɔː ðɪs
+00:18:51.470
+ɪz ˈdɪfᵊrᵊns bɪˈtwiːn ðə dɪˈvɛləpmənt environmentand ðə ˈrʌntaɪm ɪnˈvaɪrᵊnmənt. ðɪs ɪz jɔː
+00:18:58.720
+siː# kəʊd lɛt ʌs seɪ ðə dɪˈvɛləpər ɪz usingwindows 10 hiː ɪz ˈjuːzɪŋ 65 bɪt məˈʃiːn ænd
+00:19:09.029
+səʊ ɒn. bʌt ðə ˈrʌntaɪm ɪnˈvaɪrᵊnmənt kæn beWindows 8, ɪt kæn biː ˈwɪndəʊz ɛks-piː ɔː ˈwɪndəʊz
+00:19:23.789
+7 ænd ˈnaʊədeɪz wɪð .nɛt kɔː ðɪs kæn beLinux æz wɛl. ðə ˈrʌntaɪm ɪnˈvaɪrᵊnmənt kæn
+00:19:31.419
+biː ˈvɛri ˈvɛri ˈdɪfᵊrᵊnt. ðɪs ɪz jɔː dɛv environmentthe dɪˈvɛləpəz məˈʃiːn wɪʧ kæn hæv ə ˈdɪfᵊrᵊnt
+00:19:37.899
+ɪnˈvaɪrᵊnmənt, ˈdɪfᵊrᵊnt ˈɒpᵊreɪtɪŋ ˈsɪstəmz becauseof ðæt .nɛt kəmˈpaɪlz ɪt ˈɪntuː ɪl kəʊd ænd
+00:19:49.360
+ðɛn dɪˈpɛndɪŋ ɒn wɒt ɪz jɔːr ɒs ɪt sayswhat ɪz ði ebst kəʊd fɔː ˈwɪndəʊz 8, wɒt
+00:20:00.899
+kæn biː ðə bɛst kəʊd wɪʧ kæn biː generatedfor ˈwɪndəʊz ɛks-piː ɔː ðə bɛst bɛst ˌkɒmpɪˈleɪʃᵊn
+00:20:05.000
+aɪ miːn ænd fɔː ˈlɪnəks ænd səʊ ɒn. ðæts whywe hæv ən ɪl kəʊd tuː pʊt θɪŋz təˈɡɛðə.
+00:20:15.750
+ðə ˈrʌntaɪm ɪnˈvaɪrᵊnmənt ænd dɪˈvɛləpmənt environmentcan biː ˈdɪfᵊrᵊnt səʊ ðæts waɪ wiː kəmˈpaɪl
+00:20:21.710
+ˈɪntuː ɪl kəʊd ðɛn dɪˈpɛndɪŋ ɒn wɒt kaɪnd ofenvironment ɪt ɪz ʤeɪ-aɪ-tiː ˈʤɛnəreɪts ɔː kəmˈpaɪlz
+00:20:27.929
+ən ˈɒptɪmᵊl kəʊd æz pɜː ðæt ˈrʌntaɪm ænd ˈæspə ðæt ˈɒpᵊreɪtɪŋ ˈsɪstəm ɔː ˈhɑːdweər ɒv ðæt
+00:20:35.559
+ˌɛksɪˈkjuːʃᵊn enviroment.
+00:20:37.049
+ˈkwɛsʧən 7 - dʌz .nɛt səˈpɔːt ˈmʌltɪpᵊl programminglanguages?
+00:20:44.610
+hɪər ˈɪntəvjuːər ɪz ˈɑːskɪŋ ðæt kæn aɪ writemy kəʊd ˈəʊnli ɪn siː# ɔː ðeər ɑːr ˈʌðə ˈlæŋɡwɪʤɪz
+00:20:51.590
+wɪʧ .nɛt ˈfreɪmwɜːk səˈpɔːts? .nɛt frameworksupports ˈmɛni ˈʌðə ˈlæŋɡwɪʤɪz fɔːr ɪɡˈzɑːmpᵊl
+00:20:56.789
+juː kæn kriˈeɪt ə njuː ˈprɒʤɛkt, juː kæn writeyour kəʊd ɪn siː#, juː kæn raɪt jɔː kəʊd ɪn
+00:21:03.240
+viː-biː.nɛt, juː kæn raɪt jɔː kəʊd ɪn ɛf#(onemore ˈlæŋɡwɪʤ) ænd wiː hæv ˈʌðə wʌnz laɪk
+00:21:12.840
+siː++, .nɛt ænd səʊ ɒn. rɪˈmɛmbə ðæt .nɛt frameworksupports ˈmʌltɪpᵊl ˈlæŋɡwɪʤɪz laɪk viː-biː.nɛt, siː#,
+00:21:22.090
+siː++, .nɛt, ɛf# ænd səʊ ɒn bʌt ði ɛnd ɒv theday ˈaɪðə juː ˈkəʊdɪŋ siː# ˈaɪðə juː ˈkəʊdɪŋ
+00:21:31.690
+viː-biː.ˈnɛtə ˈvɪʒuəl ˈbeɪsɪk æt ði ɛnd ɒv ðə dayit wɪl ɡɛt kəmˈpaɪld tuː ɪl kəʊd. ɪt dʌz nɒt
+00:21:37.179
+ˈmætə wɒt ɪz jɔː ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤ.ðə həʊl pɔɪnt ɒv kriˈeɪtɪŋ ðɪs ˈprəʊɡræmɪŋ
+00:21:49.610
+ɪnˈvaɪrᵊnmənt fɔː dɪˈvɛləpəz ɪz ðæt sʌm developerslike siː# becase ɪt ɪz keɪs ˈsɛnsɪtɪv, ɪt hæz
+00:21:57.600
+ðəʊz ˈkɜːli ˈbrækɪts.
+00:21:59.000
+ɪf juː ɑːr ə dɪˈvɛləpə huː laɪks
+00:22:12.869
+tuː kəʊd ɪn ðɪs ˈkɜːli ˈbrækɪts huː laɪks thingsto biː keɪs ˈsɛnsɪtɪv ðɛn siː# ɪz fɔː juː. ɪf
+00:22:19.900
+juː ɑːr ə ˈpɜːsᵊn huː hæv ˈstɑːtɪd kəˈrɪə invisual ˈbeɪsɪk 4 ænd ˈvɪʒuəl ˈbeɪsɪk 6 ænd juː
+00:22:24.910
+laɪk ðɪs verbous kəʊd, juː dəʊnt wɒnt casesensitiveness ðɛn ɡəʊ fɔː viː-biː.nɛt. ðiː .nɛt
+00:22:32.179
+ˈfreɪmwɜːk səˈpɔːts ˈmʌltɪpᵊl ˈprəʊɡræmɪŋ languagesbut æt ði ɛnd ɒv ðə deɪ ɪt ɡɛts kəmˈpaɪld
+00:22:37.619
+tuː ɪl kəʊd. ði ˈɑːnsə hɪər ɪz jɛs .nɛt frameworksupports ˈmʌltɪpᵊl ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤɪz. ˈfaɪnəli
+00:22:46.179
+ɪf juː stɑːt ˈɛksɪkjuːtɪŋ ɪt kəmˈpaɪlz tuː ɪl kəʊd.
+00:22:50.090
+ˈkwɛsʧən 8 - ɪkˈspleɪn ði ɪmˈpɔːtᵊns ɒv siː-ɛl-ɑː?siː-ɛl-ɑː stændz fɔː ˈkɒmən ˈlæŋɡwɪʤ ˈrʌntaɪm. ɪt
+00:23:01.400
+ɪz ə ˈrʌntaɪm ˌɛksɪˈkjuːʃᵊn ɪnˈvaɪrᵊnmənt ɒv .nɛt.siː-ɛl-ɑː hɛlps tuː ˈɛksɪkjuːt jɔː .nɛt ˌæplɪˈkeɪʃᵊn.
+00:23:08.669
+ðeər ɑː tuː ˈpraɪmᵊri θɪŋz ðə siː-ɛl-ɑː doesfirst ɪt kənˈvɜːts jɔːr ɪl kəʊd tuː ˈneɪtɪv ˈlæŋɡwɪʤ
+00:23:17.220
+ɔː tuː məˈʃiːn ˈlæŋɡwɪʤ. ðɪs ɪz ðə firstwork ɒv siː-ɛl-ɑː. ˈsɛkᵊnd ðɪs ˈneɪtɪv ˈlæŋɡwɪʤ wɒt
+00:23:25.539
+ɪz ðə kəʊd ɪt ˈɛksɪkjuːts ɪt rʌnz ði applicationand wɛn ði ˌæplɪˈkeɪʃᵊn rʌnz ˈɛni kaɪnd ɒv
+00:23:33.580
+ʌnˈjuːst ˈmɛmᵊri ɒv ði ˌæplɪˈkeɪʃᵊn ɪz consumedby ˈɡɑːbɪʤ kəˈlɛktə. siː-ɛl-ɑːr ɪz ˈɔːlsəʊ rɪˈspɒnsəbᵊl
+00:23:41.750
+fɔː ˈɡɑːbɪʤ kəˈlɛktə. siː-ɛl-ɑː praɪˈmɛrᵊli doeslot ɒv θɪŋz bʌt hɪə fɔː ði ˈɪntəvjuː aɪ
+00:23:51.840
+æm higlighting tuː ɪmˈpɔːtᵊnt θɪŋz wʌn isit kənˈvɜːts jɔːr ɪl kəʊd tuː ˈneɪtɪv ˈlæŋɡwɪʤ,
+00:23:58.049
+ˈsɛkᵊnd ɪt rʌnz jɔːr ˌæplɪˈkeɪʃᵊn ænd wɛn yourapplication rʌnz ɪf ðeər ɪz ˈɛni kaɪnd ɒv ʌnˈjuːst
+00:24:03.580
+ˈmɛmᵊri ðæt ɪz kleɪmd baɪ ðɪs ˈɡɑːbɪʤ collectorso ˈrʌnɪŋ ɒv ðə ˈɡɑːbɪʤ kəˈlɛktər ɪz ˈɔːlsəʊ
+00:24:08.369
+pɑːt ɒv siː-ɛl-ɑː.
+00:24:09.370
+ˈkwɛsʧən 9 - wɒt ɪz ðə ˈdɪfᵊrᵊnt betweenmanaged kəʊd ænd ˌʌnˈmænɪʤd kəʊd?
+00:24:15.080
+kəʊd ðæt ˈɛksɪkjuːts ˈʌndə ði ɪnˈvaɪrᵊnmənt ofCLR ɪz kɔːld æz ə ˈmænɪʤ kəʊd. ɔːl ðə kəʊd
+00:24:24.259
+wɒt wiː raɪt ɪn siː# ɔː wiː raɪt ɪn viː-biː.NETwhich ɡɛts kənˈvɜːtɪd ˈɪntuː ɪl kəʊd ɪz ɔːl ˈmænɪʤd
+00:24:29.799
+kəʊd bɪˈkɒz ðə siː-ɛl-ɑː kəmˈpaɪlz ɪt tuː ðə nativelanguage ðə ˈɡɑːbɪʤ kəˈlɛktə kəˈlɛkts wɛn
+00:24:35.399
+ði ˈɒbʤɪkts ɑː nɒt juːzd. ðə kəʊd wɪʧ runsunder ði ʌmˈbrɛlə ɔːr ˈʌndə ðə kənˈtrəʊl ɒv
+00:24:42.989
+siː-ɛl-ɑːr ɪnˈvaɪrᵊnmənt ɪz ə ˈmænɪʤd kəʊd. fɔː examplethis ˈkʌstəmər ɛks = njuː ˈkʌstəmə (); ðɪs ˈstætɪk
+00:24:48.529
+vɔɪd manin, klɑːs ˈprəʊɡræm ɑː ˈmænɪʤd kəʊd.kəʊd wɪʧ dʌz nɒt rʌn ˈʌndə ðə kənˈtrəʊl
+00:24:55.429
+ɒv siː-ɛl-ɑːr ˌɛksɪˈkjuːʃᵊn fɔːr ɪɡˈzɑːmpᵊl siː++ kəʊd, viː-siː++ɔː viː-biː6 kəʊd. ɪn ðɪs kəʊd juː kæn siː aɪ æm
+00:25:04.179
+ɪmˈpɔːtɪŋ ə ˈjuːzə32.dll ðɪs ˈjuːzə32.dll isprobably ɪz siː, siː++ ɔː viː-siː++ ðeɪ hæv ðeə
+00:25:13.340
+əʊn kəmˈpaɪləz ænd əʊn ˈrʌntaɪmz siː-ɛl-ɑː dʌz notcontrol ðɛm. ðiːz kaɪnd ɒv kəʊd ɑː ˈmænɪʤd
+00:25:20.960
+kəʊd. ɪn ðɪs ˈprəʊɡræm wɛn aɪ rʌn ðɪs programit wɪl ˈpɒpˌʌp ə ˈmɛsɪʤ bɒks bʌt ðæt ˈmɛsɪʤ
+00:25:27.970
+bɒks wɒtˈɛvər ɪz ˈkʌmɪŋ aʊt hɪər ɪz comingfrom sʌm ˈʌðə siː++ɔː viː-siː++ ɔː siː kaɪnd ɒv eɪ
+00:25:38.860
+kəʊd. ðɪs kənˈsəʊl ˌæplɪˈkeɪʃᵊn ɪz ɔːl .NETbut juː kæn siː
+00:25:49.470
+ðɪs ˈmɛsɪʤ bɒks hɪə hɛˈləʊ wɜːld ðæts notcoming frɒm siː# ɪt ɪz ˈkʌmɪŋ frɒm ðə ˈjuːzə32.dll
+00:25:57.739
+wɪʧ ɪz ˈprɒbəbli ˈrɪtᵊn ɪn sʌm ˈʌðə languageso ˈmænɪʤd kəʊdz ɑː ðəʊz kəʊdz wɪʧ rʌn
+00:26:03.399
+ˈʌndə ðə kənˈtrəʊl ɒv ðə siː-ɛl-ɑːr ˌɛksɪˈkjuːʃᵊn environmentand ˌʌnˈmænɪʤd kəʊdz ɑː ðəʊz kəʊdz wɪʧ
+00:26:08.809
+rʌn ˌaʊtˈsaɪd ðə siː-ɛl-ɑːr ˌɛksɪˈkjuːʃᵊn environmentlike siː++, viː-siː++, viː-biː6 ænd ðeɪ hæv ðeər əʊn
+00:26:15.860
+kəmˈpaɪləz ðeɪ hæv ðeər əʊn ˈrʌntaɪmz theyhave ðeər əʊn weɪ ɒv ˈduːɪŋ ðə ˈmɛmᵊri ˌæləʊˈkeɪʃᵊn.
+00:26:20.600
+ˈkwɛsʧənz 10 - ɪkˈspleɪn ði ɪmˈpɔːtᵊns ɒv ˈɡɑːbɪʤkəˌlɛktə?
+00:26:26.129
+ˈɡɑːbɪʤ kəˈlɛktər ɪz ə ˈbækɡraʊnd processrunning kənˈtɪnjuəsli ænd kleɪm ˈɛni kaɪnd ɒv
+00:26:31.619
+ʌnˈjuːst ˈmænɪʤd rɪˈzɔːsɪz. aɪ strɛs ɪz thistwo wɜːdz ʌnˈjuːst ˈmænɪʤd rɪˈzɔːsɪz. ɪf ðeə
+00:26:41.690
+ɪz ˈɛni ʌnˈjuːst ˈmænɪʤd rɪˈzɔːsɪz waɪl jɔː.nɛt ˈprəʊɡræm ɪz ˈrʌnɪŋ, ˈɡɑːbɪʤ kəˈlɛktə
+00:26:45.191
+kʌmz naʊ ænd ðɛn ænd stɑːts ˈkliːnɪŋ themup. hɪə, aɪ hæv ə ˈvɛri ˈsɪmpᵊl ˈprəʊɡræm wɪʧ
+00:26:52.080
+ɪz ə fɔː luːp ˈrʌnɪŋ fɔːr ə ˈvɛri lɒŋ ˈpɪəriəd.ðɪs ɪz kriˈeɪtɪŋ ˈkʌstəməz ænd ðɛn dɪˈspəʊzɪŋ
+00:26:59.340
+ðɛm ænd njuː frɛʃ ˈkʌstəməz ɡɛt kriˈeɪtɪd,ˈkʌstəmər ˈɒbʤɪkts ɑː ˈɡɛtɪŋ kriˈeɪtɪd. naʊ
+00:27:08.159
+ˈɡɑːbɪʤ kəˈlɛktə wɪl kʌm ˈɑːftə sʌm timeundermistic taɪm ɪt wɪl kʌm ænd ɪt wɪl
+00:27:14.669
+kliːn ðiːz ˈɒbʤɪkts. wiː kæn siː ðɪs ɪn theprofiler ænd ðɪs ˈprəʊfaɪlə wɪl hɛlp ʌs tuː
+00:27:29.980
+ʃəʊ wɛn ðə garnage kəˈlɛktə rʌnz. Youcan siː fɜːst ðə ˈmɛmᵊri wɒz ˈraɪzɪŋ laɪk njuː
+00:27:38.489
+ˈkʌstəmər ˈɒbʤɪkts wɜː ˈɡɛtɪŋ kriˈeɪtɪd butafter ðæt ˈɡɑːbɪʤ kəˈlɛktər ɪz ˈrʌnɪŋ. naʊ
+00:27:49.600
+ðə ˈmɛmᵊri ɪz flæt səʊ ði ˈɒbʤɪkts ɑː gettingcreated ænd ˈɒbʤɪkts ɑː ˈɡɛtɪŋ kəˈlɛktɪd.
+00:27:57.539
+ˈɡɑːbɪʤ kəˈlɛktər ɪz ə ˈbækɡraʊnd processwhich kiːps ˈrʌnɪŋ kənˈtɪnjuəsli ænd kleɪmz
+00:28:06.929
+ˈɛni kaɪnd ɒv ʌnˈjuːst ˈmænɪʤd rɪˈzɔːsɪz.
+00:28:10.570
+ˈkwɛsʧən 11: - kæn ˈɡɑːbɪʤ kəˈlɛktə claimunmanaged ˈɒbʤɪkts?
+00:28:15.809
+ˌʌnˈmænɪʤd rɪˈzɔːsɪz miːnz ˈɒbʤɪkts wɪʧ aregetting kriˈeɪtɪd baɪ siː++ ɔːr ˈɒbʤɪkts wɪʧ ɑː
+00:28:21.940
+kriˈeɪtɪd baɪ sʌm ˈʌðə ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤ,ði ˈɑːnsər ɪz nəʊ.
+00:28:26.380
+Grabage kəˈlɛktə ˈkænɒt kəˈlɛkt ˈɒbʤɪkts whichare kriˈeɪtɪd ˌaʊtˈsaɪd siː-ɛl-ɑː ˈrʌntaɪm.
+00:28:32.909
+ˈkwɛsʧən 12 :- ɪkˈspleɪn ði ɪmˈpɔːtᵊns ɒv siː-tiː-ɛs?siː-tiː-ɛs stændz fɔː ˈkɒmən taɪp ˈsɪstəm. .nɛt ɪz
+00:28:43.039
+ə ˈfreɪmwɜːk ænd ɪt səˈpɔːts ˈmɛni programminglanguages juː kæn ɪnˈvəʊk ðiː .nɛt ˈlaɪbrᵊri
+00:28:48.790
+ˈjuːzɪŋ siː#, juː kæn ɪnˈvəʊk ðiː .nɛt libraryusing viː-biː.nɛt, ɛf# viː-siː++ .nɛt. ðeər ɑː ˈmɛni
+00:28:59.080
+ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤɪz wɪʧ kæn kəmˈpaɪl tɔɪl kəʊd. bʌt iːʧ wʌn ɒv ðiːz ˈprəʊɡræmɪŋ
+00:29:04.950
+ˈlæŋɡwɪʤɪz wɛn ðeɪ dɪˈfaɪn ðeə ˈdeɪtə typethey hæv ðeər əʊn weɪ ɒv ˈduːɪŋ ɪt. fɔːr ɪɡˈzɑːmpᵊl
+00:29:09.899
+juː kæn siː ɒn ðə skriːn aɪv siː# aʊt ˈhɪərˈɪn siː# wɛn wiː dɪˈfaɪn ə ˈdeɪtə taɪp wiː seɪ int
+00:29:15.480
+aɪ = 0; ænd ɪn viː-biː.nɛt dɪm aɪ æz ˈɪntɪʤə andin viː-siː++ wiː kæn siː ˈʌðə weɪ ɒv ˈduːɪŋ ɪt ɔː
+00:29:26.880
+ɪn ɛf# wiː hæv sʌm ˈʌðə weɪ ɒv declaringthe ˈdeɪtə taɪps. səˈpəʊz ðæt aɪ wɒnt tuː juːz
+00:29:34.820
+ðɪs viː-biː.nɛt kəʊd ɪnˈsaɪd siː# ðɛn haʊ duː aɪ goabout ɪt? ðeə ʃʊd biː sʌm ˈkɒmən ˈplætfɔːm
+00:29:41.269
+bɪˈkɒz ðə ˈdeɪtə taɪps ɑː səʊ ˈdɪfᵊrᵊnt ofeach ˈlæŋɡwɪʤɪz. wɒt ðiː .nɛt kəmˈpaɪlə dʌz
+00:29:47.139
+ɪz ɔː wɛn ðə kəmˈpaɪlər ɪz kəmˈpaɪlɪŋ ðə codeit kəmˈpaɪlz ðɛm ˈɪntuː ə ˈkɒmən taɪp ˈsɪstəm.
+00:29:53.100
+ɪt sɛz jɔː viː-biː.nɛt sɛz dɪm aɪ æz integerC# sɛz aɪ. bəʊθ ɒv ðɛm ɡɛt kəmˈpaɪld ˈɪntuː
+00:30:02.320
+ə ˈkɒmən taɪp ˈsɪstəm wɪʧ ɪz int 32. ɪn thesame weɪ fɔːr ˈʌðə ˈdeɪtə taɪps ɪf juː hæv
+00:30:08.840
+strɪŋ, ʧɑː, ˈdʌbᵊl , ˈdɛsɪmᵊl səʊ ˈkɒmən typesystem ɪnˈʃɔːz wɪˈʧɛvə ˈlæŋɡwɪʤ juː ˈkəʊdɪŋ
+00:30:19.370
+jɔː ˈdeɪtə taɪps wɪl ɡɛt mæpt tuː ə Commondata taɪp ɒv ðiː .nɛt ˈfreɪmwɜːk.
+00:30:25.190
+ˈkwɛsʧənz 13 :- ɪkˈspleɪn ði ɪmˈpɔːtᵊns ofCLS?
+00:30:29.149
+siː-ɛl-ɛs stændz fɔː ˈkɒmən ˈlæŋɡwɪʤ ˌspɛsɪfɪˈkeɪʃᵊn.nɛt səˈpɔːts ˈmʌltɪpᵊl ˈprəʊɡræmɪŋ ˈlæŋɡwɪʤɪz.
+00:30:37.999
+ðiːz ˈprəʊɡræmɪŋ lnaguages ɑː differentin tɜːmz ɒv ˈdeɪtə taɪps ænd bɪˈheɪvjə səʊ ðiː
+00:30:43.350
+ˈdeɪtə taɪps ˈdɪfᵊrᵊns ɪz ˈhændᵊld baɪ CommonType ˈsɪstəm bʌt ðə bɪˈheɪvjər ˈɔːlsəʊ ɒv ðə ˈlæŋɡwɪʤɪz
+00:30:49.830
+ɑː ˈdɪfᵊrᵊnt. siː# ɪz keɪs ˈsɛnsɪtɪv səʊ inC# ɪf juː seɪ int aɪ = 0; ænd int aɪ = 0; bəʊθ
+00:31:02.739
+ɒv ðɛm ɑː ˈdɪfᵊrᵊnt ðeɪ ɑː ˈdɪfᵊrᵊnt ˈveəriəbᵊlz.bʌt ɪn keɪs ɒv viː-biː.nɛt ɪt ɪz nɒt keɪs ˈsɛnsɪtɪv,
+00:31:10.890
+ɪf juː seɪ dɪm aɪ æz ˈɪntɪʤər ænd dɪm aɪ æz Integeryou kɑːnt hæv laɪk ðɪs ɪn viː-biː.nɛt, juː wɪl
+00:31:22.029
+biː ˈɡɛtɪŋ ən ˈɛrə. ɪf juː raɪt siː# codelike ðɪs weə ther ɪz smɔːl aɪ ænd ˈkæpɪtᵊl
+00:31:28.729
+aɪ haʊ kæn viː-biː.nɛt ˌʌndəˈstænd ɪt bɪˈkɒz itdoes nɒt ˌʌndəˈstænd keɪs ˈsɛnsɪtɪvnəs. ɪt
+00:31:35.749
+sɛz fɔː miː aɪ ɪz aɪ ˈwɛðə ˈkæpɪtᵊl aɪ ɔː SmallI. sʌm ˈlæŋɡwɪʤɪz ɪz keɪs ˈsɛnsɪtɪv ænd sʌm
+00:31:45.691
+ˈlæŋɡwɪʤ ɪz nɒt keɪs ˈsɛnsɪtɪv, sʌm languageis ˈfʌŋkʃᵊnᵊl sʌm ˈlæŋɡwɪʤ ɪz nɒt ˈfʌŋkʃᵊnᵊl,
+00:31:51.409
+sʌm ˈlæŋɡwɪʤɪz ˈjuːzɪz ˈpɔɪntəz sʌm ˈʌðə languagedon't juːz ˈpɔɪntəz ɪf ðeɪ stɑːt ˈjuːzɪŋ ðeə
+00:31:56.909
+əʊn ˈkʌstəm bɪˈheɪvjə wɪʧ ɪz nɒt existingin ˈʌðə ˈlæŋɡwɪʤɪz ɪt wɪl bɪˈkʌm ˈvɛri ˈdɪfɪkᵊlt
+00:32:02.460
+tuː hæv krɒs ˌɪntərɒpᵊrəˈbɪləti. ɪn ˈʌðə wordsif aɪ wɒnt tuː kənˈsjuːm siː# kəʊd ɪnˈsaɪd viː-biː.nɛt
+00:32:10.389
+ɪt wʊd biː ˈdɪfɪkᵊlt səʊ ðə ˈkɒmən languagespecification ɪz sɛt ɒv ˈɡaɪdlaɪnz wɪʧ sɛz
+00:32:16.749
+ˈɡaɪdlaɪn nəʊ.1 dont juːz keɪs ˈsɛnsɪtɪvnəs,ˈɡaɪdlaɪn nəʊ. 2 dəʊnt juːz ˈpɔɪntəz, ˈɡaɪdlaɪn
+00:32:23.229
+nəʊ. 3 ænd ˈɡaɪdlaɪn nəʊ. 4. ɪf juː ˈfɒləʊ thoseguidelines ðɛn ɪnˈsaɪd jɔː .nɛt ɪnˈvaɪrᵊnmənt
+00:32:29.500
+juː kæn ˈiːzᵊli kənˈsjuːm ə viː-biː.nɛt kəʊd insideC#, juː kæn kənˈsjuːm ɛf# kəʊd ɪnˈsaɪd siː# ænd
+00:32:36.779
+siː# kəʊd ɪnˈsaɪd ɛf#. juː kæn hæv krɒs interoperabilitybetween ðə ˈlæŋɡwɪʤɪz. aɪ rɪˈpiːt, ˈkɒmən ˈlæŋɡwɪʤ
+00:32:44.559
+ˌspɛsɪfɪˈkeɪʃᵊn ɪz sɛt ɒv ˈɡaɪdlaɪnz ɪf thatis ˈfɒləʊd ðɛn ðə ˈlæŋɡwɪʤɪz ðə kəʊd wɒt
+00:32:53.690
+juː raɪt ɪn ˈdɪfᵊrᵊnt ˈlæŋɡwɪʤɪz kæn resusevery ˈiːzᵊli waɪl ˈkɒmən taɪp ˈsɪstəm wɪʧ
+00:33:01.229
+wiː dɪˈskʌst prviously ɪz ˈnʌθɪŋ bʌt whenthe ˈdeɪtə taɪps ɒv ðə ˈlæŋɡwɪʤɪz ɑː ˈdɪfᵊrᵊnt.
+00:33:06.389
+səʊ ˈkɒmən taɪp ˈsɪstəm mɔː diːlz wɪð datatypes ˈseɪɪŋ dɪm aɪ æz ˈɪntɪʤər ænd int aɪ lɛt
+00:33:13.340
+miː brɪŋ ðɛm ˈɪntuː ə ˈkɒmən ˈplætfɔːm . CLSdeals wɪð ˈdɪfᵊrᵊnt bɪˈheɪvjəz ɒv ðə ˈlæŋɡwɪʤ
+00:33:19.979
+waɪl siː-tiː-ɛs diːlz wɪð ðə ˈdeɪtə taɪps.
+00:33:22.789
+ˈkwɛsʧən 14 :- ɪkˈspleɪn ðə ˈdɪfᵊrᵊns betweenStack ænd hiːp?
+00:33:27.900
+stæk ænd hiːp ɑː ˈmɛmᵊri taɪps ɪnˈsaɪd .NETapplication. wɛn jɔː .nɛt ˌæplɪˈkeɪʃᵊn rʌnz
+00:33:32.860
+ther ɑː tuː ˈmɛmᵊri taɪps wʌn ɪz ə stæk andanother wʌn ɪz ə hiːp. ɒn stæk premitive
+00:33:42.609
+ˈdeɪtə taɪps ɑːr ˈæləʊkeɪtɪd miːnz ˈdeɪtə typeslike ˈɪntɪʤə, ˈbuːliən, ˈdʌbᵊl, ˈdɛsɪmᵊl. ðiːz
+00:33:49.010
+ˈdeɪtə taɪps ɡɛt ˈæləʊkeɪtɪd ɒn ðə stæk andon ðə stæk ðə ˈveəriəbᵊl ænd ðə ˈvæljuː bəʊθ
+00:33:59.570
+ɑː stɔːd æt ðə seɪm pleɪs. fɔː exampleyou kæn siː ðə fɜːst ˈsteɪtmənt int aɪ = 10;
+00:34:05.419
+səʊ hɪər aɪ wɪl biː stɔːd ɪn ðɪs locationand ˈɔːlsəʊ ðə ˈvæljuː 10 wɪl biː stoed ɪn ðiː
+00:34:10.730
+seɪm ləʊˈkeɪʃᵊn, ˈsɛkᵊnd wʌn ˈbuːliən biː ɪn stackit ɡəʊz laɪk wʌn əˈbʌv əˈnʌðə. hɪər ˈɔːlsəʊ
+00:34:18.949
+ðɪs ɪz biː wɪl ɡɛt stɔːd hɪə. ðə memorylocation ɪz seɪm weə ðə ˈvæljuː ɪz səʊ ðiː
+00:34:25.809
+ˈvæljuː truː ɪz ˈɔːlsəʊ stɔːd ɪn ðə seɪm memorylocation. ɪn keɪs ɒv stæk ðə ˈveəriəbᵊl, ðiː
+00:34:35.089
+ˈdeɪtə ænd ðə ˈmɛmᵊri ləʊˈkeɪʃᵊn ɔːl ɑːr æt oneplace. lʊk æt ðə θɜːd θɪŋ hɪə ðɪs ɪz
+00:34:40.418
+ən ˈɒbʤɪkt, wiː ɑː kriˈeɪtɪŋ ə ˈkʌstəmə objectwith ðə ˈvæljuː Shiv ɪn ɪt. ɪn ðɪs keɪs ðiː
+00:34:46.909
+ɛks wɪl biː ˈæləʊkeɪtɪd hɪə bʌt ðə ˈvæljuː willbe stɔːd ɪn ðə hiːp. ðɪs ˈvæljuː wɒtˈɛvə
+00:34:55.949
+juː hæv hɪə neɪm = shiv wɪl biː stɔːd inthe hiːp. ɪn ɛks ˈəʊnli ə ˈpɔɪntə wɪl biː ðeə,
+00:35:04.119
+ðeə wɪl biː ə ˈpɔɪntə hɪər ænd ðæt pointerwill pɔɪnt təˈwɔːdz ði ˈækʧuəl ˈkʌstəmər ˈɒbʤɪkt
+00:35:09.230
+ɛks. ɪn hiːp ˈɒbʤɪkts ɑː stɔːd, ɒn stæk premitivedata taɪps laɪk ˈɪntɪʤə, ˈbuːliən ænd ˈʌðə
+00:35:19.460
+θɪŋz ɑː stɔːd. stæk stɔːz primitivedata taɪps waɪl hiːp stɔːz ˈɒbʤɪkts.
+00:35:26.320
+ˈkwɛsʧənz 15 :- wɒt ɑː ˈvæljuː taɪps & Referencetypes?
+00:35:31.310
+ˈvæljuː taɪps ɑː ðəʊz taɪps wɪʧ ɑː storedon ðə stæk ænd ðə ˈvæljuː ænd ðə ˈpɔɪntə
+00:35:36.670
+miːnz ðə ˈmɛmᵊri ləʊˈkeɪʃᵊn bəʊθ ɑː storedat ðə seɪm pleɪs. ðɪs int aɪ = 10 ðə ˈmɛmᵊri
+00:35:47.289
+ləʊˈkeɪʃᵊn ænd ðə ˈvæljuː ðeɪ ɑː bəʊθ storedat ðə seɪm pleɪs. ˈrɛfᵊrᵊns taɪps ɑː ðəʊz
+00:35:55.849
+taɪps weəˈrɪn ðə ˈpɔɪntər ɪz stɔːd ɒn thestack bʌt ði ˈækʧuəl ˈdeɪtə ɪz stɔːd ɒn ðiː
+00:36:02.430
+hiːp. səʊ ðeər ɪz ə ˈrɛfᵊrᵊns aʊt hɪə. Inreference taɪp ðə ˈmɛmᵊri ˈpɔɪntər ɪz stɔːd
+00:36:09.260
+ɒn ðə stæk bʌt ði ˈækʧuəl ˈdeɪtə laɪk valueShiv stɔːd ɒn ðə hiːp.
+00:36:14.090
+ˈvæljuː taɪps ɑː stɔːd ɒn stæk waɪl referencetypes ɑː stɔːd ɒn hiːp. ˈvæljuː taɪps ɑː
+00:36:15.860
+jɔː ˈnɔːmᵊl ˈdeɪtə taɪps laɪk int, bool, doubleand ˈrɛfᵊrᵊns taɪps ɑːr ɔːl ˈɒbʤɪkts.
+00:36:17.410
+ˈkwɛsʧən 16 : - ɪkˈspleɪn ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ?
+00:36:20.780
+ˈbɒksɪŋ ɪz ˈnʌθɪŋ bʌt ɪt ɪz wɛn jɔː datamoves frɒm ə ˈvæljuː taɪp tuː ə ˈrɛfᵊrᵊns taɪp.
+00:36:29.730
+ɪn ðɪs kəʊd wiː hæv int aɪ = 10 wɪʧ ɪz avalue taɪp bɪˈkɒz ɪt ɪz ˈæləʊkeɪtɪd ɒn ə stæk.
+00:36:36.380
+wiː hæv obje waɪ , naʊ wiː ɑː ˈtraɪɪŋ tuː movethis ˈvæljuː aɪ tuː waɪ ðɪs ɪz tɜːmd æz ˈbɒksɪŋ.
+00:36:43.930
+wɛn juː ɑː ˈmuːvɪŋ ˈvæljuː taɪp tuː ə referencetype ɪz tɜːmd æz ˈbɒksɪŋ. wɛn juː ɑː ˈmuːvɪŋ
+00:36:49.590
+frɒm ˈrɛfᵊrᵊns taɪp tuː ˈvæljuː taɪp ɪz termedas ˌʌnˈbɒksɪŋ. ðə nɛkst laɪn aʊt hɪər ɪz ˌʌnˈbɒksɪŋ
+00:36:56.410
+bɪˈkɒz juː ɑː ˈtraɪɪŋ tuː muːv frɒm ə referencetype tuː ə ˈvæljuː taɪp.
+00:37:01.540
+ðə nɛkst kəˈnɛktɪd ˈkwɛsʧənz tuː ˈbɒksɪŋ andunboxing wɪʧ ˈnɔːmᵊli ði ˈɪntəvjuːə kæn
+00:37:06.770
+ɑːsk juː ɪz ðæt wɒt ɪz ðə ˈkɒnsɪkwəns ofBoxing ænd ˌʌnˈbɒksɪŋ.
+00:37:11.930
+ðə ˈkɒnsɪkwəns ɒv ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ isperformance bɪˈkɒz naʊ jɔː ˈdeɪtə ɪz ˈʤʌmpɪŋ
+00:37:18.690
+frɒm ˈvæljuː taɪp tuː ə ˈrɛfᵊrᵊns taɪp, ɪt isjumping frɒm stæk ˈmɛmᵊri tuː hiːp ðɛn juː
+00:37:24.900
+ɑː ˈʤʌmpɪŋ frɒm hiːp tuː ə stæk. ɪf juː aredoing ðɪs mɔːr ænd ˈɒfᵊn ˈdɛfɪnətli juː wɪl
+00:37:30.180
+hæv ə pəˈfɔːməns ˌɪmplɪˈkeɪʃᵊn.
+00:37:32.069
+ˈkwɛsʧən 18 :- ɪkˈspleɪn ˈkɑːstɪŋ, ɪmˈplɪsɪt castingand ɪkˈsplɪsɪt ˈkɑːstɪŋ?
+00:37:38.819
+fɜːst lɛt ʌs traɪ tuː ˌʌndəˈstænd wɒt ɪz ˈkɑːstɪŋ.ˈkɑːstɪŋ miːnz juː ɑː ˈtraɪɪŋ tuː muːv frɒm
+00:37:44.470
+wʌn ˈdeɪtə taɪp tuː əˈnʌðə ˈdeɪtə taɪp. fɔː exampleyou kæn siː ðɪs ɪz ˈɪntɪʤər aɪ hɪər ænd juː
+00:37:50.119
+ɑː ˈtraɪɪŋ tuː muːv frɒm ˈɪntɪʤə tuː ə doubledata taɪp, ðɪs ɪz tɜːmd æz ˈkɑːstɪŋ. ɪf ˈkɑːstɪŋ
+00:37:58.560
+ɪz ˈhæpᵊnɪŋ ˌɔːtəˈmætɪkᵊli miːnz juː don'thave tuː duː ˈɛniθɪŋ ðɛn ɪt ɪz tɜːmd æz ɪmˈplɪsɪt
+00:38:02.890
+ˈkɑːstɪŋ. juː kæn siː ˈəʊvə hɪər aɪ dəʊnt haveto duː ˈɛniθɪŋ aɪ hæv tuː ʤʌst seɪ aɪ = diː ænd
+00:38:09.640
+ðə ˈvæljuː wɪl muːv ˈɪntɪʤə tuː ðə ˈdʌbᵊl.wɛn juː ɑː ˈmuːvɪŋ frɒm ə ˈləʊə ˈdeɪtə taɪp
+00:38:17.170
+tuː ən ˈhaɪə ˈdeɪtə taɪp juː wɪl ˈnɔːmᵊli haveimplicit ˈkɑːstɪŋ laɪk wɛn juː ɑː ˈtraɪɪŋ
+00:38:21.880
+muːv frɒm ˈɪntɪʤə tuː ə ˈdʌbᵊl int ɪz ə lowerdata taɪp ænd ˈdʌbᵊl ɪz ˈhaɪə ˈdeɪtə taɪp ðɪs
+00:38:27.710
+ɪz tɜːmd æz ɪmˈplɪsɪt ˈkɑːstɪŋ. ɪf juː wantto muːv frɒm ˈdʌbᵊl tuː int ɪt ɪz ˈʃəʊɪŋ miː
+00:38:46.299
+ən ɪkˈsɛpʃᵊn. ɪt ɪz ˈseɪɪŋ aɪ ˈkænɒt kɑːst thisautomatically juː niːd ən ɪkˈsplɪsɪt, hɪər aɪ
+00:38:55.880
+hæv tuː seɪ (int) ðɪs ɪz tɜːmd æz explicitcasting. ˈkɑːstɪŋ miːnz juː ɑː ˈtraɪɪŋ tuː muːv
+00:39:06.799
+frɒm wʌn ˈdeɪtə taɪp tuː əˈnʌðə ˈdeɪtə taɪp. Implicitcasting miːnz juː duː nɒt hæv tuː duː ˈɛniθɪŋ
+00:39:11.420
+ˈspɛʃᵊl ðə ˈvæljuː ʤʌst muːvz frɒm wʌn datatype tuː əˈnʌðə ˈdeɪtə taɪp waɪl ɪkˈsplɪsɪt ˈkɑːstɪŋ
+00:39:18.440
+miːnz juː ɑː ˈtraɪɪŋ tuː muːv frɒm ə higherdata taɪp tuː ˈləʊə ˈdeɪtə taɪp ænd juː niːd
+00:39:23.119
+tuː ˈspɛsɪfaɪ ðə ˈdeɪtə taɪp bɪˈfɔː ðə variablename laɪk ðɪs.
+00:39:27.369
+ˈkwɛsʧən 19 :- wɒt kæn ˈhæpᵊn ˈdjʊərɪŋ explicitcasting?
+00:39:28.805
+wɒt ɪz ðə ˈkɒnsɪkwənsɪz ɒv ɪkˈsplɪsɪt ˈkɑːstɪŋ,ðə ˈkɒnsɪkwəns ɒv ɪkˈsplɪsɪt ˈkɑːstɪŋ kæn biː
+00:39:33.500
+ˈdeɪtə lɒs. ɪn ðɪs keɪs bɪˈkɒz ðeər ɪz nodata lɒs siː# ʤʌst əˈlaʊz juː tuː duː ðə ˈkɑːstɪŋ
+00:39:41.950
+bʌt ɪn ðɪs keɪs juː kæn hæv ə ˈdeɪtə lossbecause ˈɪntɪʤə dʌz nɒt səˈpɔːt ˈdɛsɪmᵊlz.
+00:39:48.170
+hɪə wiː wɪl hæv ə ˈdeɪtə lɒs ðæts waɪ toalert juː ɪt ɪz ˈtɛlɪŋ ðæt heɪ duː juː wɒnt
+00:39:56.980
+tuː ˈrɪəli luːs ˈdɛsɪmᵊl pɑːt ɒv ɪt, aɪl sayyes aɪ wɒnt tuː luːs ˈdɛsɪmᵊl pasrt ɒv ɪt aɪ
+00:40:01.960
+ˌʌndəˈstænd wɒt aɪ æm ˈduːɪŋ. ɪkˈsplɪsɪt castingis laɪk ə ˈwɔːnɪŋ ˈseɪɪŋ juː ɑː ˈɡəʊɪŋ tuː
+00:40:07.800
+hæv ə lɒs ɒv ˈdeɪtə taɪp ɑː juː ʃɔː aboutthis. ɪf aɪ rʌn ðɪs ˈprəʊɡræm juː wɪl siː ɪn
+00:40:14.660
+ðə waɪ aɪ wɪl nɒt siː ðə ˈdɛsɪmᵊl pɑːt ɒv ɪt.juː kæn siː ðɪs ɪz diː ænd ðɪs ɪz waɪ diː ɪz 100.23
+00:40:31.900
+wɪʧ ɪz ˈɪntuː diː1 naʊ frɒm diː1 wɛn aɪ muːv tɔɪ juː kæn siː ɪt hæz rɪˈmuːvd ðə ˈdɛsɪmᵊl səʊ
+00:40:41.050
+hɪə wiː hæv ˈdeɪtə lɒs. ɪn ɪkˈsplɪsɪt castingthere ɪz ə ˌpɒsəˈbɪləti ɒv ˈdeɪtə lɒs ænd wiː
+00:40:46.260
+ʃʊd biː ˈkeəfᵊl ɒv əˈbaʊt ɪt.
+00:40:49.240
+ˈkwɛsʧən 20 :- əˈreɪ viː-ɛs ArrayList.
+00:40:54.369
+ən əˈreɪ ɪz ə fɪkst lɛŋθ saɪz. ðɪs ɪz thearray hɪə ˈhævɪŋ 3 ˈɛlɪmənts səʊ ɪt ɪz fɪkst
+00:41:06.300
+lɛŋθ saɪz. juː kæn ˌriːˈsaɪz ði əˈreɪ butit ɪz kwaɪt ɒv ə ˈsɛrɪməni fɔːr ɪɡˈzɑːmpᵊl aɪ kæn
+00:41:12.849
+seɪ əˈreɪ.ˌriːˈsaɪz , ˌriːˈsaɪz ˈmɛθəd əˈɡɛn belongto ən əˈreɪ ðɛn aɪ hæv tuː pɑːs ɪn myarray.
+00:41:22.780
+ɪt ɪz kwaɪt tideous tuː ˌriːˈsaɪz ən əˈreɪ becausethe həʊl ɡəʊl ɒv əˈreɪ wɒz ɪz fɪkst lɛŋθ.
+00:41:32.280
+əˈreɪ ɪz fɪkst lɛŋθ ðæt ɪz wʌn pɑːt secondit ɪz ˈstrɒŋli taɪp ɪn ˈʌðə wɜːdz ðɪs əˈreɪ
+00:41:38.059
+ɪz ˈvɛri spəˈsɪfɪk taɪp ɒv interger ðæt meansin ðə marray aɪ ˈkænɒt pʊʃ hɪə strɪŋ. hɪə
+00:41:51.309
+aɪ æm ˈtraɪɪŋ tuː pʊʃ ə strɪŋ ɪt ɪz nɒt əˈlaʊd.əˈreɪ ɑː fɪkst saɪz ɔː lɛŋθ ænd ðeɪ ɑː
+00:42:00.240
+ˈstrɒŋli taɪpt. wɛn ɪt kʌmz tuː əˈreɪ listit ɪz ˈflɛksəbᵊl ɪn tɜːmz ɒv ˈnʌmbər ɒv ˈɛlɪmənts.
+00:42:08.119
+aɪ kæn seɪ hɪə mylist.æd(1); mylist.æd(2);ænd aɪ kæn seɪ mylist.æd("Shiv");
+00:42:19.579
+fɜːst ɪz ðə saɪz ɪz ˈflɛksəbᵊl wɛn ɪt comesto arraylist ðə ˈsɛkᵊnd ɪmˈpɔːtᵊnt θɪŋ ɪz
+00:42:40.390
+ɪt ɪz nɒt ˈstrɒŋli taɪpt. daʊn bɪˈləʊ aɪ kæn æd ˈnʌmbə, strɪŋ ðɛn aɪ kæn
+00:42:54.360
+æd ə ˈbuːliən, æd ən ˈɒbʤɪkt. ðə differencebetween əˈreɪ ænd ArrayList ɪz əˈreɪ ɪz fɪkst
+00:43:03.049
+saɪz, ArrayListis ˈflɛksəbᵊl ɪn tɜːmz ɒv saɪz.əˈreɪ ɪz strɒŋ taɪpt waɪl arraylist ɪz nɒt
+00:43:10.300
+ˈstrɒŋli taɪp. ˈɑːftə ðɪs definitelly ə connectedquestion wɪʧ wɪl kʌm ɪz ɪn tɜːmz ɒv pəˈfɔːməns
+00:43:17.869
+ɪz arraylist ɪz ˈbɛtər ɔːr əˈreɪ?
+00:43:19.140
+ˈkwɛsʧən 21 :- huːz pəˈfɔːməns ɪz betterArray ɔː ArrayList?
+00:43:20.980
+wɛn ɪt kʌmz tuː pəˈfɔːməns ˈdɛfɪnətli arrayis ˈbɛtə bɪˈkɒz ɪt ɪz ˈstrɒŋli taɪp. ɪf
+00:43:26.340
+juː lʊk æt ArrayList aɪ kæn æd ə ˈnʌmbə,strɪŋ, ˈbuːliən ænd səʊ ɒn ðæt miːnz aɪ kæn
+00:43:33.289
+æd ˈɛniθɪŋ ɪn maɪ arraylist səʊ ðɪs leadsto ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ. wɛn aɪ æm ˈædɪŋ ˈvæljuː
+00:43:43.030
+1 aʊt hɪə ðæt miːnz aɪ æm ˈmuːvɪŋ frɒm ə valuetype tuː ə ˈrɛfᵊrᵊns taɪp. ɪn ðɪs mylist.æd
+00:43:52.650
+ðɪs æd ɪz ˈteɪkɪŋ ən ˈɒbʤɪkt. ˈbeɪsɪkᵊli Iam ˈmuːvɪŋ frɒm ˈvæljuː taɪp tuː ə ˈrɛfᵊrᵊns taɪp
+00:43:58.059
+ðæt liːdz tuː ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ, becauseof ðæt ðə pəˈfɔːməns ɒv arraylist ɪz nɒt
+00:44:05.640
+ɡʊd ɪn kəmˈpærɪsᵊn wɪð əˈreɪ bʌt arraylisthas ˌflɛksəˈbɪləti bʌt ðæt kʌmz æz ə kɒst ðiː
+00:44:15.680
+pəˈfɔːməns ɪz comparitively ˈsləʊə wɛn itcomes tuː əˈreɪ bɪˈkɒz ɒv ˈbɒksɪŋ ænd ˌʌnˈbɒksɪŋ.
+00:44:21.200
+ˈkwɛsʧən 22 :- wɒt ɑː ʤəˈnɛrɪk kəˈlɛkʃᵊnz?ʤəˈnɛrɪk kəˈlɛkʃᵊnz teɪks ɔːl ðə ɡʊd θɪŋz
+00:44:28.420
+ɒv əˈreɪ ænd teɪks ɔːl ðə ɡʊd θɪŋz ofarraylist ɪt ɪz ˈflɛksəbᵊl. ɪn ə ʤəˈnɛrɪk kəˈlɛkʃᵊn
+00:44:41.270
+aɪ kæn seɪ lɪst geneint = njuː lɪst();ðɪs ɪz ə ʤəˈnɛrɪk kəˈlɛkʃᵊn. Firstit ɪz
+00:44:57.520
+ˈstrɒŋli taɪpt səʊ ɪf aɪ duː ən æd juː kæn seethis ɪz pjʊər ˈɪntɪʤə kəˈlɛkʃᵊn. aɪ ˈkænɒt
+00:45:05.819
+æd ə strɪŋ aʊt hɪə ðæt miːnz ɔːl thatboxing ænd ˌʌnˈbɒksɪŋ ɔːl hæz ɡɒn ɒf. juː
+00:45:16.400
+ˈkænɒt ˈkəʊvɜːt int tuː ə strɪŋ. ˈsɛkᵊnd ɪz Ican æd ˈɛni ˈnʌmbər ɒv ˈɛlɪmənts səʊ ɪt ɪz ˈflɛksəbᵊl.
+00:45:23.880
+ə ʤəˈnɛrɪk kəˈlɛkʃᵊn ɪz ˈstrɒŋli taɪpt andalso ɪn tɜːmz ɒv saɪz ɪt ɪz ˈflɛksəbᵊl səʊ wɛn
+00:45:34.700
+ɪt kʌmz tuː ˈjuːzɪŋ kəˈlɛkʃᵊnz ɪn .nɛt thefavorites fɔːr ˈɛvriwʌn ɪz ə ʤəˈnɛrɪk kəˈlɛkʃᵊn.
+00:45:43.609
+juː kæn siː ðɪs ɪz ðə lɪst ɒv int ænd inthe seɪm weɪ aɪ kæn kriˈeɪt ə lɪst ɒv ˈbuːliən.
+00:45:54.510
+naʊ ðɪs ʤəˈnɛrɪk kəˈlɛkʃᵊn bɪˈkʌmz ə stronglytyped ˈbuːliən kəˈlɛkʃᵊn səʊ ə ʤəˈnɛrɪk kəˈlɛkʃᵊn
+00:46:04.440
+ɪz ˈstrɒŋli taɪpt ˈɔːlsəʊ ðə saɪz ɪz ˈflɛksəbᵊl.ɪt teɪks ɔːl ɡʊd θɪŋz ɒv ði əˈreɪ ðæt
+00:46:10.059
+miːnz ɪt teɪks ə strɒŋ ˈtaɪpnəs ɒv ði arrayand ɪt teɪks ðə ˌflɛksəˈbɪləti ɒv ði arraylist
+00:46:15.160
+ænd wɛn ɪt kʌmz tuː .nɛt ðɪs ɪz ðə mostused taɪp ɒv kəˈlɛkʃᵊn.
+00:46:19.950
+ˈkwɛsʧən 23 :- wɒt ɑː θrɛdz(ˌmʌltɪˈθrɛdɪŋ)ɪn siː#? ɔː haʊ tuː ˈɪmplɪmɛnt ˌmʌltɪˈθrɛdɪŋ
+00:46:25.670
+ɪn siː#?
+00:46:27.370
+ˌmʌltɪˈθrɛdɪŋ ɔː θrɛdz ɪn siː# hɛlps youto ˈɛksɪkjuːt kəʊd parallely. ɪf juː wɒnt tuː
+00:46:35.289
+duː paralle ˌɛksɪˈkjuːʃᵊn ɒv jɔː kəʊd ðɛn youneed tuː juːz θrɛd. juː kæn siː ɪn maɪ kəʊd
+00:46:41.130
+aʊt hɪə wiː hæv ˈmɛθəd1 ænd ˈmɛθəd2. ɪf Iwant tuː ˈɛksɪkjuːt bəʊθ ɒv ðiːz ˈmɛθədz parallely
+00:46:47.640
+ðɛn aɪ niːd tuː kriˈeɪt ə θrɛd. aɪ æm creatinga njuː θrɛd (ˈmɛθəd1) ænd tiː1 ˈmɛθəd2 ðɛn
+00:46:58.020
+tiː.stɑːt(); ænd tiː1.stɑːt(); wɪð ðɪs whathappens ɪz bəʊθ ɒv ðiːz ˈmɛθədz wɪl rʌn
+00:47:03.680
+parallely ænd tuː ˈɪmplɪmɛnt ˈθrɛdɪŋ wiː needto juːz Namespace ˈsɪstəm.ˈθrɛdɪŋ. ɪf aɪ rʌn
+00:47:12.420
+ðɪs kəʊd aʊt hɪər ɪt wɪl rʌn ˈmɛθəd 1 sometimesand ˈmɛθəd2 ˈsʌmtaɪmz. ɪf juː wɒnt tuː ˈɪmplɪmɛnt
+00:47:24.859
+ˈpærəlɛl ˌɛksɪˈkjuːʃᵊn ɔːr ɪf juː wɒnt tuː rʌn yourcode parallely ðɛn juː niːd tuː juːz θrɛdz.
+00:47:33.500
+ˈkwɛsʧən 24 :- wɒts ðə ˈdɪfᵊrᵊns betweenThreads ænd tiː-piː-ɛl?
+00:47:45.089
+ɪn .nɛt 4.ɛks ðeə wɒz ˈsʌmθɪŋ rɪˈliːst wascalled æz tiː-piː-ɛl (tɑːsk ˈpærəlɛl ˈlaɪbrᵊri). juː
+00:47:51.640
+kæn əˈʧiːv ðə seɪm θɪŋ wɒt juː kæn achieveby θrɛdz. ðə seɪm kəʊd wɪʧ aɪ hæv ˈrɪtᵊn
+00:47:56.529
+hɪər aɪ kæn juːz tɑːsk laɪk ðɪs.
+00:48:02.329
+ænd ðɪs kəʊd wɪl ˈɔːlsəʊ rʌn parallely. Theinterviewer ɪz ˈtraɪɪŋ tuː ˌʌndəˈstænd wɒts
+00:48:08.920
+ðə ˈdɪfᵊrᵊns bɪˈtwiːn ˈjuːzɪŋ ə θrɛd andusing tiː-piː-ɛl. bɪˈfɔːr aɪ ˈɑːnsə ðɪs ˈkwɛsʧən aɪ
+00:48:18.170
+wɒnt tuː ʃeər ə ˈvɛri ɪmˈpɔːtᵊnt tɪp. ɪn siː#ˈɪntəvjuːz , ɪn .nɛt ˈɪntəvjuːz ɔːr ˈɛni ˈɪntəvjuː
+00:48:28.299
+ˈɔːlweɪz ˈɑːnsə tuː ðə pɔɪnt. wɛn juː ɡɛt suchquesitons laɪk ɪkˈspleɪn ðə ˈdɪfᵊrᵊns bɪˈtwiːn
+00:48:34.390
+ðɪs ænd ðæt ˈɔːlweɪz ˈɑːnsər ɪmˈpɔːtᵊnt thingsfirst. duː nɒt hɪt əˈraʊnd ðə bʊʃ. ˈɪntəvjuːəz
+00:48:44.501
+ɑː ˈməʊstli ˈsiːniəz ðeɪ ɑːr ɔːlˈrɛdi stressedin ˈprɒʤɛkts ðeɪ nɒt ɡɛt peɪd ˈɛkstrə fɔːr ˈɪntəvjuːz.
+00:48:51.540
+ɒn ðə tɒp ɒv ɪt ɪf hiː ɡɛt sʌm candidateswho ɪz ˈteɪkɪŋ hɪm əˈraʊnd ɪt ɪz nɒt ˈɡəʊɪŋ tuː
+00:48:57.840
+hɛlp. ɪn keɪs ɒv θrɛdz vs tɑːsk ɪf juː tellhim tiː-piː-ɛl hæz async ænd əˈweɪt mʌst biː ɪt wɪl
+00:49:06.660
+nɒt kənˈvɪns hɪm. lɛt ʌs traɪ tuː ˈɑːnsə theimportant pɔɪnts fɜːst wɛn ɪt kʌmz tuː ˈdɪfᵊrᵊnsɪz.
+00:49:14.119
+ðə fɜːst bɪɡ ˈdɪfᵊrᵊns bɪˈtwiːn θrɛd andTask ɪz ðæt tɑːsk dʌz ˈpærəlɛl ˈprəʊsɛsɪŋ
+00:49:20.640
+ðə neɪm ɪtˈsɛlf fɔː tɑːsk ɔː tiː-piː-ɛl ɪz tɑːsk ParallelLibrary. ɪt ˈækʧuəli dʌz ˈpærəlɛl ˈprəʊsɛsɪŋ
+00:49:28.890
+miːnz wɒt? ɪf juː spontan θrɛdz. Let'ssay juː hæv fɔː ˈprəʊsɛsəz ɪn jɔː kəmˈpjuːtə
+00:49:36.880
+stɪl ɔːl ðə tɛn θrɛdz hæv ə processoraffinity ə siː-piː-juː əˈfɪnəti səʊ ðeɪ traɪ tuː rʌn
+00:49:42.869
+ˈəʊnli ɒn ˈprəʊsɛsə1 ɔː ˈprəʊsɛsə2. ɪf juː wantto ˈjuːtɪlaɪz jɔːr ˈʌðə ˈprəʊsɛsəz ðɛn juː
+00:49:51.090
+niːd tuː raɪt sʌm kəʊd laɪk ðɪs tuː ɡɛt thecurrent ˈprəʊsɛsɪz juː niːd tuː seɪ piː.ProcessorAffinity
+00:49:57.769
+rʌn ɒn ˈsɛkᵊnd ˈprəʊsɛsər ɔːr ɒn ðə θɜːd ˈprəʊsɛsə.Itis kwaɪt ə bɪɡ wɜːk səʊ wɛn juː juːz tɑːsk ðiː
+00:50:08.410
+tiː-piː-ɛl ˈlaɪbrᵊri lʊks æt jɔː ˈprəʊsɛsəz ænd sayswhich ɒv ðə ˈprəʊsɛsəz ɑː nɒt ˈləʊdɪd ænd
+00:50:15.019
+rʌnz ðəʊz ˈpærəlɛl kəʊd ɔː ˈpærəlɛl logicinto ðə ˈprəʊsɛsə. tiː-piː-ɛl ˈækʧuəli ˈjuːtɪlaɪzɪz
+00:50:23.200
+jɔː ˈprəʊsɛsəz ɪt ˈækʧuəli dʌz parallelprocessing waɪl θrɛdz hæv ə ˈprəʊsɛsə
+00:50:30.990
+əˈfɪnəti ðeɪ traɪ tuː stɪk tuː ə processornot ˈrɪəli ˈduːɪŋ ˈpærəlɛl ˈprəʊsɛsɪŋ bʌt ˈrɑːðə
+00:50:37.720
+ðæn ˈduːɪŋ ˈkɒntɛkst ˈswɪʧɪŋ ɔː taɪm ˈslaɪsɪŋ.
+00:50:40.849
+ðə fɜːst pɔɪnt wɪʧ ʃʊd kʌm aʊt ɪn thisdifference ɪz ðæt tɑːsk ˈjuːtɪlaɪzɪz jɔː ˈprəʊsɛsəz
+00:50:49.510
+ɪt ˈjuːtɪlaɪzɪz jɔː ˈhɑːdweə ˈprɒpətiz. wiː don'thave tuː raɪt ˈɛkstrə kəʊd fɔːr ɪt waɪl θrɛdz
+00:50:55.369
+hæv ə siː-piː-juː əˈfɪnəti ænd ðə θɜːd piː ɪz ɪnˈkeɪs ɒv tɑːsk aɪ kæn rɪˈtɜːn ə rɪˈzʌlt ɪn keɪs
+00:51:04.460
+ɒv θrɛd aɪ kɑːnt. tuː ɡɛt rɪˈzʌlt frɒm ə threadI wɪl juːz ˈdɛlɪɡəts, ɪˈvɛnts ænd səʊ ɒn. aɪ
+00:51:11.750
+kæn ˈkæpʧər ə tɑːsk, ʧeɪnʤ tɑːsk, weɪt forthe ˈʌðə tɑːsk tuː ˈfɪnɪʃ, aɪ kæn juːz async
+00:51:17.920
+ænd əˈweɪt. tiː-piː-ɛl ɪz ə ˈræpər ɔːr ɪt ɪz ən abstractionwhich ɪz ˈəʊvə θrɛdz ænd ɪt prəˈvaɪdz lɒt
+00:51:33.470
+ɒv θɪŋz. fɜːst wʌn ɪt prəˈvaɪdz Prallel processingsecond wʌn ɪt prəˈvaɪdz ˈpuːlɪŋ ˈrɑːðə ðæn
+00:51:39.510
+ˈbɪldɪŋ frɒm skræʧ ði ˈɒbʤɪkts ɑː takenfrom ðə puːl ænd ðɛn lɒt ɒv plʌs lɒt ɒv
+00:51:44.960
+ˈɛkstrə θɪŋz ɪt hæz ɪt kæn rɪˈtɜːn ə resultfrom ə ˈpærəlɛl ˈprəʊsɛs juː kæn ʧeɪn ə tɑːsk,
+00:51:53.250
+weɪt fɔːr ə tɑːsk tuː ˈfɪnɪʃ, juː kæn juːz asyncand əˈweɪt ænd səʊ ɒn. wɛn juː ɡəʊ bɪˈfɔː ðiː
+00:52:01.059
+ˈɪntəvjuːə wɛn juː ɑːr ɑːskt sʌʧ kaɪnd ofquestions prɪˈpeə jɔː oneliners, spiːk tuː
+00:52:06.850
+ðə pɔɪnt meɪk jɔːr ˈɑːnsəz krɪsp ænd klɪə.wʌn ɒv ðə θɪŋz ˈdjʊərɪŋ ðə tiː-piː-ɛl ænd θrɛd
+00:52:15.349
+ˌkɒnvəˈseɪʃᵊn aɪ wʊd ˈʃɔːli sɛnd tuː ði intervieweris ðæt ɪn təˈdeɪz eɪʤ aɪ wɪl ˈɔːlweɪz juːz tiː-piː-ɛl
+00:52:24.059
+bɪˈkɒz tiː-piː-ɛl ɪz ə ˈræpər ɒn ðə θrɛdz providingall ðiːz ˈfiːʧəz səʊ waɪ wʊd aɪ ˈɛvə juːz
+00:52:28.670
+θrɛdz. ɪn keɪs aɪ hæv ˈlɛɡəsi kəʊd ɪn .nɛt2.0 ɔː 3.0 ɪt meɪk sɛns tuː juːz θrɛdz bʌt
+00:52:35.539
+ɪf juː tɔːk əˈbaʊt .nɛt kɔːr ɔːr ɪf juː talkabout .nɛt 4.ɛks ˈɛni ˈvɜːʒᵊn wiː wʊd ʤʌst juːz
+00:52:42.030
+tiː-piː-ɛl ænd nɒt ði əʊld θrɛdz.
+00:52:45.220
+ˈkwɛsʧən 25 :- haʊ ɑːr ɪkˈsɛpʃᵊnz handledin siː#?
+00:52:52.700
+ɪkˈsɛpʃᵊnz ɑː ˈhændᵊld baɪ ˈjuːzɪŋ ðə traɪ/catchblocks. aɪ hæv ə ˈvɛri ˈsɪmpᵊl kəʊd ɪn ðɪs
+00:52:57.980
+ˈsɪmpᵊl kəʊd æt ðɪs laɪn wiː ɑː ˈɡəʊɪŋ tuː getan ˈɪnfɪnət ɪkˈsɛpʃᵊn ɔː dɪˈvaɪd baɪ ˈzɪərəʊ ɪkˈsɛpʃᵊn.
+00:53:07.069
+ɪn wɪˈʧɛvə ˈpleɪsɪz juː wɪl ɡɛt ən exceptionyou wɪl ræp ðæt pleɪs wɪð traɪ blɒk. aɪ
+00:53:13.760
+æm ɪkˈspɛktɪŋ ɪn ðiːz tuː laɪnz aɪ kæn haveerror aɪ hæv ræpt ðɛm ˈɪntuː traɪ blɒk ænd
+00:53:21.940
+naʊ ɪf ˈɛni ɪkˈsɛpʃᵊn ˈhæpᵊnz ɪt wɪl jumpto ðə kæʧ blɒk. ɪn ðə kæʧ blɒk aɪ kæn
+00:53:31.400
+dɪˈsaɪd wɒt tuː duː wɛn ðɪs ˈɛrə ˈhæpᵊnz.hɪər aɪ wɪl seɪ ɪf ɪkˈsɛpʃᵊn ˈhæpᵊnz ðɛn
+00:53:37.460
+ʤʌst ʃəʊ dɪˈvaɪd baɪ ˈzɪərəʊ ˈɛrə, ˈrɛntə thevalue. ɪkˈsɛpʃᵊnz ɑː ˈhændᵊld baɪ ˈjuːzɪŋ traɪ
+00:53:49.740
+kæʧ blɒk. ɪf aɪ rʌn ðɪs
+00:54:02.049
+maɪ ˌæplɪˈkeɪʃᵊn hæz ˈhændᵊld ɪkˈsɛpʃᵊn ˈɡreɪsfᵊli.ɪf juː duː nɒt hæv ə traɪ kæʧ blɒk ɪt ʤʌst
+00:54:14.160
+θrəʊz ʌp ði ɪkˈsɛpʃᵊn ænd ɪt liːvz ɪt tothe ˌæplɪˈkeɪʃᵊn tuː ˈhændᵊl ɪt. ɪf ði ɪkˈsɛpʃᵊnz
+00:54:23.119
+ɑː nɒt ˈhændᵊld ði ˌæplɪˈkeɪʃᵊn ʤʌst crasheslike ðɪs. ɪkˈsɛpʃᵊn ɑː ˈhændᵊld baɪ ˈjuːzɪŋ
+00:54:28.490
+ðə traɪ kæʧ blɒk. əˈnʌðə conencted questionwhich kʌmz ˈəʊvə hɪər ɪz wɒt ɪz ðə juːs ɒv
+00:54:38.020
+ðə ˈfaɪnəli blɒk?
+00:54:39.190
+ˈkwɛsʧən 26 :- wɒt ɪz ðə niːd ɒv finallyblock?
+00:54:43.980
+ˈfaɪnəli blɒk ɪz ə pleɪs weə juː raɪt thecode wɪʧ wʊd ˈɛksɪkjuːt ˌɪrɪˈspɛktɪv juː
+00:54:51.921
+hæv ən ɪkˈsɛpʃᵊn ɔː juː duː nɒt hæv ən ɪkˈsɛpʃᵊn.ɪn ðə ˈfaɪnəli blɒk juː wɒnt tuː raɪt sʌm
+00:54:58.359
+kliːn ʌp kəʊd , sʌm ˈmɛmᵊri ænd səʊ ɒn. Youcan raɪt ðæt ɪn ðə ˈfaɪnəli blɒk. ˌɪrɪˈspɛktɪv
+00:55:10.921
+juː hæv ən ɪkˈsɛpʃᵊn ɔː juː duː nɒt hæv anexception ðɪs kəʊd wɪl ˈɔːlweɪz ˈɛksɪkjuːt. ɪf
+00:55:16.641
+aɪ rʌn ðɪs naʊ juː wɪl siː aɪ ɡɛt dɪˈvaɪd byzero ˈɛrə bʌt ˈɔːlsəʊ ðə kliːn ʌp kəʊd rʌnz.
+00:55:26.040
+ɪf aɪ dəʊnt ˈiːvᵊn hæv ən ɪkˈsɛpʃᵊn ðɛn alsomy ˈfaɪnəli blɒk wɪl rʌn. juː kæn siː aɪ dəʊnt
+00:55:35.130
+hæv ði ɪkˈsɛpʃᵊn, ɪt hæz nɒt ɡɒn tuː thecatch blɒk bʌt ðə kliːn ʌp kəʊd stɪl rʌnz.
+00:55:41.269
+ɪn ˈfaɪnəli blɒk wiː pʊt ðæt kəʊd wɪʧ willrun ˌɪrɪˈspɛktɪv ɪf ðeər ɪz ən ˈɛrər ɔːr ɪf
+00:55:47.670
+ðeər ɪz nəʊ ˈɛrə.
+00:55:48.670
+ˈkwɛsʧən 27 :- waɪ duː wiː niːd ði aʊt ˈkiːˌwɜːd?wɒt ɪz ðə juːs ɒv aʊt ˈkiːˌwɜːd ɪn siː#?
+00:55:59.170
+wɛn juː raɪt ə siː# ˈfʌŋkʃᵊnz ɪt rɪˈtɜːnz onlyone ˈvæljuː. bʌt wɒt ɪf juː wɒnt tuː rɪˈtɜːn
+00:56:06.900
+ˈmʌltɪpᵊl ˈvæljuː? ɪn ðɪs keɪs juː wɒnt tuː returnan əˈdɪʃᵊn, ˌmʌltɪplɪˈkeɪʃᵊn, dɪˈvɪʒᵊn juː
+00:56:17.140
+wɒnt ˈmʌltɪpᵊl rɪˈtɜːn ˈvæljuːz ðɛn juː willuse ði ˈaʊə ˈkiːˌwɜːd. hɪər aɪ kæn kriˈeɪt æn
+00:56:24.759
+aʊt wɪʧ ɪz ən əˈdɪʃᵊn, ən aʊt wɪʧ issubtraction ænd səʊ ɒn. aɪ kæn seɪ hɪər æd
+00:56:43.579
+= num1 + num2; aɪ dəʊnt niːd rɪˈtɜːn taɪp meansthe ˈaʊtpʊt wɪl biː sɛnt ɪn ðiːz ˈveəriəbᵊlz
+00:56:51.170
+ðɛn aɪ wɪl seɪ sʌb = num1 - num2; ðɛn onthe ˈkɔːlə saɪd wiː kæn seɪ ðɪs wɪl hæv
+00:57:03.450
+ðə ˈvæljuː ɒv səbˈtrækʃᵊn ænd ðɛn wiː kæn invokethe MyMaths ˈfʌŋkʃᵊn ænd wiː kæn seɪ wɒtˈɛvə
+00:57:11.520
+ɪz ðə ˈkælkjəleɪtɪd ˈvæljuː ɪn ðɪs æd ænd subplease sɛnd ɪt bæk tuː æd hɪər ænd pliːz
+00:57:19.099
+sɛnd ɪt bæk tuː sʌb hɪə. aɪ kæn rɪˈtɜːn multiplevalues frɒm ə ˈfʌŋkʃᵊn. ðə həʊl ɡəʊl ɒv
+00:57:26.710
+ði aʊt ˈkiːˌwɜːd ɪz tuː rɪˈtɜːn ˈmʌltɪpᵊl valuesfrom ə ˈfʌŋkʃᵊn.
+00:57:31.559
+ə ˈvɛri bɪɡ kənˌɡræʧəˈleɪʃᵊnz juː hæv kəmˈpliːtɪd27 ˈkwɛsʧənz. wiː hæv mɔː 3 ˈkwɛsʧənz tuː
+00:57:41.960
+ɡəʊ. ðɪs ˈvɪdiəʊ hæz ɔːlˈrɛdi bɪˈkʌm mɔː thanan aʊə, aɪ wɪl ɡəʊ θruː ðiːz θriː ˈkwɛsʧənz
+00:57:50.329
+theoritically ɪn ðɪs pɑːt 1 ænd ɪn pɑːt 2aɪ wɪl ʃəʊ juː ðə kəʊd ˌdɛmənˈstreɪʃᵊnz. ðiːz
+00:57:58.060
+ɑː θriː ˈkwɛsʧənz wɪʧ ɑː flæʃt ɒn thescreen. lɛt ʌs ɡəʊ θruː ði ˈɑːnsəz ɒv ðɛm
+00:58:04.759
+ænd ɪn ðə nɛkst ˈvɪdiəʊ aɪ.iː. pɑːt 2 wiː willsee ðə ˌdɛmənˈstreɪʃᵊn ɒv ɪt.
+00:58:10.799
+Quesiton 28 :- wɒt ɪz ðə niːd ɒv ˈdɛlɪɡəts?
+00:58:14.559
+ˈɛni siː# ˈɪntəvjuː dʌz nɒt ɡɛt kəmˈpliːtɪd witha ˈkwɛsʧən ɒn ˈdɛlɪɡəts ænd ɪˈvɛnts. hɪər ɪz
+00:58:22.380
+ði ˈɑːnsə - ˈdɛlɪɡət ɪz ə ˈpɔɪntə tuː functionand ɪt ɪz ˈvɛri ˈjuːsfᵊl wɛn juː tɔːk əˈbaʊt
+00:58:27.300
+kəˈmjuːnɪkeɪtɪŋ bɪˈtwiːn θrɛdz. ɪf juː havea ˌmʌltɪˈθrɛdɪd ɪnˈvaɪrᵊnmənt ænd ɪf juː wɒnt
+00:58:33.109
+tuː kəˈmjuːnɪkeɪt bɪˈtwiːn ðəʊz θrɛdz thendeligate ɪz ə weɪ tuː ɡəʊ əˈhɛd. ˈdɛlɪɡət ɪz
+00:58:38.720
+ə kɔːl bæk ɪt ɪz ə ˈpɔɪntə tuː ə functionto kəˈmjuːnɪkeɪt bɪˈtwiːn θrɛdz.
+00:58:45.240
+ˈkwɛsʧən 29 :- wɒt ɑːr ɪˈvɛnts?ɪˈvɛnts ɑː ˈræpər ˈəʊvə ˈdɛlɪɡəts, ðeɪ ɑː
+00:58:52.509
+encapsulation ˈəʊvə ˈdɛlɪɡəts. ðeɪ ensuredelegates ˈkænɒt biː ˈtɛmpəd baɪ ˈɛniwʌn. ɪˈvɛnts
+00:59:00.029
+ʧeɪnʤ ðə ˈdɛlɪɡəts tuː ə ˈpʌblɪʃə səbˈskraɪbə ˈmɒdᵊl.
+00:59:12.920
+naʊ ɪn pɑːt 2 aɪ wɪl ʃəʊ juː ɪn practicalway waɪ ði ˈɑːnsər ɪz laɪk ðɪs. tuː maɪ bɛst
+00:59:26.230
+ˌʌndəˈstændɪŋ wɛn juː siː ˈsʌmθɪŋ practicallyyou ɡrɑːsp mʌʃ ˈbɛtə. ɪn pɑːt 2 wiː wɪl biː
+00:59:31.430
+ˈɡəʊɪŋ 28, 29 ænd 30 əˈɡɛn.
+00:59:34.670
+ˈkwɛsʧən 30 :- wɒts ðə ˈdɪfᵊrᵊns betweenAbstract klɑːs ænd ˈɪntəfeɪs?
+00:59:38.890
+ˈæbstrækt klɑːs ɪz ə hɑːf dɪˈfaɪnd ˈpeərᵊnt classso ɪt kʌmz ɪnˈhɛrɪtᵊns. ɪf juː hæv ˈmɛni
+00:59:45.579
+ˈklɑːsɪz ænd hæv ˈɛni ˈkɒmən bɪˈtwiːn ðɛm thenprobably ɪt ɪz ɡʊd tuː ɡəʊ ænd kriˈeɪt ən ˈæbstrækt
+00:59:51.349
+klɑːs, ˈpeərᵊnt klɑːs ænd pʊt ðə ˈkɒmən functionalitiesinto ðə ˈpeərᵊnt klɑːs waɪl ˈɪntəfeɪs ɪz eɪ
+00:59:59.319
+ˈkɒntrækt ænd ɪt hæz tuː biː ˈɪmplɪmənt. Interfacekind ɒv ˈfɔːsɪz ə ˈstrʌkʧər ˈɪntuː ə klɑːs. ðɪs
+01:00:10.260
+ɪz wɒt ðiːz θriː ˈkwɛsʧənz ɑː. wɒt isthe niːd ɒv ˈdɛlɪɡəts? ɪt ɪz ə kɔːl bæk,
+01:00:15.140
+ə ˈpɔɪntə tuː ə ˈfʌŋkʃᵊn. wɒt ɑːr ɪˈvɛnts?ɪˈvɛnts ɑː encapsulation ˈəʊvə ˈdɛlɪɡəts wɒts
+01:00:19.740
+ðə ˈdɪfᵊrᵊns bɪˈtwiːn ˈæbstrækt klɑːs andinterface. ˈæbstrækt klɑːs ɪz ə hɑːf dɪˈfaɪnd
+01:00:24.930
+ˈpeərᵊnt klɑːs waɪl ˈɪntəfeɪs ɪz ə ˈkɒntrækt.
+01:00:28.789
+bɪˈfɔː wiː ræp ʌp ðɪs wʌn aʊər ɒv trainingvideo aɪ wʊd laɪk tuː ˈkwɪkli ɡəʊ θruː θriː
+01:00:36.029
+tɪps, ðiːz tɪps wɪl kiːp ɪnˈkriːsɪŋ səʊ aswe duː pɑːt 2, pɑːt 3. ðeər ɑː laɪk 10 tɪps
+01:00:41.599
+wɪʧ aɪl biː ˈʃeərɪŋ wɪð juː ˈɡræʤuəli.naʊ ɪn ðiːz 3 tɪps fɜːst tuː tɪps aɪv ɔːlˈrɛdi
+01:00:48.450
+dɪˈskʌst ɪn ðə ˈpriːviəs pɑːt ɒv ðə videobut aɪl ʤʌst ˈɪtəreɪt ˈəʊvə hɪə.
+01:00:51.519
+tɪp nəʊ. 1 - duː nɒt hɪt əˈraʊnd ðə bʊʃ answerto ðə pɔɪnt. ði ˈɪntəvjuːə dʌz nɒt hæv
+01:00:58.900
+taɪm tuː ˈlɪsᵊn jɔː həʊl ˈsɑːɡə ænd Raga. Justanswer tuː ðə pɔɪnt.
+01:01:05.000
+ˈsɛkᵊnd tɪp - fɜːst θɪŋ fɜːst, ɪf somebodyasking wɒt ɪz ðə ˈdɪfᵊrᵊns bɪˈtwiːn .nɛt
+01:01:11.569
+kɔːr ænd .nɛt ˈfreɪmwɜːk duː nɒt stɑːt ˈseɪɪŋ.nɛt ˈfreɪmwɜːk ɪz əʊld wʌn ænd .nɛt kɔːr ɪz
+01:01:15.789
+njuː wʌn. .nɛt kɔː rʌnz krɒs ˈplætfɔːm ænd.nɛt ˈfreɪmwɜːk rʌnz ˈəʊnli ɒn ˈwɪndəʊz. seɪ ðiː
+01:01:23.750
+ɪmˈpɔːtᵊnt pɔɪnts fɜːst, duː nɒt weɪst interviewerstime.
+01:01:28.049
+ænd tɪp nəʊ. 3 - juːz raɪt ˈtɛknɪkᵊl vocubulary,ɪmˈprɛs ði ˈɪntəvjuːə baɪ ˈjuːzɪŋ ˈpɒlɪʃt
+01:01:36.160
+ænd ˈprɒpə raɪt ˈtɛknɪkᵊl vəˈkæbjəlᵊri. Ifsomebody ɑːsk juː ə ˈkwɛsʧən ˈəʊvər ɪˈvɛnts. ˈsʌmwʌn
+01:01:44.099
+kæn seɪ ɪˈvɛnts ɑː ˈræpər ˈəʊvə ˈdɛlɪɡəts.ɡʊd ˈɑːnsə raɪt ˈɑːnsə bʌt nɒt ˈpɒlɪʃt
+01:01:51.200
+bʌt ɪf ˈsʌmbədi sɛz ɪˈvɛnts ɑː encapsulationover ˈdɛlɪɡəts. ɪˈvɛnts kriˈeɪt ə ˈpʌblɪʃə
+01:01:58.319
+səbˈskraɪbə ˈmɒdᵊl. ˈɪŋɡlɪʃ ɪz maɪ ˈsɛkᵊnd laguagebut ʤʌst bɪˈkɒz aɪ nəʊ ðə ˈtɛknɪkᵊl vəˈkæbjəlᵊri
+01:02:09.789
+aɪ kæn ɪmˈprɛs ði ˈɪntəvjuːə. ɪˈvɛnts areencapsulation ˈəʊvə ˈdɛlɪɡəts ænd ɪˈvɛnts hɛlps
+01:02:15.829
+juː tuː kriˈeɪt ə ˈpʌblɪʃə səbˈskraɪbə kindof ən ɪnˈvaɪrᵊnmənt. hæv ðə raɪt ˈtɛknɪkᵊl
+01:02:21.349
+vəˈkæbjəlᵊri. wɒt ɪz ˈdɛlɪɡət? ə ˈpɔɪntə toa ˈfʌŋkʃᵊn, ˈkɔːlbæks. ˈɪntəfeɪs ɪz ə ˈkɒntrækt.
+01:02:31.440
+ðiːz ɑː ˈtɛknɪkᵊl vəˈkæbjəlᵊriz wɪʧ spiceup jɔːr ˈɑːnsə. həʊp ðæt juː wɪl rɪˈmɛmbə
+01:02:38.390
+ðiːz θriː tɪps aʊt ðeə.
+01:02:41.369
+ðæt brɪŋz ʌs tuː ði ɛnd ɒv ˈaʊə 30 ˈkwɛsʧənz.æz dɪˈskʌst wiː hæv ˈkʌvəd ɔːl 30 ˈkwɛsʧənz
+01:02:48.170
+ɪn ðɪs ˈvɪdiəʊ. ˈvɛri ˈkwɪkli ðə lɑːst threequestions ðæt ɪz rɪˈɡɑːdɪŋ ðə ˈdɛlɪɡəts
+01:02:54.859
+, rɪˈɡɑːdɪŋ ði ɪˈvɛnts ænd ði ˈæbstrækt classand ˈɪntəfeɪs aɪ dɪd nɒt ɡəʊ tuː mʌʧ ɪn debth.
+01:02:59.900
+aɪ ʤʌst wɛnt θruː sʌm ˈɑːnsəz bʌt dɪd notshow ə ˈdɛməʊ. wiː ɑː ˈɡəʊɪŋ tuː hæv naʊ mɔː
+01:03:08.400
+pɑːts ɒv siː# ˈɪntəvjuː ˈkwɛsʧən. ðiːz aremore ədˈvɑːnst ˈsɪəriːz ænd ðiːz ˈsɪəriːz ɑː
+01:03:12.240
+ɔːl əˈveɪləbᵊl ɒn questpond.kɒm , ɪn ðə pɑːt2 aɪl biː ˈdɛmənstreɪtɪŋ wɒt ɪz ə ˈdɛlɪɡət?
+01:03:18.779
+wɒt ɪz ən ɪˈvɛnt? ɪn wɒt sitation wiː shoulduse ə ˈdɛlɪɡət. wɒt ɪz ðə ˈdɪfᵊrᵊns bɪˈtwiːn
+01:03:23.410
+ˈdɛlɪɡəts ænd ɪˈvɛnts ðɛn aɪ wɪl ˈɔːlsəʊ talkabout ˈæbstrækt klɑːs ænd ˈɪntəfeɪsɪz. ðə pɑːt
+01:03:28.940
+2 ɒv ðə ˈsɪəriːz wɪl ˈkʌvər ɪˈvɛnts ænd ˈdɛlɪɡəts.
+01:03:34.480
+ˈhæpi ʤɒb ˈhʌntɪŋ, θæŋk juː! ˈhæpi ˈlɜːnɪŋ!

@@ -1,0 +1,55 @@
+https://notegpt.io/detail?id=u99wAoBjDvQ&type=1&utm_source=youtube-transcript-generator&epl=1
+https://unalengua.com/ipa-translate?ttsLocale=en-GB-WLS&voiceId=Geraint&text=Question+3%3A+What+is+a+class+and+object%3F%0AClass+is+a+type%2C+blue+print+and+object+is+a+instance+of+the+class
+https://www.youtube.com/watch?v=u99wAoBjDvQ&list=PLQMqUlV2_B8mQBoaID5UIQ3vuju2k6gHk&index=3
+---------------------------------------------
+Question 3: What is a class and object?
+Class is a type, blue print and object is a instance of the class
+kwˈɛst͡ʃən 3: wˈɒt ˈɪz ˈe͡ɪ klˈas ˈand ˈɒbd͡ʒɛkt?
+klˈas ˈɪz ˈe͡ɪ tˈa͡ɪp, blˈuː pɹˈɪnt ˈand ˈɒbd͡ʒɛkt ˈɪz ˈe͡ɪ ˈɪnstəns ˈɒv ðˈə klˈas
+Câu hỏi 3: Lớp và đối tượng là gì?
+Lớp là một kiểu dữ liệu, một bản thiết kế, còn đối tượng là một thể hiện của lớp đó.
+Question 4: Abstraction and Encapsulation
+Abstraction: Show only whats necessary.
+Encapsulation: Hide complexity (private, protected, public, internal)
+kwˈɛst͡ʃən 4: ɐbstɹˈakʃən ˈand ɛŋkˌapsuːlˈe͡ɪʃən
+ɐbstɹˈakʃən: ʃˈə͡ʊ ˈə͡ʊnli wˈɒts nˈɛsɪsəɹi.
+ɛŋkˌapsuːlˈe͡ɪʃən: hˈa͡ɪd kəmplˈɛksɪti
+---------------------------------------------
+Câu hỏi 4: Trừu tượng và Đóng gói
+Trừu tượng: Chỉ hiển thị những gì cần thiết.
+Đóng gói: Che giấu sự phức tạp
+Abstraction happens during design phase
+What has to be show public
+During execution phase developer
+Uses Encapsulation(public private protected) to implement Abstraction
+Encapsulation umplements abstraction
+---------------------------------------------
+Question 5: Explain Inheritance
+Inheritance defines a parent child relationship.
+kwˈɛst͡ʃən 5: ɛksplˈe͡ɪn ɪnhˈɛɹɪtəns
+ɪnhˈɛɹɪtəns dɪfˈa͡ɪnz ˈe͡ɪ pˈe͡əɹənt t͡ʃˈa͡ɪld ɹɪlˈe͡ɪʃənʃˌɪp.
+Câu 5: Giải thích về sự thừa kế
+Sự thừa kế định nghĩa mối quan hệ cha con.
+---------------------------------------------
+Question 6: Explain virtual keyword?
+Question 7: What is overriding?
+Virtual keyword helps us to define some logic in the
+parent class which can be overridden in the child class.
+Câu 6: Giải thích từ khóa virtual?
+Câu 7: Ghi đè là gì?
+Từ khóa virtual giúp chúng ta định nghĩa một số 
+logic trong lớp cha,mà có thể được ghi đè trong lớp con.
+kwˈɛst͡ʃən 6: ɛksplˈe͡ɪn vˈɜːt͡ʃuːə͡l kˈiːwɜːd?
+kwˈɛst͡ʃən 7: wˈɒt ˈɪz ˌə͡ʊvəɹˈa͡ɪdɪŋ?
+vˈɜːt͡ʃuːə͡l kˈiːwɜːd hˈɛlps ˈʌs tˈuː dɪfˈa͡ɪn sˈʌm lˈɒd͡ʒɪk ˈɪn ðˈə
+pˈe͡əɹənt klˈas wˈɪt͡ʃ kˈan bˈiː ˌə͡ʊvəɹˈɪdən ˈɪn ðˈə t͡ʃˈa͡ɪld klˈas.
+---------------------------------------------
+Question 8: Explain overloading?
+Method overloading means same method names 
+with different signature in the same class.
+kwˈɛst͡ʃən 8: ɛksplˈe͡ɪn ˌə͡ʊvəlˈə͡ʊdɪŋ?
+mˈɛθəd ˌə͡ʊvəlˈə͡ʊdɪŋ mˈiːnz sˈe͡ɪm mˈɛθəd nˈe͡ɪmz
+wˈɪð dˈɪfɹənt sˈɪɡnɪt͡ʃə ˈɪn ðˈə sˈe͡ɪm klˈas.
+Câu hỏi 8: Giải thích về nạp chồng phương thức?
+Nạp chồng phương thức nghĩa là cùng một phương thức có tên giống nhau
+nhưng chữ ký khác nhau trong cùng một lớp.

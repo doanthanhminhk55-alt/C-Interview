@@ -53,3 +53,65 @@ wˈɪð dˈɪfɹənt sˈɪɡnɪt͡ʃə ˈɪn ðˈə sˈe͡ɪm klˈas.
 Câu hỏi 8: Giải thích về nạp chồng phương thức?
 Nạp chồng phương thức nghĩa là cùng một phương thức có tên giống nhau
 nhưng chữ ký khác nhau trong cùng một lớp.
+---------------------------------------------
+Question 9: Overloading vs Overriding?
+Overloading: Method with same names with different signature
+Overriding: Using virtual keyword and overridding in child class
+kwˈɛst͡ʃən 9: ˌə͡ʊvəlˈə͡ʊdɪŋ vˌiːˈɛs ˌə͡ʊvəɹˈa͡ɪdɪŋ?
+ˌə͡ʊvəlˈə͡ʊdɪŋ: mˈɛθəd wˈɪð sˈe͡ɪm nˈe͡ɪmz wˈɪð dˈɪfɹənt sˈɪɡnɪt͡ʃə
+ˌə͡ʊvəɹˈa͡ɪdɪŋ: jˈuːzɪŋ vˈɜːt͡ʃuːə͡l kˈiːwɜːd ˈand ˌə͡ʊvəɹˈɪdɪŋ ˈɪn t͡ʃˈa͡ɪld klˈas
+Câu hỏi 9: Nạp chồng (Overloading) so với Ghi đè (Overriding)?
+Nạp chồng: Phương thức có cùng tên nhưng chữ ký khác nhau
+Ghi đè: Sử dụng từ khóa `virtual` và ghi đè trong lớp con
+---------------------------------------------
+Question 10: What is polymorphism?
+Poly means Many, Morph means change as per situation.
+Its an ability of object to act differently under different condition
+kwˈɛst͡ʃən 10: wˈɒt ˈɪz pˈɒlɪmˌɔːfɪzəm?
+pˈɒlɪ mˈiːnz mˈɛni, mˈɔːf mˈiːnz t͡ʃˈe͡ɪnd͡ʒ ˈaz pˈɜː sˌɪt͡ʃuːˈe͡ɪʃən.
+ˈɪts ˈan ɐbˈɪləti ˈɒv ˈɒbd͡ʒɛkt tˈuː ˈakt dˈɪfɹəntli ˈʌndə dˈɪfɹənt kəndˈɪʃən
+Câu hỏi 10: Đa hình là gì?
+Poly nghĩa là nhiều, Morph nghĩa là thay đổi theo tình huống.
+Hành động khác nhau trong các điều kiện khác nhau
+---------------------------------------------
+Question 11: Can polymorphism work without Inheritance?
+No
+---------------------------------------------
+Question 12: Explain Static vs Dynamic polymorphism?
+Static poly is implemented by method overloading.(Static)
+Dynamic poly is implemented by method overridding.(Run time)
+---------------------------------------------
+Question 13: Explain operator overloading?
+Operator overloading helps to redefine additional 
+functionalities for plus, minus,multi and addition.
+kwˈɛst͡ʃən 13: ɛksplˈe͡ɪn ˈɒpəɹˌe͡ɪtə ˌə͡ʊvəlˈə͡ʊdɪŋ?
+ˈɒpəɹˌe͡ɪtə ˌə͡ʊvəlˈə͡ʊdɪŋ hˈɛlps tˈuː ɹˌiːdɪfˈa͡ɪn ɐdˈɪʃənə͡l
+fˌʌŋkʃənˈalɪtiz fˈɔː plˈʌs, mˈa͡ɪnəs,mˈʌlti ˈand ɐdˈɪʃən.
+Câu hỏi 13: Giải thích về nạp chồng toán tử?
+Nạp chồng toán tử giúp định nghĩa lại 
+các chức năng bổ sung cho phép cộng, trừ, nhân và cộng.
+---------------------------------------------
+Question 14: How to do custom operator overloading?
+---------------------------------------------
+Question 15: Why do we need Abstract Classes?
+Abstract class is a half defined parent class.
+Câu hỏi 15: Tại sao chúng ta cần các lớp trừu tượng?
+Lớp trừu tượng là một lớp cha chưa được định nghĩa đầy đủ.
+kwˈɛst͡ʃən 15: wˈa͡ɪ dˈuː wˈiː nˈiːd ˈabstɹakt klˈasɪz?
+ˈabstɹakt klˈas ˈɪz ˈe͡ɪ hˈɑːf dɪfˈa͡ɪnd pˈe͡əɹənt klˈas.
+---------------------------------------------
+Question 18: Can we create a instance of Abstract classes? No
+Question 19: Is it compulsory to implement Abstract methods? Yes
+Câu 18: Chúng ta có thể tạo một thể hiện của lớp trừu tượng không?
+Câu 19: Có bắt buộc phải triển khai các phương thức trừu tượng không?
+---------------------------------------------
+Question 20: Why simple base class replace Abstract class?
+A simple base class can not be defined is a Pure half way.
+kwˈɛst͡ʃən 20: wˈa͡ɪ sˈɪmpə͡l bˈe͡ɪs klˈas ɹɪplˈe͡ɪs ˈabstɹakt klˈas?
+ˈe͡ɪ sˈɪmpə͡l bˈe͡ɪs klˈas kˈan nˈɒt bˈiː dɪfˈa͡ɪnd ˈɪz ˈe͡ɪ pjˈʊ͡ə hˈɑːf wˈe͡ɪ.
+Câu hỏi 20: Tại sao lớp cơ sở đơn giản lại thay thế lớp trừu tượng?
+Một lớp cơ sở đơn giản không thể được định nghĩa là một lớp thuần túy ở giữa.
+---------------------------------------------
+Question 21: Explain interfaces and why do we need it interface is a Contract
+Question 22: Can we write logic in interface? No
+Question 23: Can we define methodsas private in interface? all public be default

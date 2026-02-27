@@ -1,5 +1,38 @@
 https://www.youtube.com/watch?v=BKynEBPqiIM&t=3606s
 
+Question 18: Explain casting implicit casting and explicit casting?
+Type casting is a mechanism where we convert one type of data to other type.
+Implicit casting is when you move from lower to higher data type.
+Explicit casting is when you move from higher to lower data type.
+kwˈɛst͡ʃən 18: ɛksplˈe͡ɪn kˈastɪŋ ɪmplˈɪsɪt kˈastɪŋ ˈand ɛksplˈɪsɪt kˈastɪŋ?
+tˈa͡ɪp kˈastɪŋ ˈɪz ˈe͡ɪ mˈɛkənˌɪzəm wˈe͡ə wˈiː kənvˈɜːt wˈɒn tˈa͡ɪp ˈɒv dˈe͡ɪtə tˈuː ˈʌðə tˈa͡ɪp.
+ɪmplˈɪsɪt kˈastɪŋ ˈɪz wˈɛn jˈuː mˈuːv fɹˈɒm lˈə͡ʊə tˈuː hˈa͡ɪə dˈe͡ɪtə tˈa͡ɪp.
+ɛksplˈɪsɪt kˈastɪŋ ˈɪz wˈɛn jˈuː mˈuːv fɹˈɒm hˈa͡ɪə tˈuː lˈə͡ʊə dˈe͡ɪtə tˈa͡ɪp.
+Câu hỏi 18: Giải thích ép kiểu ngầm định và ép kiểu tường minh?
+Ép kiểu là một cơ chế mà chúng ta chuyển đổi một loại dữ liệu sang loại dữ liệu khác.
+Ép kiểu ngầm định là khi bạn chuyển từ kiểu dữ liệu thấp hơn sang kiểu dữ liệu cao hơn.
+Ép kiểu tường minh là khi bạn chuyển từ kiểu dữ liệu cao hơn sang kiểu dữ liệu thấp hơn.
+Question 19: What can happen during explicit casting?
+Question 20: Difference between Array and ArrayList?
+Array: Fixed Length, Strongly Typed, Performance Better than Array List
+int[] array = {1,2,3};
+Array List: Flexible, No Strongly Typed, Performance Slower because of boxing/unboxing
+ArrayList mylist = new ArrayList();
+mylist.Add(1);
+mylist.Add("Shiv");
+Question 21: Whose performance in better array or arraylist?
+ArrayList is slower than Array because Boxing and Unboxing.
+Question 22: What are generic collections?
+Generic collection is strongly typed and flexible. It has better performance as compared to ArrayList.
+Question 23: What are threads(Multithreading)?
+If you want to run code parallely then we use threads.
+Question 24: How are threads different form TPL(Task)?
+Pooling Threads, Parallely Processing, Plus[return, result, cancel, chain, Async Await]
+List<int> geneInt = new List<int>();
+geneInt.Add(1);
+geneInt.Add(2);
+Question 27: Why do we need the out keyword?
+If you want to return multiple outputs from a function you will use OUT keyword
 00:00:01.209
 Welcome to Questpond's youtube channel.
 00:00:03.510

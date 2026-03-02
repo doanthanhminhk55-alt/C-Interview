@@ -182,3 +182,253 @@ However, I’m open to discussion depending on the overall package and growth op
 bˈe͡ɪst ˈɒn mˈa͡ɪ ɛkspˈi͡əɹɪəns ˈand mˈɑːkɪt ɹɪsˈɜːt͡ʃ, ˈa͡ɪ ɛkspˈɛkt ˈe͡ɪ kəmpˈɛtɪtˌɪv ɹˈe͡ɪnd͡ʒ ɐlˈa͡ɪnd wˈɪð sˈiːnjə-lˈɛvə͡l ɹˈə͡ʊlz.
 ha͡ʊˈɛvə, ˈa͡ɪ’ˈɛm ˈə͡ʊpən tˈuː dɪskˈʌʃən dɪpˈɛndɪŋ ˈɒn ðˈə ˌə͡ʊvəɹˈɔːl pˈakɪd͡ʒ ˈand ɡɹˈə͡ʊθ ɒpətjˈuːnɪtiz.
 
+Tech-------------
+
+🔷 I. ANGULAR / FRONTEND
+1️⃣ How do you structure an Angular application?
+
+I usually structure Angular applications using a feature-based module approach.
+Each feature has its own module, components, and services.
+I separate API services from UI logic.
+I also use TypeScript interfaces to ensure strong typing and maintainability.
+
+1️⃣ hˈa͡ʊ dˈuː jˈuː stɹˈʌkt͡ʃə ˈan ˈaŋɡjʊlə ˌaplɪkˈe͡ɪʃən?
+
+ˈa͡ɪ jˈuːʒuːə͡li stɹˈʌkt͡ʃə ˈaŋɡjʊlə ˌaplɪkˈe͡ɪʃənz jˈuːzɪŋ ˈe͡ɪ fˈiːt͡ʃə-bˈe͡ɪst mˈɒdjuːl ɐpɹˈə͡ʊt͡ʃ.
+ˈiːt͡ʃ fˈiːt͡ʃə hˈaz ˈɪts ˈə͡ʊn mˈɒdjuːl, kəmpˈə͡ʊnənts, ˈand sˈɜːvɪsɪz.
+ˈa͡ɪ sˈɛpɹət ˌe͡ɪpˌiːˈa͡ɪ sˈɜːvɪsɪz fɹˈɒm jˌuːˈa͡ɪ lˈɒd͡ʒɪk.
+ˈa͡ɪ ˈɔːlsə͡ʊ jˈuːs tˈa͡ɪpskɹˈɪpt ˈɪntəfˌe͡ɪsɪz tˈuː ɛnʃˈʊ͡ə stɹˈɒŋ tˈa͡ɪpɪŋ ˈand me͡ɪntˈe͡ɪnəbˌɪlɪti.
+
+2️⃣ How do you manage state in Angular?
+
+For small applications, I use services with RxJS and BehaviorSubject.
+For larger applications, I would consider using NgRx for structured state management.
+This helps maintain predictable data flow and scalability.
+
+2️⃣ hˈa͡ʊ dˈuː jˈuː mˈanɪd͡ʒ stˈe͡ɪt ˈɪn ˈaŋɡjʊlə?
+
+fˈɔː smˈɔːl ˌaplɪkˈe͡ɪʃənz, ˈa͡ɪ jˈuːs sˈɜːvɪsɪz wˈɪð ˌɑːɹˈɛksd͡ʒˌe͡ɪˈɛs ˈand bɪhˈe͡ɪvjəsˈʌbd͡ʒɛkt.
+fˈɔː lˈɑːd͡ʒə ˌaplɪkˈe͡ɪʃənz, ˈa͡ɪ wˈʊd kənsˈɪdə jˈuːzɪŋ ˌɛnd͡ʒˈiːˌɑːɹˈɛks fˈɔː stɹˈʌkt͡ʃəd stˈe͡ɪt mˈanɪd͡ʒmənt.
+ðˈɪs hˈɛlps me͡ɪntˈe͡ɪn pɹɪdˈɪktəbə͡l dˈe͡ɪtə flˈə͡ʊ ˈand skˌe͡ɪləbˈɪlɪti.
+
+3️⃣ How do you optimize Angular performance?
+
+I use OnPush change detection when possible.
+I avoid unnecessary API calls.
+I implement lazy loading for modules.
+I also use trackBy in ngFor to prevent unnecessary DOM re-rendering.
+3️⃣ hˈa͡ʊ dˈuː jˈuː ˈɒptɪmˌa͡ɪz ˈaŋɡjʊlə pəfˈɔːməns?
+
+ˈa͡ɪ jˈuːs ˌɒnpˈʊʃ t͡ʃˈe͡ɪnd͡ʒ dɪtˈɛkʃən wˈɛn pˈɒsɪbə͡l.
+ˈa͡ɪ ɐvˈɔ͡ɪd ʌnnˈɛsɪsəɹi ˌe͡ɪpˌiːˈa͡ɪ kˈɔːlz.
+ˈa͡ɪ ˈɪmplɪmənt lˈe͡ɪzi lˈə͡ʊdɪŋ fˈɔː mˈɒdjuːlz.
+ˈa͡ɪ ˈɔːlsə͡ʊ jˈuːs tɹˈakbˈa͡ɪ ˈɪn ˌɛnd͡ʒˈiːfɔː tˈuː pɹɪvˈɛnt ʌnnˈɛsɪsəɹi dˈɒm ɹˈiː-ɹˈɛndəɹɪŋ.
+
+4️⃣ What is the benefit of TypeScript in frontend development?
+
+TypeScript provides static typing, which reduces runtime errors.
+It improves maintainability in large-scale applications.
+It also enhances code readability and refactoring capabilities.
+
+4️⃣ wˈɒt ˈɪz ðˈə bˈɛnɪfˌɪt ˈɒv tˈa͡ɪpskɹˈɪpt ˈɪn fɹˈʌntˌɛnd dɪvˈɛləpmənt?
+
+tˈa͡ɪpskɹˈɪpt pɹəvˈa͡ɪdz stˈatɪk tˈa͡ɪpɪŋ, wˈɪt͡ʃ ɹɪdjˈuːsɪz ɹˈʌnta͡ɪm ˈɛɹəz.
+ˈɪt ɪmpɹˈuːvz me͡ɪntˈe͡ɪnəbˌɪlɪti ˈɪn lˈɑːd͡ʒ-skˈe͡ɪl ˌaplɪkˈe͡ɪʃənz.
+ˈɪt ˈɔːlsə͡ʊ ɛnhˈansɪz kˈə͡ʊd ɹˌiːdəbˈɪlɪti ˈand ɹɪfˈaktəɹɪŋ kˌe͡ɪpəbˈɪlɪtiz.
+
+🔷 II. ASP.NET CORE
+5️⃣ What are the key features of ASP.NET Core?
+
+ASP.NET Core is cross-platform and high-performance.
+It supports dependency injection by default.
+It has built-in middleware pipeline architecture.
+It integrates easily with cloud platforms like Azure.
+5️⃣ wˈɒt ˈɑː ðˈə kˈiː fˈiːt͡ʃəz ˈɒv ˈasp.nˈɛt kˈɔː?
+
+ˈasp.nˈɛt kˈɔː ˈɪz kɹˈɒs-plˈatfɔːm ˈand hˈa͡ɪ-pəfˈɔːməns.
+ˈɪt səpˈɔːts dɪpˈɛndənsi ɪnd͡ʒˈɛkʃən bˈa͡ɪ dɪfˈɒlt.
+ˈɪt hˈaz bˈɪlt-ˈɪn mˈɪdə͡lwˌe͡ə pˈa͡ɪpla͡ɪn ˈɑːkɪtˌɛkt͡ʃə.
+ˈɪt ˈɪntɪɡɹˌe͡ɪts ˈiːzili wˈɪð klˈa͡ʊd plˈatfɔːmz lˈa͡ɪk ˈaʒə.
+
+6️⃣ Explain middleware in ASP.NET Core.
+
+Middleware is a component in the HTTP request pipeline.
+It processes incoming requests and outgoing responses.
+Examples include authentication, logging, and exception handling middleware.
+6️⃣ ɛksplˈe͡ɪn mˈɪdə͡lwˌe͡ə ˈɪn ˈasp.nˈɛt kˈɔː.
+
+mˈɪdə͡lwˌe͡ə ˈɪz ˈe͡ɪ kəmpˈə͡ʊnənt ˈɪn ðˈə ˌe͡ɪt͡ʃtˌiːtˌiːpˈiː ɹɪkwˈɛst pˈa͡ɪpla͡ɪn.
+ˈɪt pɹˈə͡ʊsɛsɪz ˈɪŋkʌmˌɪŋ ɹɪkwˈɛsts ˈand a͡ʊtɡˈə͡ʊɪŋ ɹɪspˈɒnsɪz.
+ɛɡzˈampə͡lz ɪŋklˈuːd ɔːθˌɛntɪkˈe͡ɪʃən, lˈɒɡɪŋ, ˈand ɛksˈɛpʃən hˈandlɪŋ mˈɪdə͡lwˌe͡ə.
+
+7️⃣ How do you implement global exception handling?
+
+I usually create a custom middleware to catch exceptions globally.
+It logs the error and returns a standardized response format.
+This ensures consistency and better monitoring.
+
+7️⃣ hˈa͡ʊ dˈuː jˈuː ˈɪmplɪmənt ɡlˈə͡ʊbə͡l ɛksˈɛpʃən hˈandlɪŋ?
+
+ˈa͡ɪ jˈuːʒuːə͡li kɹiːˈe͡ɪt ˈe͡ɪ kˈʌstəm mˈɪdə͡lwˌe͡ə tˈuː kˈat͡ʃ ɛksˈɛpʃənz ɡlˈə͡ʊbə͡li.
+ˈɪt lˈɒɡz ðˈə ˈɛɹə ˈand ɹɪtˈɜːnz ˈe͡ɪ stˈandədˌa͡ɪzd ɹɪspˈɒns fˈɔːmat.
+ðˈɪs ɛnʃˈʊ͡əz kənsˈɪstənsi ˈand bˈɛtə mˈɒnɪtəɹɪŋ.
+
+8️⃣ How do you secure Web APIs?
+
+I use JWT authentication.
+Apply role-based authorization.
+Validate inputs to prevent injection attacks.
+Use HTTPS and secure configuration storage.
+8️⃣ hˈa͡ʊ dˈuː jˈuː sɪkjˈʊ͡ə wˈɛb ˌe͡ɪpˌiːˈa͡ɪ?
+
+ˈa͡ɪ jˈuːs d͡ʒˌe͡ɪdˌʌbə͡ljˌuːtˈiː ɔːθˌɛntɪkˈe͡ɪʃən.
+ɐplˈa͡ɪ ɹˈə͡ʊl-bˈe͡ɪst ˌɔːθəɹa͡ɪzˈe͡ɪʃən.
+vˈalɪdˌe͡ɪt ˈɪnpʊts tˈuː pɹɪvˈɛnt ɪnd͡ʒˈɛkʃən ɐtˈaks.
+jˈuːs ˌe͡ɪt͡ʃtˌiːtˈiːpˌiːˈɛs ˈand sɪkjˈʊ͡ə kənfˌɪɡjəɹˈe͡ɪʃən stˈɔːɹɪd͡ʒ.
+
+🔷 III. C#
+9️⃣ What are SOLID principles?
+
+SOLID principles are design principles that improve maintainability and scalability.
+For example, Single Responsibility ensures a class has only one reason to change.
+Dependency Inversion reduces tight coupling between components.
+9️⃣ wˈɒt ˈɑː sˈɒlɪd pɹˈɪnsɪpə͡lz?
+
+sˈɒlɪd pɹˈɪnsɪpə͡lz ˈɑː dɪzˈa͡ɪn pɹˈɪnsɪpə͡lz ðˈat ɪmpɹˈuːv me͡ɪntˈe͡ɪnəbˌɪlɪti ˈand skˌe͡ɪləbˈɪlɪti.
+fˈɔː ɛɡzˈampə͡l, sˈɪŋɡə͡l ɹɪspˌɒnsəbˈɪlɪti ɛnʃˈʊ͡əz ˈe͡ɪ klˈas hˈaz ˈə͡ʊnli wˈɒn ɹˈiːzən tˈuː t͡ʃˈe͡ɪnd͡ʒ.
+dɪpˈɛndənsi ɪnvˈɜːʃən ɹɪdjˈuːsɪz tˈa͡ɪt kˈʌplɪŋ bɪtwˈiːn kəmpˈə͡ʊnənts.
+
+🔟 Explain async and await.
+
+Async and await allow non-blocking asynchronous programming.
+They improve scalability by freeing threads during I/O operations.
+This is especially important in web applications under high load.
+🔟 ɛksplˈe͡ɪn ɐsˈɪŋk ˈand ɐwˈe͡ɪt.
+
+ɐsˈɪŋk ˈand ɐwˈe͡ɪt ɐlˈa͡ʊ nˈɒn-blˈɒkɪŋ ɐsˈɪŋkɹənəs pɹˈə͡ʊɡɹamɪŋ.
+ðˈe͡ɪ ɪmpɹˈuːv skˌe͡ɪləbˈɪlɪti bˈa͡ɪ fɹˈiːɪŋ θɹˈɛdz djˈʊ͡əɹɪŋ ˈa͡ɪ/ˈə͡ʊ ˌɒpəɹˈe͡ɪʃənz.
+ðˈɪs ˈɪz ɪspˈɛʃə͡li ɪmpˈɔːtənt ˈɪn wˈɛb ˌaplɪkˈe͡ɪʃənz ˈʌndə hˈa͡ɪ lˈə͡ʊd.
+
+1️⃣1️⃣ Difference between IEnumerable and IQueryable?
+
+IEnumerable executes queries in memory.
+IQueryable executes queries at the database level.
+IQueryable is more efficient for large datasets because filtering happens in the database.
+1️⃣1️⃣ dˈɪfɹəns bɪtwˈiːn a͡ɪɪnjˈuːməɹəbə͡l ˈand a͡ɪkwˈi͡əɹɪəbə͡l?
+
+a͡ɪɪnjˈuːməɹəbə͡l ˈɛksɪkjˌuːts kwˈi͡əɹɪz ˈɪn mˈɛməɹi.
+a͡ɪkwˈi͡əɹɪəbə͡l ˈɛksɪkjˌuːts kwˈi͡əɹɪz ˈat ðˈə dˈe͡ɪtəbˌe͡ɪs lˈɛvə͡l.
+a͡ɪkwˈi͡əɹɪəbə͡l ˈɪz mˈɔː ɪfˈɪʃənt fˈɔː lˈɑːd͡ʒ dˈe͡ɪtəsˌɛts bɪkˈɒz fˈɪltəɹɪŋ hˈapənz ˈɪn ðˈə dˈe͡ɪtəbˌe͡ɪs.
+
+🔷 IV. SQL SERVER
+1️⃣2️⃣ How do you optimize SQL Server performance?
+
+I analyze execution plans to identify bottlenecks.
+I create proper indexes based on query patterns.
+I avoid SELECT *.
+I implement pagination for large datasets.
+1️⃣2️⃣ hˈa͡ʊ dˈuː jˈuː ˈɒptɪmˌa͡ɪz ˌɛskjˌuːˈɛl sˈɜːvə pəfˈɔːməns?
+
+ˈa͡ɪ ˈanɐlˌa͡ɪz ˌɛksɪkjˈuːʃən plˈanz tˈuː a͡ɪdˈɛntɪfˌa͡ɪ bˈɒtə͡lnˌɛks.
+ˈa͡ɪ kɹiːˈe͡ɪt pɹˈɒpə ˈɪndɛksɪz bˈe͡ɪst ˈɒn kwˈi͡əɹɪ pˈatənz.
+ˈa͡ɪ ɐvˈɔ͡ɪd sɪlˈɛkt *.
+ˈa͡ɪ ˈɪmplɪmənt pˌad͡ʒɪnˈe͡ɪʃən fˈɔː lˈɑːd͡ʒ dˈe͡ɪtəsˌɛts.
+
+1️⃣3️⃣ What is indexing and why is it important?
+
+Indexing improves query performance by allowing faster data retrieval.
+However, too many indexes can slow down insert and update operations.
+So indexing must be balanced.
+1️⃣3️⃣ wˈɒt ˈɪz ˈɪndɛksɪŋ ˈand wˈa͡ɪ ˈɪz ˈɪt ɪmpˈɔːtənt?
+
+ˈɪndɛksɪŋ ɪmpɹˈuːvz kwˈi͡əɹɪ pəfˈɔːməns bˈa͡ɪ ɐlˈa͡ʊɪŋ fˈastə dˈe͡ɪtə ɹɪtɹˈiːvə͡l.
+ha͡ʊˈɛvə, tˈuː mˈɛni ˈɪndɛksɪz kˈan slˈə͡ʊ dˈa͡ʊn ˈɪnsɜːt ˈand ˈʌpde͡ɪt ˌɒpəɹˈe͡ɪʃənz.
+sˈə͡ʊ ˈɪndɛksɪŋ mˈʌst bˈiː bˈalənst.
+
+1️⃣4️⃣ How do you handle transactions?
+
+I use transactions to ensure data consistency.
+If any operation fails, the transaction is rolled back.
+This prevents partial updates and maintains integrity.
+1️⃣4️⃣ hˈa͡ʊ dˈuː jˈuː hˈandə͡l tɹansˈakʃənz?
+
+ˈa͡ɪ jˈuːs tɹansˈakʃənz tˈuː ɛnʃˈʊ͡ə dˈe͡ɪtə kənsˈɪstənsi.
+ˈɪf ˈɛni ˌɒpəɹˈe͡ɪʃən fˈe͡ɪlz, ðˈə tɹansˈakʃən ˈɪz ɹˈə͡ʊld bˈak.
+ðˈɪs pɹɪvˈɛnts pˈɑːʃə͡l ˈʌpde͡ɪts ˈand me͡ɪntˈe͡ɪnz ɪntˈɛɡɹɪti.
+
+🔷 V. AZURE
+1️⃣5️⃣ How do you deploy an application to Azure?
+
+I deploy applications to Azure App Service.
+Configure environment settings and connection strings securely.
+Use Azure SQL or Cosmos DB as required.
+Enable Application Insights for monitoring and logging.
+1️⃣5️⃣ hˈa͡ʊ dˈuː jˈuː dɪplˈɔ͡ɪ ˈan ˌaplɪkˈe͡ɪʃən tˈuː ˈaʒə?
+
+ˈa͡ɪ dɪplˈɔ͡ɪ ˌaplɪkˈe͡ɪʃənz tˈuː ˈaʒə ˈap sˈɜːvɪs.
+kənfˈɪɡə ɛnvˈa͡ɪɹənmənt sˈɛtɪŋz ˈand kənˈɛkʃən stɹˈɪŋz sɪkjˈʊ͡əli.
+jˈuːs ˈaʒə ˌɛskjˌuːˈɛl ˈɔː kˈɒzmɒs dˌiːbˈiː ˈaz ɹɪkwˈa͡ɪ͡əd.
+ɛnˈe͡ɪbə͡l ˌaplɪkˈe͡ɪʃən ˈɪnsa͡ɪts fˈɔː mˈɒnɪtəɹɪŋ ˈand lˈɒɡɪŋ.
+
+1️⃣6️⃣ How do you ensure scalability in Azure?
+
+I design stateless services.
+Enable horizontal scaling in Azure App Service.
+Use caching if necessary.
+Monitor performance metrics using Azure monitoring tools.
+1️⃣6️⃣ hˈa͡ʊ dˈuː jˈuː ɛnʃˈʊ͡ə skˌe͡ɪləbˈɪlɪti ˈɪn ˈaʒə?
+
+ˈa͡ɪ dɪzˈa͡ɪn stˈe͡ɪtləs sˈɜːvɪsɪz.
+ɛnˈe͡ɪbə͡l hˌɒɹɪzˈɒntə͡l skˈe͡ɪlɪŋ ˈɪn ˈaʒə ˈap sˈɜːvɪs.
+jˈuːs kˈaʃɪŋ ˈɪf nˈɛsɪsəɹi.
+mˈɒnɪtə pəfˈɔːməns mˈɛtɹɪks jˈuːzɪŋ ˈaʒə mˈɒnɪtəɹɪŋ tˈuːlz.
+
+🔷 VI. COSMOS DB (PLUS)
+1️⃣7️⃣ What is Cosmos DB?
+
+Cosmos DB is a globally distributed NoSQL database service provided by Azure.
+It supports multiple data models and high availability.
+It is suitable for scalable and distributed systems.
+1️⃣7️⃣ wˈɒt ˈɪz kˈɒzmɒs dˌiːbˈiː?
+
+kˈɒzmɒs dˌiːbˈiː ˈɪz ˈe͡ɪ ɡlˈə͡ʊbə͡li dˈɪstɹɪbjˌuːtɪd nˈə͡ʊˌɛskjˌuːˈɛl dˈe͡ɪtəbˌe͡ɪs sˈɜːvɪs pɹəvˈa͡ɪdɪd bˈa͡ɪ ˈaʒə.
+ˈɪt səpˈɔːts mˈʌltɪpə͡l dˈe͡ɪtə mˈɒdə͡lz ˈand hˈa͡ɪ ɐvˌe͡ɪləbˈɪlɪti.
+ˈɪt ˈɪz sˈuːtəbə͡l fˈɔː skˈe͡ɪləbə͡l ˈand dˈɪstɹɪbjˌuːtɪd sˈɪstəmz.
+
+1️⃣8️⃣ When would you choose Cosmos DB over SQL Server?
+
+I would choose Cosmos DB when I need global distribution and flexible schema.
+It is ideal for high scalability and low latency across regions.
+SQL Server is better for structured relational data and complex joins.
+1️⃣8️⃣ wˈɛn wˈʊd jˈuː t͡ʃˈuːz kˈɒzmɒs dˌiːbˈiː ˈə͡ʊvə ˌɛskjˌuːˈɛl sˈɜːvə?
+
+ˈa͡ɪ wˈʊd t͡ʃˈuːz kˈɒzmɒs dˌiːbˈiː wˈɛn ˈa͡ɪ nˈiːd ɡlˈə͡ʊbə͡l dˌɪstɹɪbjˈuːʃən ˈand flˈɛksɪbə͡l skˈiːmə.
+ˈɪt ˈɪz a͡ɪdˈi͡əl fˈɔː hˈa͡ɪ skˌe͡ɪləbˈɪlɪti ˈand lˈə͡ʊ lˈe͡ɪtənsi əkɹˈɒs ɹˈiːd͡ʒənz.
+ˌɛskjˌuːˈɛl sˈɜːvə ˈɪz bˈɛtə fˈɔː stɹˈʌkt͡ʃəd ɹɪlˈe͡ɪʃənə͡l dˈe͡ɪtə ˈand kˈɒmplɛks d͡ʒˈɔ͡ɪnz.
+
+🔥 SYSTEM DESIGN
+1️⃣9️⃣ How would you design a scalable platform application?
+
+I would separate the system into layers: API, Business Logic, and Data Access.
+Apply clean architecture principles.
+Use async programming and optimize database queries.
+Deploy to Azure with monitoring enabled.
+1️⃣9️⃣ hˈa͡ʊ wˈʊd jˈuː dɪzˈa͡ɪn ˈe͡ɪ skˈe͡ɪləbə͡l plˈatfɔːm ˌaplɪkˈe͡ɪʃən?
+
+ˈa͡ɪ wˈʊd sˈɛpɹət ðˈə sˈɪstəm ˈɪntʊ lˈe͡ɪəz: ˌe͡ɪpˌiːˈa͡ɪ, bˈɪznəs lˈɒd͡ʒɪk, ˈand dˈe͡ɪtə ˈaksɛs.
+ɐplˈa͡ɪ klˈiːn ˈɑːkɪtˌɛkt͡ʃə pɹˈɪnsɪpə͡lz.
+jˈuːs ɐsˈɪŋk pɹˈə͡ʊɡɹamɪŋ ˈand ˈɒptɪmˌa͡ɪz dˈe͡ɪtəbˌe͡ɪs kwˈi͡əɹɪz.
+dɪplˈɔ͡ɪ tˈuː ˈaʒə wˈɪð mˈɒnɪtəɹɪŋ ɛnˈe͡ɪbə͡ld.
+
+2️⃣0️⃣ How do you ensure code quality?
+
+I follow SOLID principles.
+Write clean and maintainable code.
+Conduct code reviews.
+Add logging and proper error handling.
+2️⃣0️⃣ hˈa͡ʊ dˈuː jˈuː ɛnʃˈʊ͡ə kˈə͡ʊd kwˈɒlɪti?
+
+ˈa͡ɪ fˈɒlə͡ʊ sˈɒlɪd pɹˈɪnsɪpə͡lz.
+ɹˈa͡ɪt klˈiːn ˈand me͡ɪntˈe͡ɪnəbə͡l kˈə͡ʊd.
+kˈɒndʌkt kˈə͡ʊd ɹɪvjˈuːz.
+ˈad lˈɒɡɪŋ ˈand pɹˈɒpə ˈɛɹə hˈandlɪŋ.

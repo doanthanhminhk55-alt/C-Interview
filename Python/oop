@@ -1,0 +1,473 @@
+https://www.youtube.com/watch?v=rLyYb7BFgQI
+https://youtubetotranscript.com/transcript?v=rLyYb7BFgQI
+https://unalengua.com/
+
+00:00:00 this video was brought to you by IND
+00:00:02 dentle IO learning python Made Simple
+00:00:05 how's it going everyone in today's video
+00:00:07 we're going to be learning about classes
+00:00:09 in Python what they are and how we can
+00:00:12 use them but before we do anything I'm
+00:00:14 just going to explain a bit of the
+00:00:17 theory and to keep it simple a class is
+00:00:20 just a blueprint for what an object
+00:00:23 should look like and how it should
+00:00:25 function for example before you build a
+00:00:27 house usually you would create a
+00:00:29 blueprint containing all the relevant
+00:00:31 information and functionality regarding
+00:00:33 how that house should look and how it
+00:00:35 should function before you start
+00:00:37 building it and classes are no different
+00:00:40 they contain all the relevant
+00:00:42 information for what an object should do
+00:00:45 so for this lesson we're going to
+00:00:46 pretend that we are a microwave
+00:00:48 manufacturer which means first we're
+00:00:50 going to design the blueprint and then
+00:00:52 we're actually going to create the
+00:00:54 microwaves using that blueprint now in
+00:00:57 Python if you want to create a class you
+00:00:59 use the class keyword followed by the
+00:01:02 class name and the class name
+00:01:04 conventionally should follow camel case
+00:01:07 which means it will start with uppercase
+00:01:09 and every additional word will also
+00:01:12 start with uppercase so if you had a
+00:01:15 class called blue car you'll see that
+00:01:18 each time you have a new word it starts
+00:01:20 with an uppercase character but in this
+00:01:22 example we're going to call it microwave
+00:01:25 and for now it's going to be empty but
+00:01:27 already with this code we can start
+00:01:29 creating objects from this class because
+00:01:31 now we have the blueprint which means
+00:01:33 that we can actually get started with
+00:01:35 creating some microwaves so here what
+00:01:37 we're going to do is instantiate a
+00:01:41 microwave and to do that we're going to
+Discover more
+YouTube bookmarking tool
+Language API access
+Oil
+00:01:43 create a variable called Smeg which is a
+00:01:46 brand or a type of microwave you can
+00:01:48 search it on Google it's a very nice
+00:01:49 brand and that's going to be of type
+00:01:52 microwave which will equal the
+00:01:55 microwave with the Constructor which are
+00:01:57 these parentheses once you use the
+00:01:59 parenthesis on a class this creates an
+00:02:02 instance of that class which means we're
+00:02:04 creating a unique microwave from this
+00:02:08 blueprint also it's worth mentioning you
+00:02:10 did not have to include this bit here
+00:02:12 this is what they refer to as a type
+00:02:14 annotation or a type hint it's only used
+00:02:17 for code editors so if you don't like
+00:02:20 type annotations you can safely ignore
+00:02:22 that in all my videos I use type
+00:02:25 annotations because I find them very
+00:02:27 useful and I will use them throughout
+00:02:29 this lesson as well but it's up to you
+00:02:31 whether you want to include type
+00:02:33 annotations or not in your code anyway
+00:02:35 now we have an instance of a microwave
+00:02:38 which is called smag which means if we
+00:02:40 were to print this what we're going to
+00:02:43 get back is a unique ID pointing to the
+00:02:46 unique instance of this microwave but as
+00:02:49 it stands this class is kind of useless
+00:02:52 it doesn't contain any useful
+00:02:53 information nor functionality so next
+00:02:56 we're going to modify it because we want
+00:02:58 our microwaves to be be a bit more
+00:03:00 customizable so next we're going to be
+00:03:02 learning about initializers how to
+00:03:05 create instance with specific
+00:03:07 information which actually kind of
+00:03:10 customizes each one of the microwaves
+00:03:12 that we create so here we're going to be
+00:03:14 using a Dunder method called init and by
+00:03:17 default init returns none you're not
+00:03:20 required to provide this I just like to
+00:03:22 do it with all my code because it makes
+00:03:24 it extra explicit the initializer takes
+00:03:27 care of initializing the class which
+00:03:30 means if you have any extra information
+00:03:31 you want to give the class when you are
+00:03:33 creating an instance that code is going
+00:03:36 to be run here as soon as you
+00:03:38 instantiate it so right after Self we're
+00:03:41 going to type in brand of type string
+00:03:44 and power rating of typ string and
+00:03:47 inside here we need to type in self.
+00:03:49 brand equals brand and self. power
+00:03:53 rating equals power rating and
+00:03:55 immediately we're going to get some
+00:03:56 syntax highlighting because we need to
+00:03:58 now provide this information
+00:04:00 to the
+00:04:01 Constructor so here we're going to give
+00:04:03 it the brand of
+00:04:05 Smeg and we're going to give it a power
+00:04:08 rating of B and thanks to this
+00:04:11 information we now have a microwave that
+00:04:13 actually contains some data so if we
+00:04:16 were to print sm. brand and sm. power
+00:04:21 rating you'll see that this class will
+00:04:23 contain that information it's going to
+00:04:25 return to us the information that we
+00:04:27 inserted and we can even create another
+00:04:29 mic microwave which we're going to call
+00:04:31 Bosch or
+00:04:33 bch and that's going to equal this
+00:04:36 microwave with the brand set to Bosch do
+00:04:39 let me know in the comment section down
+00:04:40 below how much I'm messing that up and
+00:04:44 the power rating will be set to C then
+00:04:47 we can print bch do brand and the power
+00:04:52 rating and what we should get is the
+00:04:54 information from Bosch now but right now
+00:04:57 you're probably asking okay that makes
+00:04:59 sense but what is self you completely
+00:05:02 skipped self well self is the actual
+00:05:05 instance of the class and that just
+00:05:07 makes sure that all this data sticks to
+00:05:11 the correct instance or to the correct
+00:05:13 object in the case of smag as soon as we
+00:05:15 insert this information self turns into
+00:05:21 smag so all of these become smag but
+00:05:25 that's only when we're referring to smag
+00:05:27 otherwise if we're referring to bch
+00:05:31 this becomes bch which means when we
+00:05:34 call b. brand it gives us the correct
+00:05:37 data back so again self just refers to
+00:05:40 whichever instance we're currently using
+00:05:42 and one thing that's quite cool that a
+00:05:44 lot of beginners don't know about is
+00:05:46 that you can actually change this name
+00:05:47 to whatever you want you can even change
+00:05:49 it to this which is something popular in
+00:05:51 Java or you can change it to something
+00:05:54 called
+00:05:55 instance if that's what you want you can
+00:05:57 do it I do not recommend you do that
+00:06:00 because conventionally we will always
+00:06:02 have this as self if you look at other
+00:06:04 tutorials or you look at documentation
+00:06:06 online this will always be referred to
+00:06:08 as self but it's just a convention so if
+00:06:11 you really want to change this to
+00:06:12 something else you can do that and the
+00:06:14 code will function the same I mean you
+00:06:16 can even change this to S and if we run
+00:06:19 the code it's going to work exactly the
+00:06:21 same way next let's move on to the topic
+00:06:24 of methods because right now we have a
+00:06:27 microwave that contains data but it
+00:06:29 doesn't do anything it doesn't function
+00:06:31 so what I'm going to do is remove all of
+00:06:33 this we're still going to keep Smeg
+00:06:35 because I want to use it later but the
+00:06:36 rest we're going to
+00:06:38 delete and inside here we're going to
+00:06:40 create our very first method which is
+00:06:42 going to be called turn on because we
+00:06:46 want to be able to turn on the microwave
+00:06:48 and that's going to return none because
+00:06:49 this will only execute code and I also
+00:06:52 forgot but inside the initializer we
+00:06:54 want to add another attribute and this
+00:06:57 one's going to be called turned on so we
+00:06:59 can follow or track the state of the
+00:07:02 microwave whether it's turned on or off
+00:07:04 and this will be of type Boolean and
+00:07:06 it's going to be set to false initially
+00:07:09 so as soon as we create a microwave
+00:07:11 we're going to make sure it's turned off
+00:07:13 as soon as we use it I mean imagine you
+00:07:15 open a box with a microwave and it's
+00:07:17 already turned on that would be kind of
+00:07:18 weird anyway now that we have that
+00:07:20 attribute we can refer to it by typing
+00:07:22 in if self. turned on so if it is turned
+00:07:26 on we're going to print the following
+00:07:28 statement microwave and inside here I
+00:07:30 want to add the brand self. brand is
+00:07:32 already turned on so we don't turn on
+00:07:35 that microwave twice else we're going to
+00:07:38 set self. turned on to true and we're
+00:07:42 going to inform the user that we
+00:07:43 successfully turned it on so we'll copy
+00:07:46 this paste it down here and say that the
+00:07:48 microwave with the selft brand is now
+00:07:51 turned on and that will be our very
+00:07:54 first method but next I want to copy
+00:07:57 this and paste it directly under because
+00:07:59 we're going to create a function that
+00:08:00 turns off the microwave so we're going
+00:08:03 to rename that to turn off and this time
+00:08:06 if the microwave is turned on we're
+00:08:07 going to do the exact opposite we're
+00:08:09 going to set self do turned on to false
+00:08:13 and we're going to kind of flip these so
+00:08:15 I'm going to or actually to make this
+00:08:17 much easier I'm going to remove
+00:08:18 everything so we don't mix it up and
+00:08:22 just copy the statements from above so
+00:08:24 now we can type
+00:08:26 in that this is now turned off else if
+00:08:31 we try to turn off a microwave that's
+00:08:32 already turned off we're going to give
+00:08:35 them a statement that says the microwave
+00:08:37 is already turned off and finally I'm
+00:08:41 going to provide one more method for
+00:08:43 this class and this is going to be the
+00:08:45 run method so we can actually put food
+00:08:47 inside and give it a timer and cook that
+00:08:50 food so here we'll say run for this
+00:08:54 amount of seconds which will be of type
+00:08:56 integer and once again that will return
+00:08:58 none and obviously we first need to
+00:09:00 check if self. turned on is set to True
+00:09:03 otherwise we can't run the microwave but
+00:09:06 if it is we can print that we are
+00:09:08 running self. brand for seconds seconds
+00:09:14 else we're going to
+00:09:17 print that a Mystical Force Whispers
+00:09:21 turn on your
+00:09:23 microwave first and those will be the
+00:09:26 methods that we will use for this class
+00:09:29 now we can actually turn on the
+00:09:30 microwave we can turn off that microwave
+00:09:32 and we can run the microwave as you can
+00:09:34 see we have a full blueprint of what the
+00:09:36 class should look like and how it should
+00:09:38 function so next let's try to use this
+00:09:40 functionality so right below our
+00:09:43 instance of Smeg we're going to refer to
+00:09:46 it and use dot notation to actually use
+00:09:49 these methods so right now we're going
+00:09:51 to turn on the microwave twice and what
+00:09:54 you're going to notice in the console is
+00:09:56 that the first time it's actually going
+00:09:58 to turn it on but the the second time
+00:10:00 it's going to tell us that it's already
+00:10:01 turned on so we have that safety
+00:10:02 mechanism in place but once it's turned
+00:10:05 on we can refer to Smeg and run this
+00:10:08 microwave for let's say 30 seconds or
+00:10:12 yeah 30 seconds and then we will turn
+00:10:14 off the
+00:10:15 microwave and now if we run it you'll
+00:10:17 see that the microwave will turn on it's
+00:10:19 going to run for 30 seconds and then
+00:10:21 it's going to turn off because that's
+00:10:23 exactly what we told it to do if we try
+00:10:26 to run our microwave after we've turned
+00:10:28 it off for 10
+00:10:30 seconds we're going to get that Mystical
+00:10:32 Force that Whispers to us that we should
+00:10:34 turn on our microwave first so as you
+00:10:36 could see it was that easy to give our
+00:10:38 class functionality and data that we
+00:10:40 could later use to execute certain
+00:10:43 functionality and what's really cool
+00:10:44 about this is that no matter what
+00:10:46 microwave we
+00:10:48 create we can use all of that
+00:10:51 information the same way which means
+00:10:54 here we're going to change it back to
+00:10:56 bch give it a power rating of C and now
+00:10:59 with B we can perform the same actions
+00:11:02 we can turn it on we can turn it
+00:11:05 off and we can try to run it for let's
+00:11:08 say 2
+00:11:09 seconds and it's going to work exactly
+00:11:12 the same way microwave buch is now
+00:11:14 turned on and then it turns off and then
+00:11:17 the Mystical Force Whispers to us that
+00:11:18 we can't run it without turning it on
+00:11:20 first so with that minimal setup we
+00:11:23 could use all the functionality once
+00:11:25 again but there's still one last thing I
+00:11:27 want to show you before we conclude this
+00:11:29 video and this is the concept of Dunder
+00:11:32 methods so for the next example I'm
+00:11:34 going to remove all of this and keep
+00:11:37 both of these microwaves so that we can
+00:11:39 use them later also in pycharm I'm going
+00:11:41 to collapse these methods because you
+00:11:43 already know what they contain so that
+00:11:45 we have some more space on our screen
+00:11:48 but now that we have all of this space
+00:11:49 on our screen I can finally get started
+00:11:51 with explaining how Dunder methods work
+00:11:54 in Python and to explain it I'm going to
+00:11:58 attempt to perform this operation which
+00:12:00 is Smeg plus bch if you try to run this
+00:12:04 you'll immediately notice that we will
+00:12:06 get back a type error that we tried to
+00:12:08 use this operand with these objects and
+00:12:11 that was not supported because we did
+00:12:13 not Define this operation anywhere in
+00:12:15 our class but to Define it what we need
+00:12:18 to do is go inside our class and Define
+00:12:20 a Dunder method so here we're going to
+00:12:23 use the dunder method called add which
+00:12:25 will take self which is the current
+00:12:27 instance and which is the other instance
+00:12:31 and the reason they call this thunder
+00:12:32 method is because they have double
+00:12:35 underscores so it's actually a double
+00:12:37 uncore method and you might also hear
+00:12:40 these being referred to as magic methods
+00:12:42 anyway as soon as you supply this thund
+00:12:45 method the syntax highlighting will go
+00:12:48 away and the warning will go away as
+00:12:50 well right now if I don't add anything
+00:12:53 here the script will run but it's not
+00:12:55 going to return anything so adding these
+00:12:58 together will do nothing but inside here
+00:13:01 you can actually do whatever you want
+00:13:03 you can make it return whatever you want
+00:13:06 if you add one microwave to another you
+00:13:08 might expect to get a fusion back and in
+00:13:11 this example we can return a string with
+00:13:14 self. Brand Plus other do brand so that
+00:13:19 when we actually try to add these
+00:13:21 together what we will get back is this
+00:13:24 Fusion and the same thing applies for
+00:13:26 the other operators whether it's an
+00:13:29 asterisk or a pipeline or whatever all
+00:13:32 of these can be defined in our class so
+00:13:34 if we want to Define for example the
+00:13:36 multiplication operator we can do that
+00:13:38 using the dunder mole
+00:13:41 method and here we can
+00:13:44 return exactly the same thing from
+00:13:46 earlier except with an asterisk as you
+00:13:49 can see now the next time we actually
+00:13:51 call this it's going to give us back the
+00:13:53 string that we specified and you don't
+00:13:55 have to return a string here you can
+00:13:57 actually return whatever you want it can
+00:13:59 even be another instance of the class
+00:14:01 but one that's actually very useful is
+00:14:04 the string Thunder method and this is
+00:14:07 going to return to us a string and what
+00:14:09 we will return is the F string of self.
+00:14:14 brand
+00:14:15 parenthesis with the rating set to self.
+00:14:20 power rating and what this does is give
+00:14:23 us a legible string representation of
+00:14:26 our class so that the next time we
+00:14:28 actually print any one of our classes we
+00:14:31 will get back something that we can
+00:14:32 actually read and if we do this with bch
+00:14:36 we will also get something legible for B
+00:14:39 otherwise without this Stander method
+00:14:41 we're going to get the memory address of
+00:14:43 the class or the representation of the
+00:14:46 class and that's also something that you
+00:14:48 can override for example if we go here
+00:14:51 and we Define the representation this
+00:14:54 will return to us a string so here
+00:14:57 instead of returning that memory address
+00:14:59 you can return whatever you want this
+00:15:00 will be used when you use the
+00:15:02 representation of the class so if you
+00:15:04 use repper on Smeg or repper on B it's
+00:15:07 going to use this thunder method but you
+00:15:09 might be asking if we had none of these
+00:15:11 defined why do we get this back for the
+00:15:14 representation well that's because
+00:15:16 that's the default representation for a
+00:15:19 class when you print an object if it
+00:15:21 can't find the string Dunder method it's
+00:15:23 going to use the representation that's
+00:15:26 why when we use the string
+00:15:27 representation it's going to fa to using
+00:15:29 the string representation and one thing
+00:15:31 I want to mention very fast because I
+00:15:33 know this will confuse a lot of people
+00:15:34 when they are learning python but the
+00:15:36 difference between the string Dunder
+00:15:38 method and the reer dunder method is
+00:15:40 that the string Dunder method should
+00:15:41 return something that is user friendly
+00:15:44 something that your grandmother could
+00:15:46 read while the representation Dunder
+00:15:48 method should return something that's
+00:15:50 useful for the developer for example
+00:15:53 here we have a microwave class so
+00:15:54 something you could return is the
+00:15:57 microwave with the following arguments
+00:16:00 which we have brand and power rating so
+00:16:02 brand can equal self. brand and power
+00:16:07 rating will equal the self. power rating
+00:16:10 and both of those are strings so I will
+00:16:11 surround those in quotation marks this
+00:16:13 is a good example of something you can
+00:16:15 return in the rapid under
+00:16:18 method because right now when we run
+00:16:20 this we're going to get the userfriendly
+00:16:21 message but as soon as the developer
+00:16:24 asks for something more specific such as
+00:16:27 what this object actually is what they
+00:16:29 will get back is this representation of
+00:16:32 the object and I absolutely messed that
+00:16:34 up because the quotation mark should be
+00:16:37 inside the parenthesis this actually
+00:16:39 gives information that's useful for a
+00:16:41 developer because now they know that you
+00:16:43 have a microwave object with a brand set
+00:16:46 to this string and a power rating set to
+00:16:49 this
+00:16:50 string while the string
+00:16:52 representation only gives us something
+00:16:54 legible but if we change that to repper
+00:16:57 as well
+00:16:59 we'll get the same thing back anyway
+00:17:02 it's time to conclude this video with
+00:17:04 answering the question why all this hard
+00:17:06 work well in certain situations classes
+00:17:10 can be seen as the best way to organize
+00:17:12 your code in the sense that all the
+00:17:14 functionality is coupled with the class
+00:17:17 so you will have everything you need in
+00:17:19 one place and that just makes it easy to
+00:17:21 create functionality that actually works
+00:17:23 with minimal effort just like I
+00:17:26 demonstrated with these two microwaves
+00:17:29 we can even add a third one called
+00:17:30 Samsung which will be of type microwave
+00:17:33 that's going to equal a
+00:17:34 microwave with the brand set to Samsung
+00:17:38 and the power rating set to a and just
+00:17:41 like that we can use all of that
+00:17:42 functionality with Samsung we can turn
+00:17:44 it on we can run the microwave for 1
+00:17:48 second and then we can turn it off and
+00:17:50 that will run straight out of the box it
+00:17:53 was that simple to set up a microwave
+00:17:55 and then use it with no further issue
+00:17:58 which is just just very convenient
+00:18:00 because if we did not use a class for
+00:18:02 these microwaves we would have to go
+00:18:04 through a lot of effort to create
+00:18:06 separate microwaves so yeah that's
+00:18:08 actually all I wanted to cover in
+00:18:10 today's video do let me know in the
+00:18:11 comment section down below what you
+00:18:13 think about classes whether you're
+00:18:15 confused about something or whether
+00:18:17 there's something I should have covered
+00:18:18 in more detail please let me know in the
+00:18:20 comment section down below and I'll try
+00:18:22 to make a followup video or I will learn
+00:18:24 from my future lessons but otherwise
+00:18:26 with all that being said as always
+00:18:28 thanks for watching and I'll see you in
+00:18:30 the next video
